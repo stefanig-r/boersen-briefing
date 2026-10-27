@@ -97,6 +97,29 @@ details.recap .body{padding-bottom:16px}
 .empty{padding:30px 0;color:var(--muted)}
 footer{margin-top:40px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:14px}
 footer b{color:var(--ink)}
+.cmp{display:grid;grid-template-columns:1.1fr 2fr 2fr;gap:0;background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:15px}
+.cmp>div{padding:10px 12px;border-top:1px solid var(--line)}
+.cmp .ch{font-weight:700;border-top:0;background:var(--bg)}
+.cmp .ca{font-weight:600}
+.sub3{font-size:17px;margin:20px 0 6px}
+ol.check{padding-left:22px}
+ol.check li{margin-bottom:10px}
+ol.check span{color:var(--muted);font-size:15px}
+.gr{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-bottom:12px}
+.gr .card{margin:0}
+.card.good{border-left:4px solid var(--up)}
+.card.bad{border-left:4px solid var(--down)}
+.card.good h3,.card.bad h3{font-size:15px;margin-bottom:4px}
+.card ul{margin:0;padding-left:20px}
+.card h4{margin:12px 0 4px;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.hd{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.tk{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 5px}
+.pill{font-size:11px;font-weight:600;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 9px}
+.meta{font-size:13px;color:var(--muted);margin:4px 0 8px}
+.wk{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:16px 0 8px}
+.an{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:8px;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.an p,.an .src:last-child{grid-column:1/-1;margin:4px 0 0}
+@media (max-width:560px){.cmp{grid-template-columns:1fr 1fr}.cmp .ch:first-child{display:none}.cmp .ca{grid-column:1/-1;background:var(--bg)}}
 @media (max-width:480px){.tabs button{padding:8px 10px;font-size:14px}.cal .ev{grid-template-columns:78px 1fr}}
 </style>
 </head>
@@ -117,12 +140,14 @@ footer b{color:var(--ink)}
     <nav class="tabs" role="tablist">
       <button role="tab" id="tab-briefing" aria-selected="true">Briefing</button>
       <button role="tab" id="tab-recaps" aria-selected="false">Recaps</button>
+      <button role="tab" id="tab-research" aria-selected="false">Research</button>
       <button role="tab" id="tab-basics" aria-selected="false">Basics</button>
     </nav>
     <nav class="subtabs" id="subtabs" role="tablist" aria-label="Sections"></nav>
   </div>
   <main id="main"><div class="empty">Loading …</div></main>
   <section id="recaps" class="hidden"></section>
+  <section id="research" class="hidden"></section>
   <section id="basics" class="hidden"></section>
   <footer><b>Not investment advice.</b> All information without guarantee; prices may be delayed. Compiled with AI from public sources – please check the original sources.</footer>
 </div>
@@ -130,6 +155,7 @@ footer b{color:var(--ink)}
 <script src="editions.js"></script>
 <script src="recaps.js"></script>
 <script src="basics.js"></script>
+<script src="insights.js"></script>
 <script>
 (function(){
   function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
@@ -230,6 +256,11 @@ footer b{color:var(--ink)}
   function isNew(t){return t.added && (new Date()-pd(t.added))/864e5<=30;}
   var bsecs=[
     {id:'principles',label:'How to read',html:'<div class="principles">'+(b.principles||[]).map(function(p){return '<div class="card"><h3>'+esc(p.title)+'</h3><p style="margin:0">'+esc(p.text)+'</p></div>';}).join('')+'</div>'},
+    {id:'invest',label:'Investing basics',html:(function(){var I=b.investing||{};return '<p class="intro" style="font-size:15px">General principles many long-term investors follow – not personal advice.</p><div class="principles">'+(I.principles||[]).map(function(p){return '<div class="card"><h3>'+esc(p.title)+'</h3><p style="margin:0">'+esc(p.text)+'</p></div>';}).join('')+'</div>';})()},
+    {id:'etf',label:'ETF vs. stocks',html:(function(){var E=(b.investing||{}).etfVsStocks||{};return '<p>'+esc(E.intro)+'</p><div class="cmp"><div class="ch"></div><div class="ch">ETF (broad index)</div><div class="ch">Single stock</div>'+(E.rows||[]).map(function(r){return '<div class="ca">'+esc(r.aspect)+'</div><div>'+esc(r.etf)+'</div><div>'+esc(r.stock)+'</div>';}).join('')+'</div><h3 class="sub3">Core and satellite</h3>'+ul(E.coreSatellite);})()},
+    {id:'tax',label:'Taxes (Germany)',html:(function(){var T=(b.investing||{}).taxDE||{};return '<p>'+esc(T.intro)+'</p>'+(T.items||[]).map(function(t){return '<div class="card"><h3>'+esc(t.title)+'</h3><p style="margin:0">'+esc(t.text)+'</p></div>';}).join('')+(T.source?sources([T.source]):'');})()},
+    {id:'check',label:'Stock checklist',html:(function(){var C=(b.investing||{}).checklist||[];return '<p>Questions to answer before buying a single stock. If you cannot answer most of them, keep researching.</p><ol class="check">'+C.map(function(c){return '<li><b>'+esc(c.q)+'</b><br><span>'+esc(c.d)+'</span></li>';}).join('')+'</ol>';})()},
+    {id:'small',label:'Judging small caps',html:(function(){var S=(b.investing||{}).smallCaps||{};return '<p>'+esc(S.intro)+'</p><div class="gr"><div class="card good"><h3>Good signs</h3>'+ul(S.green)+'</div><div class="card bad"><h3>Warning signs</h3>'+ul(S.red)+'</div></div><div class="why"><b>Position size:</b> '+esc(S.sizing)+'</div>';})()},
     {id:'gloss',label:'Glossary',count:terms.length,html:'<input class="gsearch" type="search" placeholder="Search terms …" aria-label="Search glossary"><dl class="gloss"></dl><p class="src">Updated: '+esc(b.updated||'')+'</p>',
       after:function(panel){
         var dl=panel.querySelector('.gloss'), inp=panel.querySelector('.gsearch');
@@ -242,12 +273,46 @@ footer b{color:var(--ink)}
         draw(''); inp.oninput=function(){draw(inp.value);};
       }}
   ];
-  views.basics={el:bsec,lead:'<h1 style="margin-top:16px">Basics</h1><p class="intro">How this briefing is meant to be read – and key market terms explained simply.</p>',sections:bsecs,active:'principles'};
+  views.basics={el:bsec,lead:'<h1 style="margin-top:16px">Basics</h1><p class="intro">How to read this briefing, investing fundamentals, German tax basics and key terms.</p>',sections:bsecs,active:'principles'};
   mount('basics');
 
+  // ---------- Research ----------
+  var rs=document.getElementById('research');
+  var INS=window.MARKET_BRIEFING_INSIGHTS||{smallcaps:[],themes:[],analysts:[]};
+  function weekLabel(w){var m=/^(\d{4})-W(\d{2})$/.exec(w||'');return m?'Week '+(+m[2])+', '+m[1]:esc(w||'');}
+  function groupByWeek(list,render){
+    if(!list||!list.length) return null;
+    var out='',last=null;
+    list.forEach(function(x){ if(x.week!==last){ out+='<div class="wk">'+weekLabel(x.week)+'</div>'; last=x.week; } out+=render(x); });
+    return out;
+  }
+  var scHtml=groupByWeek(INS.smallcaps,function(c){
+    var f='<article class="card sc"><div class="hd"><h3 style="margin:0">'+esc(c.name)+'</h3><span class="tk">'+esc(c.ticker||'')+'</span>'+(c.exchange?'<span class="src" style="margin:0">'+esc(c.exchange)+'</span>':'')+'</div>';
+    f+='<div class="meta">'+[c.sector,c.country,c.marketCap?('Market cap: '+c.marketCap):''].filter(Boolean).map(esc).join(' · ')+'</div>';
+    f+='<p>'+esc(c.business)+'</p><p><b>Why it was in the news:</b> '+esc(c.whyInNews)+'</p>';
+    if(c.facts&&c.facts.length) f+='<h4>Key facts</h4>'+ul(c.facts);
+    if(c.risks&&c.risks.length) f+='<div class="card bad" style="margin:10px 0 0"><h3>Risks</h3>'+ul(c.risks)+'</div>';
+    return f+sources(c.sources)+'</article>';
+  })||'<div class="empty">The first small-cap radar appears with Friday\'s edition.</div>';
+  var thHtml=groupByWeek(INS.themes,function(t){
+    return '<article class="card"><div class="hd"><h3 style="margin:0">'+esc(t.title)+'</h3>'+(t.status?'<span class="pill">'+esc(t.status)+'</span>':'')+'</div><p style="margin-top:8px">'+esc(t.summary)+'</p><h4>Drivers to watch</h4>'+ul(t.drivers)+'<h4>How investors get exposure</h4><p>'+esc(t.exposure)+'</p><div class="card bad" style="margin:10px 0 0"><h3>Risks</h3>'+ul(t.risks)+'</div>'+sources(t.sources)+'</article>';
+  })||'<div class="empty">No themes yet.</div>';
+  var anHtml=(INS.analysts&&INS.analysts.length)?groupByWeek(INS.analysts,function(a){
+    var d=String(a.action||'').toLowerCase(), cls=/upgrade|raise|initiat.*buy/.test(d)?'up':/downgrade|cut|lower/.test(d)?'down':'flat';
+    return '<div class="an"><div><b>'+esc(a.company)+'</b> <span class="tk">'+esc(a.ticker||'')+'</span><div class="src" style="margin:2px 0 0">'+esc(a.date||'')+' · '+esc(a.firm)+'</div></div><div><span class="c '+cls+'">'+esc(a.action)+'</span>'+(a.rating?' · '+esc(a.rating):'')+(a.target?'<div class="src" style="margin:2px 0 0">Target: '+esc(a.target)+'</div>':'')+'</div>'+(a.note?'<p>'+esc(a.note)+'</p>':'')+sources(a.sources)+'</div>';
+  }):'<div class="empty">Analyst moves start with Friday\'s edition.</div>';
+  views.research={el:rs,lead:'<h1 style="margin-top:16px">Research</h1><p class="intro">Starting points for your own research, updated weekly. Nothing here is a recommendation to buy or sell.</p>',
+    sections:[
+      {id:'smallcaps',label:'Small-cap radar',count:(INS.smallcaps||[]).length,html:'<div class="why" style="margin-bottom:12px"><b>Read this first:</b> Companies here were in reputable news this week. They are not picks. Small caps are volatile and can lose most of their value – see Basics › Judging small caps.</div>'+scHtml},
+      {id:'themes',label:'Themes',count:(INS.themes||[]).length,html:thHtml},
+      {id:'analysts',label:'Analyst moves',count:(INS.analysts||[]).length,html:'<p class="src" style="margin-top:0">What named banks and research firms changed this week. Analysts are often wrong; treat this as one opinion among many.</p>'+anHtml}
+    ],active:'themes'};
+  if(INS.smallcaps&&INS.smallcaps.length) views.research.active='smallcaps';
+  mount('research');
+
   // ---------- Main tabs ----------
-  var tabBtns={briefing:document.getElementById('tab-briefing'),recaps:document.getElementById('tab-recaps'),basics:document.getElementById('tab-basics')};
-  var hashes={recaps:'#recaps',basics:'#basics'};
+  var tabBtns={briefing:document.getElementById('tab-briefing'),recaps:document.getElementById('tab-recaps'),research:document.getElementById('tab-research'),basics:document.getElementById('tab-basics')};
+  var hashes={recaps:'#recaps',research:'#research',basics:'#basics'};
   function show(which){
     current=which;
     Object.keys(views).forEach(function(k){ views[k].el.classList.toggle('hidden',k!==which); tabBtns[k].setAttribute('aria-selected',k===which?'true':'false'); });
@@ -261,7 +326,7 @@ footer b{color:var(--ink)}
   var hash=(location.hash||'').slice(1), start=0;
   eds.forEach(function(e,i){ if(e.date===hash) start=i; });
   if(eds.length) renderEdition(start); else mount('briefing');
-  show(hash==='basics'?'basics':hash==='recaps'?'recaps':'briefing');
+  show(hash==='basics'?'basics':hash==='recaps'?'recaps':hash==='research'?'research':'briefing');
 })();
 </script>
 </body>
