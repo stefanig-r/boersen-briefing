@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market Briefing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f6f5; --paper:#ffffff; --ink:#17201c; --muted:#62706a; --line:#dde3e0;
+  --accent:#0b6e4f; --accent-soft:#e3f2ec; --info:#1f4e8c; --info-soft:#e7eef8;
+  --up:#0b7a43; --down:#b42318;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121614; --paper:#1a201d; --ink:#e9eeeb; --muted:#9aa8a1; --line:#2c3531;
+    --accent:#4ade9b; --accent-soft:#163327; --info:#8ab4f8; --info-soft:#182437;
+    --up:#4ade80; --down:#f87171;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121614; --paper:#1a201d; --ink:#e9eeeb; --muted:#9aa8a1; --line:#2c3531;
+  --accent:#4ade9b; --accent-soft:#163327; --info:#8ab4f8; --info-soft:#182437;
+  --up:#4ade80; --down:#f87171;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
+.wrap{max-width:780px;margin:0 auto;padding:28px 16px 64px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:12px}
+.brand{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:30px;letter-spacing:-.5px;line-height:1}
+.brand span{color:var(--accent)}
+.sub{color:var(--muted);font-size:13px;margin-top:4px}
+.nav{display:flex;gap:6px;align-items:center}
+.nav button,.nav select{font:inherit;font-size:14px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 10px;cursor:pointer}
+.nav button:disabled{opacity:.35;cursor:default}
+.sticky{position:sticky;top:0;z-index:10;background:var(--bg);margin:0 -16px;padding:0 16px;box-shadow:0 1px 0 var(--line)}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding-top:4px}
+.tabs button{font:inherit;font-size:15px;font-weight:600;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:8px 14px;cursor:pointer;white-space:nowrap}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.subtabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:8px 0 10px}
+.subtabs::-webkit-scrollbar,.tabs::-webkit-scrollbar{display:none}
+.subtabs:empty{display:none}
+.subtabs button{flex:none;font:inherit;font-size:13px;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:999px;padding:5px 12px;cursor:pointer;white-space:nowrap}
+.subtabs button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.subtabs .cnt{opacity:.6;margin-left:4px}
+.hidden{display:none !important}
+.panel{padding-top:8px}
+.date{color:var(--accent);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.08em;margin-top:18px}
+h1{font-family:Fraunces,Georgia,serif;font-size:29px;line-height:1.2;margin:8px 0 8px;letter-spacing:-.3px}
+.intro{color:var(--muted);font-size:17px;margin:0 0 4px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px}
+.card h3{margin:0 0 8px;font-size:17px;line-height:1.35}
+.card p{margin:0 0 10px}
+.why{background:var(--info-soft);border-left:3px solid var(--info);border-radius:6px;padding:10px 12px;font-size:15px}
+.why b{color:var(--info)}
+.src{margin-top:10px;font-size:13px;color:var(--muted)}
+.src a{color:var(--muted)}
+.mkt{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
+.tile{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.tile .n{font-size:13px;color:var(--muted);font-weight:600}
+.tile .v{font-size:20px;font-weight:600;font-variant-numeric:tabular-nums;margin-top:2px}
+.tile .c{font-size:14px;font-weight:600;font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--muted)}
+.tile .a{font-size:11px;color:var(--muted);margin-top:4px}
+.tile .a a{color:var(--muted)}
+.wl{display:grid;gap:8px}
+.wl .row{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+.wl .row.quiet{opacity:.7}
+.wl .hd{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.wl .tk{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 5px}
+.wl .row p{margin:4px 0 0;font-size:15px}
+.cal{display:grid;gap:0;background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.cal .ev{display:grid;grid-template-columns:96px 1fr;gap:12px;padding:10px 14px;border-top:1px solid var(--line)}
+.cal .ev:first-child{border-top:0}
+.cal .when{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.cal .when b{display:block;color:var(--ink)}
+.cal .what{font-weight:600}
+.cal .wy{font-size:14px;color:var(--muted)}
+.cal .today{background:var(--accent-soft)}
+.learnbox{background:var(--accent-soft);border-radius:12px;padding:18px 20px}
+.learnbox .t{font-family:Fraunces,Georgia,serif;font-size:22px;margin-bottom:6px}
+.principles{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.principles .card{margin:0}
+.gsearch{width:100%;font:inherit;font-size:15px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);margin-bottom:8px}
+.gloss dt{font-weight:600;margin-top:14px}
+.gloss dd{margin:2px 0 0}
+.newtag{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;background:var(--accent);color:var(--bg);border-radius:4px;padding:1px 6px;margin-left:8px;vertical-align:2px}
+details.recap{background:var(--paper);border:1px solid var(--line);border-radius:12px;margin:12px 0;padding:0 18px}
+details.recap summary{cursor:pointer;list-style:none;padding:14px 0}
+details.recap summary::-webkit-details-marker{display:none}
+details.recap .tag{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
+details.recap .rh{font-family:Fraunces,Georgia,serif;font-size:19px;font-weight:700;line-height:1.3}
+details.recap .body{padding-bottom:16px}
+.perf{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.perf span{font-size:13px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+.empty{padding:30px 0;color:var(--muted)}
+footer{margin-top:40px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:14px}
+footer b{color:var(--ink)}
+@media (max-width:480px){.tabs button{padding:8px 10px;font-size:14px}.cal .ev{grid-template-columns:78px 1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <div class="brand">Market<span> </span>Briefing</div>
+      <div class="sub">Every trading day before 08:00 CET · 5-minute read</div>
+    </div>
+    <div class="nav">
+      <button id="older" title="Older edition">←</button>
+      <select id="picker" aria-label="Choose edition"></select>
+      <button id="newer" title="Newer edition">→</button>
+    </div>
+  </header>
+  <div class="sticky">
+    <nav class="tabs" role="tablist">
+      <button role="tab" id="tab-briefing" aria-selected="true">Briefing</button>
+      <button role="tab" id="tab-recaps" aria-selected="false">Recaps</button>
+      <button role="tab" id="tab-basics" aria-selected="false">Basics</button>
+    </nav>
+    <nav class="subtabs" id="subtabs" role="tablist" aria-label="Sections"></nav>
+  </div>
+  <main id="main"><div class="empty">Loading …</div></main>
+  <section id="recaps" class="hidden"></section>
+  <section id="basics" class="hidden"></section>
+  <footer><b>Not investment advice.</b> All information without guarantee; prices may be delayed. Compiled with AI from public sources – please check the original sources.</footer>
+</div>
+
+<script src="editions.js"></script>
+<script src="recaps.js"></script>
+<script src="basics.js"></script>
+<script>
+(function(){
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function pd(d){var p=String(d).split('-');return new Date(+p[0],+p[1]-1,+p[2]);}
+  function fmt(d){return pd(d).toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'});}
+  function fmtDay(d){return pd(d).toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'numeric'});}
+  function sources(list){
+    if(!list||!list.length) return '';
+    return '<div class="src">Sources: '+list.map(function(s){return '<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.label)+'</a>';}).join(' · ')+'</div>';
+  }
+  function dir(c){c=String(c||'').trim(); if(/^[+]/.test(c)) return 'up'; if(/^[-−–]/.test(c)) return 'down'; return 'flat';}
+  function ul(a){return '<ul>'+(a||[]).map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul>';}
+
+  var subnav=document.getElementById('subtabs'), sticky=document.querySelector('.sticky');
+  var main=document.getElementById('main'), rsec=document.getElementById('recaps'), bsec=document.getElementById('basics');
+  var nav=document.querySelector('header .nav');
+  var picker=document.getElementById('picker'), older=document.getElementById('older'), newer=document.getElementById('newer');
+  var current='briefing', views={};
+
+  function mount(key){
+    var v=views[key]; if(!v) return;
+    var h=v.lead||'';
+    v.sections.forEach(function(s){ h+='<div class="panel'+(s.id===v.active?'':' hidden')+'" data-panel="'+s.id+'">'+s.html+'</div>'; });
+    v.el.innerHTML=h;
+    v.sections.forEach(function(s){ if(s.after) s.after(v.el.querySelector('[data-panel="'+s.id+'"]')); });
+    if(key===current) drawSubnav();
+  }
+  function drawSubnav(){
+    var v=views[current];
+    if(!v||!v.sections.length){ subnav.innerHTML=''; return; }
+    subnav.innerHTML=v.sections.map(function(s){return '<button role="tab" data-sub="'+s.id+'" aria-selected="'+(s.id===v.active)+'">'+esc(s.label)+(s.count!=null?'<span class="cnt">'+s.count+'</span>':'')+'</button>';}).join('');
+    Array.prototype.forEach.call(subnav.querySelectorAll('button'),function(b){ b.onclick=function(){ selectSub(b.getAttribute('data-sub')); }; });
+  }
+  function selectSub(id){
+    var v=views[current]; if(!v) return; v.active=id;
+    Array.prototype.forEach.call(v.el.querySelectorAll('[data-panel]'),function(p){ p.classList.toggle('hidden',p.getAttribute('data-panel')!==id); });
+    Array.prototype.forEach.call(subnav.querySelectorAll('button'),function(b){ var on=b.getAttribute('data-sub')===id; b.setAttribute('aria-selected',on); if(on&&b.scrollIntoView) try{b.scrollIntoView({block:'nearest',inline:'nearest'});}catch(e){} });
+    var top=v.el.querySelector('[data-panel="'+id+'"]').getBoundingClientRect().top+window.scrollY-sticky.offsetHeight-8;
+    if(window.scrollY>top) window.scrollTo(0,top);
+  }
+
+  // ---------- Briefing ----------
+  var eds=(window.MARKET_BRIEFING_EDITIONS||[]).slice().sort(function(a,b){return a.date<b.date?1:-1;});
+  eds.forEach(function(e,i){ var o=document.createElement('option'); o.value=i; o.textContent=(i===0?'Latest · ':'')+fmt(e.date); picker.appendChild(o); });
+
+  function renderEdition(i){
+    var e=eds[i], keep=views.briefing&&views.briefing.active, secs=[], h;
+    if(e.markets&&e.markets.length){
+      h='<div class="mkt">'+e.markets.map(function(m){return '<div class="tile"><div class="n">'+esc(m.name)+'</div><div class="v">'+esc(m.value)+'</div><div class="c '+dir(m.change)+'">'+esc(m.change||'')+'</div><div class="a">'+esc(m.asOf||'')+(m.source?' · <a href="'+esc(m.source.url)+'" target="_blank" rel="noopener">'+esc(m.source.label)+'</a>':'')+'</div></div>';}).join('')+'</div>';
+      secs.push({id:'markets',label:'Markets',html:h});
+    }
+    h=(e.news||[]).map(function(n){return '<article class="card"><h3>'+esc(n.title)+'</h3><p>'+esc(n.summary)+'</p>'+(n.whyItMatters?'<div class="why"><b>Warum wichtig:</b> '+esc(n.whyItMatters)+'</div>':'')+sources(n.sources)+'</article>';}).join('');
+    secs.push({id:'news',label:'News',count:(e.news||[]).length,html:h});
+    if(e.watchlist&&e.watchlist.length){
+      var wl=e.watchlist.slice().sort(function(a,b){var qa=/^No significant/.test(a.note),qb=/^No significant/.test(b.note);return qa===qb?0:(qa?1:-1);});
+      h='<p class="src" style="margin-top:0">General watchlist – not a recommendation.</p><div class="wl">'+wl.map(function(w){var quiet=/^No significant/.test(w.note);return '<div class="row'+(quiet?' quiet':'')+'"><div class="hd"><b>'+esc(w.name)+'</b><span class="tk">'+esc(w.ticker||'')+'</span>'+(w.change?'<span class="c '+dir(w.change)+'">'+esc(w.change)+'</span>':'')+(w.asOf?'<span class="src" style="margin:0">'+esc(w.asOf)+'</span>':'')+'</div><p>'+esc(w.note)+'</p>'+sources(w.sources)+'</div>';}).join('')+'</div>';
+      secs.push({id:'watch',label:'Watchlist',html:h});
+    }
+    if(e.calendar&&e.calendar.length){
+      h='<div class="cal">'+e.calendar.map(function(c){return '<div class="ev'+(c.date===e.date?' today':'')+'"><div class="when"><b>'+esc(fmtDay(c.date))+'</b>'+esc(c.time||'')+'</div><div><div class="what">'+esc(c.event)+'</div><div class="wy">'+esc(c.why||'')+'</div></div></div>';}).join('')+'</div><p class="src">Times in German time (CET). Dates may change.</p>';
+      secs.push({id:'cal',label:'Calendar',html:h});
+    }
+    if(e.learn){
+      secs.push({id:'learn',label:'Term of the day',html:'<div class="learnbox"><div class="t">'+esc(e.learn.term)+'</div><p style="margin:0">'+esc(e.learn.explanation)+'</p></div>'});
+    }
+    var active=secs.some(function(s){return s.id===keep;})?keep:secs[0].id;
+    views.briefing={el:main,lead:'<div class="date">'+esc(fmt(e.date))+'</div><h1>'+esc(e.headline)+'</h1><p class="intro">'+esc(e.intro)+'</p>',sections:secs,active:active};
+    mount('briefing');
+    picker.value=i; newer.disabled=(i===0); older.disabled=(i===eds.length-1);
+    if(current==='briefing'){ try{history.replaceState(null,'','#'+e.date);}catch(err){} }
+  }
+  if(eds.length){
+    picker.onchange=function(){renderEdition(+picker.value);window.scrollTo(0,0);};
+    older.onclick=function(){renderEdition(+picker.value+1);window.scrollTo(0,0);};
+    newer.onclick=function(){renderEdition(+picker.value-1);window.scrollTo(0,0);};
+  } else views.briefing={el:main,lead:'<div class="empty">No edition yet.</div>',sections:[],active:null};
+
+  // ---------- Recaps ----------
+  var recaps=(window.MARKET_BRIEFING_RECAPS||[]).slice();
+  function recapList(type){
+    var list=recaps.filter(function(r){return r.type===type;});
+    if(!list.length) return '<div class="empty">'+(type==='week'?'The first weekly recap will appear on Friday.':'The first monthly recap will appear on the last trading day of the month.')+'</div>';
+    return list.map(function(r,i){
+      var h='<details class="recap"'+(i===0?' open':'')+'><summary><div class="tag">'+(type==='month'?'Month':'Week')+' · '+esc(r.label)+'</div><div class="rh">'+esc(r.headline)+'</div></summary><div class="body"><p>'+esc(r.summary)+'</p>';
+      if(r.performance&&r.performance.length) h+='<div class="perf">'+r.performance.map(function(p){return '<span>'+esc(p.name)+' <b class="'+dir(p.weekChange||p.change)+'">'+esc(p.weekChange||p.change)+'</b></span>';}).join('')+'</div>';
+      h+='<h4>Key stories</h4><ol>'+(r.top||[]).map(function(t){return '<li><b>'+esc(t.title)+'</b><br>'+esc(t.text)+sources(t.sources)+'</li>';}).join('')+'</ol>';
+      if(r.outlook&&r.outlook.length) h+='<div class="why"><b>Outlook:</b>'+ul(r.outlook)+'</div>';
+      return h+'</div></details>';
+    }).join('');
+  }
+  views.recaps={el:rsec,lead:'<h1 style="margin-top:16px">Recaps</h1><p class="intro">The week and the month in brief – for when you have not checked in every day.</p>',
+    sections:[{id:'week',label:'Weeks',count:recaps.filter(function(r){return r.type==='week';}).length,html:recapList('week')},{id:'month',label:'Months',count:recaps.filter(function(r){return r.type==='month';}).length,html:recapList('month')}],active:'week'};
+  mount('recaps');
+
+  // ---------- Basics ----------
+  var b=window.MARKET_BRIEFING_BASICS||{};
+  var terms=(b.glossary||[]).slice();
+  function isNew(t){return t.added && (new Date()-pd(t.added))/864e5<=30;}
+  var bsecs=[
+    {id:'principles',label:'How to read',html:'<div class="principles">'+(b.principles||[]).map(function(p){return '<div class="card"><h3>'+esc(p.title)+'</h3><p style="margin:0">'+esc(p.text)+'</p></div>';}).join('')+'</div>'},
+    {id:'gloss',label:'Glossary',count:terms.length,html:'<input class="gsearch" type="search" placeholder="Search terms …" aria-label="Search glossary"><dl class="gloss"></dl><p class="src">Updated: '+esc(b.updated||'')+'</p>',
+      after:function(panel){
+        var dl=panel.querySelector('.gloss'), inp=panel.querySelector('.gsearch');
+        function draw(q){
+          q=(q||'').toLowerCase();
+          var list=terms.filter(function(t){return !q||t.term.toLowerCase().indexOf(q)>-1||t.def.toLowerCase().indexOf(q)>-1;});
+          list.sort(function(x,y){var a=isNew(x),c=isNew(y); if(a!==c) return a?-1:1; return x.term.localeCompare(y.term,'en');});
+          dl.innerHTML=list.length?list.map(function(t){return '<dt>'+esc(t.term)+(isNew(t)?'<span class="newtag">New</span>':'')+'</dt><dd>'+esc(t.def)+'</dd>';}).join(''):'<dd class="src">No term found.</dd>';
+        }
+        draw(''); inp.oninput=function(){draw(inp.value);};
+      }}
+  ];
+  views.basics={el:bsec,lead:'<h1 style="margin-top:16px">Basics</h1><p class="intro">How this briefing is meant to be read – and key market terms explained simply.</p>',sections:bsecs,active:'principles'};
+  mount('basics');
+
+  // ---------- Main tabs ----------
+  var tabBtns={briefing:document.getElementById('tab-briefing'),recaps:document.getElementById('tab-recaps'),basics:document.getElementById('tab-basics')};
+  var hashes={recaps:'#recaps',basics:'#basics'};
+  function show(which){
+    current=which;
+    Object.keys(views).forEach(function(k){ views[k].el.classList.toggle('hidden',k!==which); tabBtns[k].setAttribute('aria-selected',k===which?'true':'false'); });
+    if(nav) nav.style.display=(which==='briefing')?'':'none';
+    drawSubnav();
+    try{ if(which==='briefing'){ if(eds.length) history.replaceState(null,'','#'+eds[+picker.value].date); } else history.replaceState(null,'',hashes[which]); }catch(err){}
+    window.scrollTo(0,0);
+  }
+  Object.keys(tabBtns).forEach(function(k){ tabBtns[k].onclick=function(){show(k);}; });
+
+  var hash=(location.hash||'').slice(1), start=0;
+  eds.forEach(function(e,i){ if(e.date===hash) start=i; });
+  if(eds.length) renderEdition(start); else mount('briefing');
+  show(hash==='basics'?'basics':hash==='recaps'?'recaps':'briefing');
+})();
+</script>
+</body>
+</html>
