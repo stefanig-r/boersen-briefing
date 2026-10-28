@@ -1,6 +1,322 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-10-28",
+    "headline": "Calm before the storm: Fed decision and Big Tech results arrive today",
+    "intro": "The DAX and Wall Street edged higher on Tuesday, with chip stocks leading again, while investors mostly waited for what comes next. Today the US Federal Reserve announces its rate decision and Microsoft and Alphabet report results after the US close.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "25,590.77",
+        "change": "+0.71%",
+        "asOf": "Close 27 Oct",
+        "source": {
+          "label": "ARIVA / dpa-AFX",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-steigt-vor-tech-zahlen-12183820"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "30,495.47",
+        "change": "+0.69%",
+        "asOf": "Close 27 Oct",
+        "source": {
+          "label": "ARIVA / dpa-AFX",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-steigt-vor-tech-zahlen-12183820"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "6,164.69",
+        "change": "+0.79%",
+        "asOf": "Close 27 Oct",
+        "source": {
+          "label": "ARIVA / dpa-AFX",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-steigt-vor-tech-zahlen-12183820"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "not available",
+        "change": "approx. +0.6%",
+        "asOf": "Close 27 Oct",
+        "source": {
+          "label": "Reuters via MarketScreener",
+          "url": "https://www.marketscreener.com/news/wall-street-ends-higher-on-revived-ai-momentum-ce785cddde81f423"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "not available",
+        "change": "approx. +1.1%",
+        "asOf": "Close 27 Oct",
+        "source": {
+          "label": "Yahoo Finance live blog",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,377.57",
+        "change": "+0.03%",
+        "asOf": "Close 27 Oct",
+        "source": {
+          "label": "Yahoo Finance live blog",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "64,144.02",
+        "change": "+1.38%",
+        "asOf": "28 Oct, during Asian trading (snapshot)",
+        "source": {
+          "label": "finanzen.at",
+          "url": "https://www.finanzen.at/nachrichten/aktien/boerse-aktuell-28-10-2026-1036674517"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.1118",
+        "change": "−0.1%",
+        "asOf": "28 Oct, morning (snapshot)",
+        "source": {
+          "label": "finanzen.at",
+          "url": "https://www.finanzen.at/nachrichten/aktien/boerse-aktuell-28-10-2026-1036674517"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$115.91",
+        "change": "+1.8%",
+        "asOf": "28 Oct, morning (snapshot)",
+        "source": {
+          "label": "finanzen.at",
+          "url": "https://www.finanzen.at/nachrichten/aktien/boerse-aktuell-28-10-2026-1036674517"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "$4,031",
+        "change": "−0.8%",
+        "asOf": "28 Oct, morning (snapshot)",
+        "source": {
+          "label": "finanzen.at",
+          "url": "https://www.finanzen.at/nachrichten/aktien/boerse-aktuell-28-10-2026-1036674517"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "3.35%",
+        "change": "lower",
+        "asOf": "27 Oct, intraday",
+        "source": {
+          "label": "ARIVA / dpa-AFX",
+          "url": "https://www.ariva.de/news/deutsche-anleihen-leichte-kursgewinne-12183755"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "4.99%",
+        "change": "roughly unchanged",
+        "asOf": "27 Oct, midday",
+        "source": {
+          "label": "MarketScreener / Dow Jones",
+          "url": "https://de.marketscreener.com/boerse-nachrichten/maerkte-usa-leichtes-plus-spannung-vor-fed-entscheidung-und-tech-zahlen-ce785cdddd81f024"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "around $80,000",
+        "change": "not available",
+        "asOf": "28 Oct (media reports)",
+        "source": {
+          "label": "Analytics Insight",
+          "url": "https://www.analyticsinsight.net/amp/story/price-analysis/crypto-prices-today-bitcoin-slips-below-usd-80000-as-traders-await-fed-verdict"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "DAX edges higher before Fed and ECB; Mercedes cuts its targets",
+        "summary": "The DAX closed at 25,590.77 points, up 0.71%, and the Euro Stoxx 50 gained 0.79%. Mercedes-Benz was the weakest DAX stock, losing almost 4%, after lowering its profit targets for the year because of the crisis in China and high costs; it also expects higher costs in the fourth quarter. Porsche rose almost 4% after quarterly results that a JPMorgan analyst called an overall decent quarter, while Beiersdorf fell 3.3%.",
+        "whyItMatters": "Weak consumer-goods and car results show how higher living costs and China weigh on individual sectors even when the overall index rises.",
+        "sources": [
+          {
+            "label": "ARIVA / dpa-AFX: Frankfurt close",
+            "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-steigt-vor-tech-zahlen-12183820"
+          }
+        ]
+      },
+      {
+        "title": "Wall Street higher as chip stocks rise for a third day",
+        "summary": "The S&P 500 gained about 0.6% and the Nasdaq more than 1%, while the Dow was almost flat at 52,377.57. Chip stocks rose for a third straight session, with traders pointing to excitement around Anthropic's planned IPO. Boeing fell about 10.7% after its CEO said it will miss 737 production and delivery targets this year, while UPS rose about 5.8% after raising its forecasts.",
+        "whyItMatters": "Gains concentrated in tech and chips make broad indices more dependent on a few large names, which matters for anyone holding a global index ETF.",
+        "sources": [
+          {
+            "label": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/wall-street-ends-higher-on-revived-ai-momentum-ce785cddde81f423"
+          },
+          {
+            "label": "Yahoo Finance live blog",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html"
+          }
+        ]
+      },
+      {
+        "title": "Nvidia to invest $3bn in Meta's share offering",
+        "summary": "Nvidia said it will invest $3 billion in Meta's planned capital increase and expand their cooperation on Meta's AI agent 'Muse'. Midday on Tuesday, Nvidia was trading about 0.6–1.1% higher, according to different data points in the report. Meta's shares were slightly lower.",
+        "whyItMatters": "Chipmakers investing in their own customers is one reason some observers ask how sustainable AI spending is; others see it as a sign of strong demand.",
+        "sources": [
+          {
+            "label": "MarketScreener / Dow Jones",
+            "url": "https://de.marketscreener.com/boerse-nachrichten/maerkte-usa-leichtes-plus-spannung-vor-fed-entscheidung-und-tech-zahlen-ce785cdddd81f024"
+          },
+          {
+            "label": "Yahoo Finance live blog",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html"
+          }
+        ]
+      },
+      {
+        "title": "Bund yields ease as oil falls on Iran de-escalation hopes",
+        "summary": "The yield on 10-year German government bonds fell to 3.35% on Tuesday as oil prices eased on hopes of a diplomatic solution in the Iran conflict. Dekabank expects a pause in the bond market ahead of the Fed and ECB decisions, neither of which is expected to change rates. This morning, however, Brent was up again at around $115.91.",
+        "whyItMatters": "Oil is a key driver of inflation expectations, and therefore of bond yields and central bank signals.",
+        "sources": [
+          {
+            "label": "ARIVA / dpa-AFX: German bonds",
+            "url": "https://www.ariva.de/news/deutsche-anleihen-leichte-kursgewinne-12183755"
+          },
+          {
+            "label": "finanzen.at: market snapshot",
+            "url": "https://www.finanzen.at/nachrichten/aktien/boerse-aktuell-28-10-2026-1036674517"
+          }
+        ]
+      },
+      {
+        "title": "Fed decision today; ECB and Bank of Japan follow",
+        "summary": "The Fed announces its decision on Wednesday and most observers expect no change; CME data implies about a 10% chance of a hike. Microsoft and Alphabet report after the US close, Amazon on Thursday. The ECB decides on Thursday and the Bank of Japan on Friday, according to dpa-AFX.",
+        "whyItMatters": "With several rate decisions and big earnings reports bunched together, an IG analyst said they could change investors' appetite for risk – so swings are possible.",
+        "sources": [
+          {
+            "label": "Yahoo Finance live blog",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html"
+          },
+          {
+            "label": "ARIVA / dpa-AFX: Frankfurt close",
+            "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-steigt-vor-tech-zahlen-12183820"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "change": "−0.24% (indicative, 27 Oct)",
+        "note": "Reports quarterly results today after the US close, together with Alphabet.",
+        "sources": [
+          {
+            "label": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/wall-street-ends-higher-on-revived-ai-momentum-ce785cddde81f423"
+          }
+        ]
+      },
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "approx. +0.6% to +1.1% (27 Oct, midday)",
+        "note": "Announced a $3 billion investment in Meta's planned capital increase and a wider AI cooperation with Meta.",
+        "sources": [
+          {
+            "label": "MarketScreener / Dow Jones",
+            "url": "https://de.marketscreener.com/boerse-nachrichten/maerkte-usa-leichtes-plus-spannung-vor-fed-entscheidung-und-tech-zahlen-ce785cdddd81f024"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "change": "+0.86% to €214.08 (27 Oct, 16:13, L&S)",
+        "note": "Deutsche Bank Research raised its price target from €200 to €235 on 22 October and kept its Buy rating, according to ad-hoc-news. SAP confirmed its 2026 outlook on 21 October.",
+        "sources": [
+          {
+            "label": "ad-hoc-news",
+            "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/sap-aktie-deutsche-bank-research-hebt-ziel-fuer-die-sap-aktie-auf-235-00-euro-an/70421468"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-10-28",
+        "time": "19:00",
+        "event": "Fed rate decision, followed by press conference",
+        "why": "The most important event of the week for all markets."
+      },
+      {
+        "date": "2026-10-28",
+        "time": "after US close",
+        "event": "Microsoft and Alphabet: quarterly results",
+        "why": "Bellwethers for the AI boom and heavy weights in the MSCI World."
+      },
+      {
+        "date": "2026-10-29",
+        "time": "",
+        "event": "ECB rate decision",
+        "why": "Sets interest rates in the euro area."
+      },
+      {
+        "date": "2026-10-29",
+        "time": "",
+        "event": "US GDP, Q3",
+        "why": "Shows how fast the US economy grew over the summer."
+      },
+      {
+        "date": "2026-10-29",
+        "time": "after US close",
+        "event": "Amazon: quarterly results",
+        "why": "Cloud business (AWS) and consumer spending in focus."
+      },
+      {
+        "date": "2026-10-30",
+        "time": "",
+        "event": "Bank of Japan rate decision",
+        "why": "Japan's rate path affects the yen and global bond markets."
+      },
+      {
+        "date": "2026-10-30",
+        "time": "",
+        "event": "GDP Q3, Germany and euro area",
+        "why": "First reading of how the European economy performed in the quarter."
+      }
+    ],
+    "learn": {
+      "term": "Profit warning",
+      "explanation": "A profit warning is when a company tells investors that its profit will probably be lower than it previously said. Mercedes-Benz did this on Tuesday, citing the China crisis and high costs, and its shares fell almost 4% in a day. Companies must publish such news quickly, because it can move the share price. One warning does not say much about the long-term business, but it often triggers a re-assessment by analysts."
+    }
+  },
+  {
     "date": "2026-10-27",
     "headline": "Monday rebound – now the Fed, the ECB and Big Tech take centre stage",
     "intro": "After a weak previous week, the DAX and Wall Street gained on Monday, helped by a stronger ifo index and tailwind for technology stocks. The real direction, however, will be set over the next few days by the Fed and ECB rate decisions and quarterly results from Microsoft, Alphabet and Amazon.",
