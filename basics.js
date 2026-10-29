@@ -1,6 +1,6 @@
 // Market Briefing – basics. The daily task only adds glossary terms.
 window.MARKET_BRIEFING_BASICS = {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "principles": [
     {"title": "Not investment advice", "text": "The briefing explains what happened and why it may matter. It never tells you what to buy or sell."},
     {"title": "Prices are not live", "text": "Every number has a timestamp and may be out of date. Always check the current price with your bank or broker before deciding anything."},
@@ -159,6 +159,8 @@ window.MARKET_BRIEFING_BASICS = {
     }
   },
   "glossary": [
+    {"term": "Capex (capital expenditure)", "def": "Money a company spends on long-lasting assets such as data centres, factories or machines. High capex can support future growth but reduces cash in the short term.", "added": "2026-10-29"},
+    {"term": "Free cash flow", "def": "The cash left over after a company pays its operating costs and its investments. It shows how much money is really available for dividends, debt repayment or buybacks.", "added": "2026-10-29"},
     {"term": "Profit warning", "def": "An announcement by a company that its profit will probably be lower than it previously forecast.", "added": "2026-10-28"},
     {"term": "Capital increase", "def": "A company issues new shares to raise money, which usually means existing shareholders own a slightly smaller share of the company.", "added": "2026-10-28"},
     {"term": "Policy rate", "def": "The interest rate at which banks borrow from the central bank. It influences loan and savings rates and therefore stock markets.", "added": "2026-10-27"},
