@@ -1,6 +1,6 @@
 // Market Briefing – basics. The daily task only adds glossary terms.
 window.MARKET_BRIEFING_BASICS = {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "principles": [
     {"title": "Not investment advice", "text": "The briefing explains what happened and why it may matter. It never tells you what to buy or sell."},
     {"title": "Prices are not live", "text": "Every number has a timestamp and may be out of date. Always check the current price with your bank or broker before deciding anything."},
@@ -159,6 +159,8 @@ window.MARKET_BRIEFING_BASICS = {
     }
   },
   "glossary": [
+    {"term": "Safe-haven asset", "def": "An asset such as government bonds or gold that investors tend to buy in uncertain times because it has often held its value better than shares.", "added": "2026-10-30"},
+    {"term": "After-hours trading", "def": "Trading in shares after the regular exchange session has closed. Prices can move sharply on company results, but fewer people trade, so quotes are less reliable.", "added": "2026-10-30"},
     {"term": "Capex (capital expenditure)", "def": "Money a company spends on long-lasting assets such as data centres, factories or machines. High capex can support future growth but reduces cash in the short term.", "added": "2026-10-29"},
     {"term": "Free cash flow", "def": "The cash left over after a company pays its operating costs and its investments. It shows how much money is really available for dividends, debt repayment or buybacks.", "added": "2026-10-29"},
     {"term": "Profit warning", "def": "An announcement by a company that its profit will probably be lower than it previously forecast.", "added": "2026-10-28"},

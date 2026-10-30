@@ -1,6 +1,356 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-10-30",
+    "headline": "Alphabet's worst day on record weighs on Wall Street, while the DAX closes above 26,000 after the ECB holds",
+    "intro": "European shares ended Thursday higher after the ECB left rates unchanged, but Wall Street fell as Alphabet had its worst trading day since it listed. Asian markets are weaker this morning, with South Korea's Kospi down almost 4%, and Amazon and Intel dropped after hours on their results.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "26,039.68",
+        "change": "+1.31%",
+        "asOf": "Close 29 Oct",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-ueber-26-000-punkte-12187543"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "30,798.65",
+        "change": "+1.23%",
+        "asOf": "Close 29 Oct",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-ueber-26-000-punkte-12187543"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "6,207.07",
+        "change": "+0.64%",
+        "asOf": "Close 29 Oct",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Europe close",
+          "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-gewinne-im-gegensatz-zu-den-12187565"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,720.39",
+        "change": "−0.30%",
+        "asOf": "Close 29 Oct",
+        "source": {
+          "label": "AP via KSAT: Asian trading is mixed",
+          "url": "https://www.ksat.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "26,184.72",
+        "change": "−1.38%",
+        "asOf": "Close 29 Oct",
+        "source": {
+          "label": "AP via KSAT: Asian trading is mixed",
+          "url": "https://www.ksat.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,342.56",
+        "change": "−0.25%",
+        "asOf": "Close 29 Oct",
+        "source": {
+          "label": "AP via KSAT: Asian trading is mixed",
+          "url": "https://www.ksat.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "63,155.94",
+        "change": "−2.3%",
+        "asOf": "30 Oct, Asian afternoon session (AP)",
+        "source": {
+          "label": "AP via KSAT: Asian trading is mixed",
+          "url": "https://www.ksat.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.1197",
+        "change": "+0.15%",
+        "asOf": "30 Oct, early Asian trading (Reuters)",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Yen and BOJ",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/yen-steady-boj-ai-jitters-015222078.html"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$116.09",
+        "change": "+1.05%",
+        "asOf": "30 Oct, Asian session (AP)",
+        "source": {
+          "label": "AP via KSAT: Asian trading is mixed",
+          "url": "https://www.ksat.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "$4,036",
+        "change": "−0.39%",
+        "asOf": "29 Oct, early trading",
+        "source": {
+          "label": "TheStreet: Stock Market Today 29 Oct",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-29-2026"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "3.35%",
+        "change": "lower",
+        "asOf": "29 Oct, afternoon",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Deutsche Anleihen",
+          "url": "https://www.ariva.de/news/deutsche-anleihen-kursgewinne-nach-ezb-entscheidung-12187497"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "4.94%",
+        "change": "down from 5.05%",
+        "asOf": "30 Oct, Asian session (AP)",
+        "source": {
+          "label": "AP via KSAT: Asian trading is mixed",
+          "url": "https://www.ksat.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved",
+        "source": {
+          "label": "AP via KSAT: Asian trading is mixed",
+          "url": "https://www.ksat.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Alphabet has its worst day on record and pulls the Nasdaq down",
+        "summary": "Shares of Alphabet, Google's parent, fell about 12.6% on Thursday after its quarterly report, AP says its worst day since the stock began trading more than 20 years ago. StockTitan reports a drop from $324.89 to $283.82 after a quarter in which spending ran ahead of cash generation. The Nasdaq Composite lost 1.38% and the S&P 500 0.30%, ending a three-day winning streak. ServiceNow also fell sharply after its results.",
+        "whyItMatters": "The reaction shows how sensitive markets have become to the gap between heavy AI spending and the cash it brings in, which matters for the many broad funds that hold these large technology companies.",
+        "sources": [
+          {
+            "label": "AP via KSAT: Asian trading is mixed",
+            "url": "https://www.ksat.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/"
+          },
+          {
+            "label": "StockTitan: Stock Market Today 29 Oct",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
+          }
+        ]
+      },
+      {
+        "title": "Amazon and Intel fall after hours on results and outlook",
+        "summary": "Amazon reported revenue of $201.9bn, up 12% and slightly below expectations, with earnings per share of $1.89 against about $1.97 expected. Its cloud unit AWS grew 39% to $46bn, but the company plans around $220bn of capital spending in 2026. StockTitan shows Amazon about 7% lower after hours, following a 4.25% fall in regular trading. Intel dropped by around 20% after hours after forecasting fourth-quarter revenue below its third quarter; reports differ on the exact size of the moves.",
+        "whyItMatters": "Together with Alphabet, the results keep the debate alive over whether AI investment will earn its cost, and they may weigh on chip and tech shares at today's US open.",
+        "sources": [
+          {
+            "label": "Motley Fool: Amazon falls on Q3 report",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/10/29/stock-market-today-oct-29-amazon-falls-on-q3-earnings-report-and-capex-concerns/"
+          },
+          {
+            "label": "StockTitan: Stock Market Today 29 Oct",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
+          }
+        ]
+      },
+      {
+        "title": "ECB holds rates, signals a December hike is possible; Lagarde to leave early",
+        "summary": "The ECB left its deposit rate at 2.50% as expected, but warned that energy prices pose upside risks to inflation and downside risks to growth, according to Reuters. It also said further hikes may be needed without being in a hurry. Christine Lagarde announced she will step down as president on 7 February 2027, earlier than her term required. German 10-year yields eased to about 3.35% and the DAX closed above 26,000 points for the first time since early September.",
+        "whyItMatters": "Expectations for the next ECB step feed directly into bond yields, bank earnings and borrowing costs, while the question of Lagarde's successor adds political uncertainty.",
+        "sources": [
+          {
+            "label": "Reuters via Yahoo Finance: ECB flags December hike",
+            "url": "https://finance.yahoo.com/economy/policy/articles/ecb-keeps-rates-unchanged-points-132927008.html"
+          },
+          {
+            "label": "ARIVA / dpa-AFX: Frankfurt close",
+            "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-ueber-26-000-punkte-12187543"
+          }
+        ]
+      },
+      {
+        "title": "Strong US growth and sticky inflation, but Treasury yields ease",
+        "summary": "US economic growth for the third quarter was 3.4% at an annualised rate, above the 3.1% expected, and the PCE price index rose 3.6% from a year earlier (core: 3.1%), according to TheStreet. Even so, the 10-year Treasury yield fell to about 4.94% from 5.05% as investors moved into bonds during the tech sell-off. It had topped 5.30% earlier this month, its highest level since 2002. The Bank of Japan kept its rate at 1.25% today and signalled it is ready to raise it further.",
+        "whyItMatters": "High yields make shares and bonds compete for money, and they push up borrowing costs for companies and households.",
+        "sources": [
+          {
+            "label": "TheStreet: Stock Market Today 29 Oct",
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-29-2026"
+          },
+          {
+            "label": "AP via KSAT: Asian trading is mixed",
+            "url": "https://www.ksat.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/"
+          },
+          {
+            "label": "Reuters via Yahoo Finance: Yen and BOJ",
+            "url": "https://finance.yahoo.com/markets/currencies/articles/yen-steady-boj-ai-jitters-015222078.html"
+          }
+        ]
+      },
+      {
+        "title": "German reporting season: Adidas, Salzgitter and Basler rise; Vonovia, Knorr-Bremse and Heidelberger Druck fall",
+        "summary": "Adidas rose about 5.8% and expects a return to growth in the fourth quarter. Volkswagen preference shares gained about 1.7% despite a third-quarter loss caused by a Porsche writedown. Vonovia lost about 3% on a cautious profit outlook, and brake maker Knorr-Bremse fell nearly 7% after missing expectations. In the smaller indices, Salzgitter gained over 11% and Basler over 13% after raising their outlooks, while Heidelberger Druck lost about 11% after cutting its profit forecast.",
+        "whyItMatters": "The spread of reactions shows how much individual company news can matter, even on a day when the DAX rises 1.3%.",
+        "sources": [
+          {
+            "label": "ARIVA / dpa-AFX: Frankfurt close",
+            "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-ueber-26-000-punkte-12187543"
+          }
+        ]
+      },
+      {
+        "title": "Asian markets weaker; Kospi down almost 4% on AI worries",
+        "summary": "In Friday trading the Kospi was down nearly 4% at 5,701.71, with SK Hynix and Samsung Electronics lower, and the Nikkei 225 fell 2.3% to 63,155.94. Hong Kong's Hang Seng rose 1.7%. AP links the weakness to growing concerns about AI-related stocks. Brent crude was up about 1% at $116.09 a barrel.",
+        "whyItMatters": "Chip and AI-related shares often move together across regions, so weakness in Asia can spill over into European technology and semiconductor stocks at the open.",
+        "sources": [
+          {
+            "label": "AP via KSAT: Asian trading is mixed",
+            "url": "https://www.ksat.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "change": "−0.6% (209.85 EUR, 29 Oct, 11:48 Xetra)",
+        "note": "Shares were slightly lower on Thursday with no company-specific reason given. Goldman Sachs raised its target on SAP to €258 from €230 on 23 October, after the company's third-quarter results on 21 October.",
+        "sources": [
+          {
+            "label": "finanzen.net: SAP on 29 Oct",
+            "url": "https://www.finanzen.net/nachricht/aktien/sap-aktie-kursbewegung-29-10-2026-11201160"
+          },
+          {
+            "label": "Goldesel: Goldman target",
+            "url": "https://goldesel.de/aktien/news/sap-aktie-goldman-hebt-kursziel-auf-258-euro-an"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "change": "−0.16% (Close 29 Oct)",
+        "note": "Early after-hours gains faded and the shares ended Thursday slightly lower. TD Cowen raised its target to $650 from $625 and Cantor Fitzgerald to $630 from $608 after the results.",
+        "sources": [
+          {
+            "label": "StockTitan: Stock Market Today 29 Oct",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
+          },
+          {
+            "label": "MarketBeat: TD Cowen target",
+            "url": "https://www.marketbeat.com/instant-alerts/analyst-microsoft-nasdaq-msft-stock-gets-price-target-increase-from-td-cowen-2026-10-29/"
+          }
+        ]
+      },
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "note": "No company-specific news. The group of AI-related and chip stocks came under pressure on Thursday after Alphabet's results; no verified price move for Nvidia was found.",
+        "sources": [
+          {
+            "label": "AP via KSAT: Asian trading is mixed",
+            "url": "https://www.ksat.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-10-30",
+        "time": "08:00",
+        "event": "BP, AstraZeneca and Puma: Q3 results; Audi at 09:00",
+        "why": "Energy, pharma and consumer names give a read on oil profits and demand."
+      },
+      {
+        "date": "2026-10-30",
+        "time": "10:00",
+        "event": "German GDP Q3 (first release); eurozone GDP at 11:00",
+        "why": "Shows whether the largest euro economy is growing or stalling."
+      },
+      {
+        "date": "2026-10-30",
+        "time": "14:00",
+        "event": "German CPI flash, October",
+        "why": "Inflation reading ahead of the ECB meeting in December."
+      },
+      {
+        "date": "2026-10-30",
+        "time": "13:30",
+        "event": "US Employment Cost Index Q3; ExxonMobil results at 12:30, Chevron at 11:00",
+        "why": "Wage costs feed into inflation expectations and Fed policy."
+      },
+      {
+        "date": "2026-11-02",
+        "time": "16:00",
+        "event": "US ISM manufacturing index; Apple (22:30) and Palantir (22:00) report",
+        "why": "Factory activity plus results from one of the world's largest companies."
+      },
+      {
+        "date": "2026-11-03",
+        "time": "07:00",
+        "event": "Lufthansa, Zalando, Evonik: Q3 results; Bayer at 07:30",
+        "why": "A broad check on German consumer and industrial demand."
+      },
+      {
+        "date": "2026-11-04",
+        "time": "11:00",
+        "event": "Eurozone flash CPI, October; BMW Q3 at 07:30",
+        "why": "The key inflation number for the ECB."
+      },
+      {
+        "date": "2026-11-05",
+        "time": "13:00",
+        "event": "Bank of England rate decision; Deutsche Telekom, Commerzbank (07:00), Rheinmetall (07:30) report",
+        "why": "Another central bank signal for Europe, plus results from large German companies."
+      },
+      {
+        "date": "2026-11-06",
+        "time": "14:30",
+        "event": "US jobs report, October",
+        "why": "Labour market data is a main input for expectations on the Fed."
+      }
+    ],
+    "learn": {
+      "term": "Safe-haven asset",
+      "explanation": "A safe-haven asset is something investors tend to buy when they are worried about shares, hoping it holds its value better. Government bonds, gold and sometimes currencies such as the yen or Swiss franc are typical examples. This week, as Alphabet's fall unsettled tech shares, US Treasury yields dropped from 5.05% to about 4.94%, which means bond prices rose as investors moved into them. A safe haven is not risk-free, though: bond prices can fall too when interest rates rise."
+    }
+  },
+  {
     "date": "2026-10-29",
     "headline": "Fed holds but points to a December hike; Alphabet falls, Microsoft rises after results",
     "intro": "The DAX closed at a five-week high on Wednesday and Wall Street edged up after the Fed left rates unchanged. Overnight, Alphabet's shares fell sharply and Microsoft's rose after their results, and today the ECB announces its own rate decision.",
