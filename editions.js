@@ -1,6 +1,342 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-02",
+    "headline": "Intel's worst day since 1974 and a chip rout hit Wall Street; DAX ends a strong week on a weaker note",
+    "intro": "Technology shares fell sharply on Friday as weak outlooks from Intel and Amazon revived worries about AI spending, and European markets followed lower. This morning Asia is mixed and oil has pulled back, with Apple and Palantir reporting after the close and the US midterm elections on Tuesday.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "25,818.21",
+        "change": "−0.85%",
+        "asOf": "Close 30 Oct",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-schwaecheres-ende-einer-12189224"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "30,472.32",
+        "change": "−1.06%",
+        "asOf": "Close 30 Oct",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-schwaecheres-ende-einer-12189224"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "6,131.31",
+        "change": "−1.22%",
+        "asOf": "Close 30 Oct",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Europe close",
+          "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-verluste-im-sog-weltweiter-12189235"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,580.07",
+        "change": "−1.82%",
+        "asOf": "Close 30 Oct",
+        "source": {
+          "label": "AP via STL.news: Wall Street sinks on AI fears",
+          "url": "https://www.stl.news/stock-market-today-wall-street-sinks-on-ai-fears/"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "25,437.00",
+        "change": "−2.86%",
+        "asOf": "Close 30 Oct",
+        "source": {
+          "label": "AP via STL.news: Wall Street sinks on AI fears",
+          "url": "https://www.stl.news/stock-market-today-wall-street-sinks-on-ai-fears/"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,770.31",
+        "change": "−1.09%",
+        "asOf": "Close 30 Oct",
+        "source": {
+          "label": "AP via STL.news: Wall Street sinks on AI fears",
+          "url": "https://www.stl.news/stock-market-today-wall-street-sinks-on-ai-fears/"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "63,218.02",
+        "change": "−0.1%",
+        "asOf": "2 Nov, Asian session (AP)",
+        "source": {
+          "label": "AP via WSLS: Asian shares, 2 Nov",
+          "url": "https://www.wsls.com/business/2026/11/02/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.1172",
+        "change": "+0.1%",
+        "asOf": "2 Nov, Asian session (AP; up from 1.1160)",
+        "source": {
+          "label": "AP via WSLS: Asian shares, 2 Nov",
+          "url": "https://www.wsls.com/business/2026/11/02/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$109.66",
+        "change": "−3.3%",
+        "asOf": "2 Nov, Asian session (AP)",
+        "source": {
+          "label": "AP via WSLS: Asian shares, 2 Nov",
+          "url": "https://www.wsls.com/business/2026/11/02/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "$3,883.10",
+        "change": "−3.68%",
+        "asOf": "Close 30 Oct (automated digest, single source)",
+        "source": {
+          "label": "Stock Market Watch: Nightly Digest 30 Oct",
+          "url": "https://stockmarketwatch.com/digest/2026-10-30"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved for 30 Oct",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-schwaecheres-ende-einer-12189224"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "not available",
+        "change": "lower",
+        "asOf": "30 Oct: AP says yields fell, no level given",
+        "source": {
+          "label": "AP via STL.news: Wall Street sinks on AI fears",
+          "url": "https://www.stl.news/stock-market-today-wall-street-sinks-on-ai-fears/"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved",
+        "source": {
+          "label": "AP via WSLS: Asian shares, 2 Nov",
+          "url": "https://www.wsls.com/business/2026/11/02/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Intel has its worst day since 1974 and chip stocks slump",
+        "summary": "Intel shares fell about 28.6% on Friday after the company gave a weak outlook for the fourth quarter, even though third-quarter revenue rose, according to AP. The Philadelphia Semiconductor Index dropped about 7.2%, with AMD down 10.9% and Nvidia down 4.2%. In Europe, ASML and Infineon each lost more than 6%. The Nasdaq Composite fell 2.86%, its worst day since 5 June according to FinanceFeeds, and lost more than 5% over October.",
+        "whyItMatters": "Chip makers sit at the centre of the AI investment story and carry large weights in broad indices, so a sharp fall in the group moves global index funds even if other sectors hold up.",
+        "sources": [
+          {
+            "label": "AP via STL.news: Wall Street sinks on AI fears",
+            "url": "https://www.stl.news/stock-market-today-wall-street-sinks-on-ai-fears/"
+          },
+          {
+            "label": "FinanceFeeds: Nasdaq ends October at 25,437",
+            "url": "https://financefeeds.com/nasdaq-ends-october-at-25437-after-2-86-drop-apple-amd-and-midterms-ahead"
+          }
+        ]
+      },
+      {
+        "title": "Amazon's AI spending keeps the 'is it paying off?' debate alive",
+        "summary": "Amazon reported third-quarter net sales of $201.9 billion, up 12%, and operating income of $28.1 billion. However, trailing free cash flow turned to an outflow of $42.4 billion, driven by a $94.8 billion year-on-year rise in net capital spending, mainly on AI, AP reports. Shares fell roughly 2% on Friday. This follows Alphabet's record one-day drop on Thursday.",
+        "whyItMatters": "Investors are looking harder at how quickly heavy AI spending turns into cash, which could affect valuations across large technology companies and the funds that hold them.",
+        "sources": [
+          {
+            "label": "AP via STL.news: Wall Street sinks on AI fears",
+            "url": "https://www.stl.news/stock-market-today-wall-street-sinks-on-ai-fears/"
+          },
+          {
+            "label": "Investrade: 30 Oct market preview",
+            "url": "https://investrade.com/?p=1686"
+          }
+        ]
+      },
+      {
+        "title": "Oil near its highest since 2023 on Iran fears, then retreats on Monday",
+        "summary": "Brent's January contract settled at $113.43 on Friday, and Brent rose 13.6% in October, according to the Korea Times. Traders cited fears of escalation after the US midterms, a tanker hit by explosives in the Strait of Hormuz, and a US order for non-emergency staff to leave Saudi Arabia. On Monday Brent fell 3.3% to $109.66 as Iranian negotiators were reported in Qatar discussing a proposal that could reopen the strait, though Iran's foreign minister said there were no direct talks with the US.",
+        "whyItMatters": "Higher energy prices feed inflation and complicate central banks' decisions, while energy companies benefit; sharp swings in either direction can move whole markets.",
+        "sources": [
+          {
+            "label": "Korea Times: Oil settles at 6-month high",
+            "url": "https://www.koreatimes.co.kr/world/20261031/oil-jumps-2-settles-at-6-month-highs-on-fears-of-escalation-in-iran"
+          },
+          {
+            "label": "AP via WSLS: Asian shares, 2 Nov",
+            "url": "https://www.wsls.com/business/2026/11/02/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/"
+          }
+        ]
+      },
+      {
+        "title": "DAX gives back part of Thursday's gain but ends the week 2.5% higher",
+        "summary": "The DAX closed Friday at 25,818.21, down 0.85%, after rising 1.3% the day before; it gained 2.5% over both the week and October. Infineon fell 6.4% and Siemens Energy 6.9% in the tech sell-off, while Bayer rose 5.5% after a Missouri jury ruled in its favour in a glyphosate case. German October inflation came in at 2.8%, down from 3.3% and below the 3.0% economists expected. Commerzbank's chief economist said the drop was mainly due to a fuel tax rebate and it was too early to speak of an all-clear.",
+        "whyItMatters": "Cooling inflation is welcome, but if it reflects a one-off tax effect it may give the ECB less room to relax than the headline suggests.",
+        "sources": [
+          {
+            "label": "ARIVA / dpa-AFX: Frankfurt close",
+            "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-schwaecheres-ende-einer-12189224"
+          },
+          {
+            "label": "ARIVA / dpa-AFX: Europe close",
+            "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-verluste-im-sog-weltweiter-12189235"
+          }
+        ]
+      },
+      {
+        "title": "Evonik rejects BASF's takeover approach",
+        "summary": "Evonik turned down an approach from BASF and declined to enter negotiations, while offering an informal, confidential exchange, dpa-AFX reports. Shares of both companies edged higher on Friday. In the MDAX, Puma rose 5.6% after a smaller third-quarter loss than a year earlier.",
+        "whyItMatters": "A possible deal between two large chemical groups would be a notable consolidation step for the sector, though nothing has been agreed and talks may not happen.",
+        "sources": [
+          {
+            "label": "ARIVA / dpa-AFX: Frankfurt close",
+            "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-schwaecheres-ende-einer-12189224"
+          }
+        ]
+      },
+      {
+        "title": "Week ahead: Apple and Palantir today, US midterms Tuesday, jobs report Friday",
+        "summary": "Apple reports after the US close today and is expected to post about $113.3 billion in revenue, in line with its own guidance of 9–11% growth. Palantir also reports today, AMD follows on Tuesday, and US employment data for October is due on Friday. Asian markets were mixed this morning: South Korea's Kospi rose 2.3% after a drop of more than 16% over the past month, while Kioxia fell about 14% on weak forecasts. The Fed's target range is 3.75–4.00%, and two members dissented in favour of a hike at the October meeting.",
+        "whyItMatters": "With AI-related shares already under pressure, results from Apple, Palantir and AMD and a US jobs report may shape sentiment, and election results can move rate and sector expectations.",
+        "sources": [
+          {
+            "label": "TradingKey: Week ahead 2–6 Nov",
+            "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262262871-us-midterm-elections-october-jobs-report-apple-palantir-amd-earnings-tradingkey"
+          },
+          {
+            "label": "AP via WSLS: Asian shares, 2 Nov",
+            "url": "https://www.wsls.com/business/2026/11/02/asian-shares-mostly-advance-but-tech-stocks-remain-volatile-while-oil-sinks-33/"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−4.2% (Close 30 Oct)",
+        "note": "Shares fell with the wider chip sell-off after Intel's weak outlook, while AMD lost 10.9% and the semiconductor index about 7.2%. No Nvidia-specific news was reported for the day.",
+        "sources": [
+          {
+            "label": "AP via STL.news: Wall Street sinks on AI fears",
+            "url": "https://www.stl.news/stock-market-today-wall-street-sinks-on-ai-fears/"
+          }
+        ]
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "change": "more than −6% (30 Oct, European close)",
+        "note": "The Dutch chip-equipment maker fell more than 6% on Friday, as semiconductor stocks across Europe weakened. dpa-AFX gave no company-specific reason.",
+        "sources": [
+          {
+            "label": "ARIVA / dpa-AFX: Europe close",
+            "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-verluste-im-sog-weltweiter-12189235"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "No significant news"
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-02",
+        "time": "16:00",
+        "event": "US ISM Manufacturing PMI (October)",
+        "why": "A gauge of factory activity that feeds into growth and inflation expectations."
+      },
+      {
+        "date": "2026-11-02",
+        "time": "after US close",
+        "event": "Apple (fiscal Q4) and Palantir (Q3) results",
+        "why": "Two heavily followed US technology companies at a time of AI-spending worries."
+      },
+      {
+        "date": "2026-11-03",
+        "time": "",
+        "event": "US midterm elections",
+        "why": "The result could influence expectations on fiscal policy and regulation."
+      },
+      {
+        "date": "2026-11-03",
+        "time": "16:00",
+        "event": "US JOLTS job openings (September)",
+        "why": "Shows how many jobs employers are looking to fill."
+      },
+      {
+        "date": "2026-11-03",
+        "time": "after US close",
+        "event": "AMD results (fiscal Q3)",
+        "why": "AMD fell 10.9% on Friday, so its outlook is closely watched in the chip sector."
+      },
+      {
+        "date": "2026-11-04",
+        "time": "16:00",
+        "event": "US ISM Services PMI (October)",
+        "why": "Covers the larger part of the US economy."
+      },
+      {
+        "date": "2026-11-04",
+        "time": "after US close",
+        "event": "Qualcomm and Arm results",
+        "why": "More read-across on chip demand."
+      },
+      {
+        "date": "2026-11-05",
+        "time": "after US close",
+        "event": "Cloudflare and Airbnb results",
+        "why": "Technology and consumer-travel read-across."
+      },
+      {
+        "date": "2026-11-06",
+        "time": "14:30",
+        "event": "US employment report (October)",
+        "why": "Payrolls and wages influence expectations for Fed interest rates."
+      }
+    ],
+    "learn": {
+      "term": "Market correction",
+      "explanation": "A correction is usually defined as a fall of 10% or more from a recent high in an index or share price. It is smaller than a bear market, often defined as a fall of 20% or more, and corrections happen fairly regularly in long-run market history. One market digest said the Nasdaq 100 had moved into correction territory after Friday's chip sell-off, while the broader S&P 500 was down 1.82% on the day. For long-term investors, the term is just a label for a size of decline; it does not say whether prices will fall further or recover."
+    }
+  },
+  {
     "date": "2026-10-30",
     "headline": "Alphabet's worst day on record weighs on Wall Street, while the DAX closes above 26,000 after the ECB holds",
     "intro": "European shares ended Thursday higher after the ECB left rates unchanged, but Wall Street fell as Alphabet had its worst trading day since it listed. Asian markets are weaker this morning, with South Korea's Kospi down almost 4%, and Amazon and Intel dropped after hours on their results.",
