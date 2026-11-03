@@ -1,6 +1,369 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-03",
+    "headline": "Tech shares slip again on AI worries despite a firmer DAX on Monday; midterm elections and a heavy earnings day ahead",
+    "intro": "The DAX closed Monday just short of 26,000 points, helped by lower oil prices, but US tech shares fell again and early indications this morning point to a weaker Xetra start. Investors are also waiting for the US midterm elections today and for Apple's and Palantir's latest results.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "25,981.09",
+        "change": "+0.63%",
+        "asOf": "Close 2 Nov (IG indication this morning: about 25,781, −0.8%)",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close 2 Nov",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-legt-zu-vor-apple-und-12191436"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "30,855.37",
+        "change": "+1.26%",
+        "asOf": "Close 2 Nov",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close 2 Nov",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-legt-zu-vor-apple-und-12191436"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "6,176.06",
+        "change": "+0.73%",
+        "asOf": "Close 2 Nov",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close 2 Nov",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-legt-zu-vor-apple-und-12191436"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "level not available",
+        "change": "−0.5%",
+        "asOf": "Close 2 Nov (AP; closed lower after being up 1.1% earlier)",
+        "source": {
+          "label": "AP via WSLS: Asian shares, 3 Nov",
+          "url": "https://www.wsls.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "level not available",
+        "change": "−1.1%",
+        "asOf": "Close 2 Nov (AP)",
+        "source": {
+          "label": "AP via WSLS: Asian shares, 3 Nov",
+          "url": "https://www.wsls.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,983.98",
+        "change": "+0.41%",
+        "asOf": "Close 2 Nov (Yahoo Finance)",
+        "source": {
+          "label": "Yahoo Finance: Stock market today, 2 Nov",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "closed",
+        "change": "not available",
+        "asOf": "3 Nov: Tokyo exchange closed for a public holiday",
+        "source": {
+          "label": "AP via WSLS: Asian shares, 3 Nov",
+          "url": "https://www.wsls.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/"
+        }
+      },
+      {
+        "name": "Kospi",
+        "value": "5,712.57",
+        "change": "−2.5%",
+        "asOf": "3 Nov, Asian session (AP)",
+        "source": {
+          "label": "AP via WSLS: Asian shares, 3 Nov",
+          "url": "https://www.wsls.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.1188",
+        "change": "almost unchanged",
+        "asOf": "3 Nov, early Asian session (AP)",
+        "source": {
+          "label": "AP via WSLS: Asian shares, 3 Nov",
+          "url": "https://www.wsls.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$104.77",
+        "change": "−7.6%",
+        "asOf": "Close 2 Nov (AP); $104.81 early 3 Nov",
+        "source": {
+          "label": "AP via WSLS: Asian shares, 3 Nov",
+          "url": "https://www.wsls.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "$3,907.08",
+        "change": "+0.71%",
+        "asOf": "Ticker shown 2 Nov morning (CET); single source, not a close",
+        "source": {
+          "label": "wallstreet-online: Nasdaq bricht ein, DAX hält",
+          "url": "https://wallstreet-online.de/nachricht/21619152-nasdaq-bricht-ein-dax-haelt-abend-tech-aktien-spiel"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "approx. $78,260",
+        "change": "+0.6%",
+        "asOf": "2 Nov, around 08:18 CET (single source)",
+        "source": {
+          "label": "wallstreet-online: Nasdaq bricht ein, DAX hält",
+          "url": "https://wallstreet-online.de/nachricht/21619152-nasdaq-bricht-ein-dax-haelt-abend-tech-aktien-spiel"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close 2 Nov",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-legt-zu-vor-apple-und-12191436"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "4.89%",
+        "change": "−0.04 pt",
+        "asOf": "Yahoo Finance quote widget, 2 Nov; snapshot time not stated",
+        "source": {
+          "label": "Yahoo Finance: Stock market today, 2 Nov",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "US tech slips again, and the DAX is indicated lower this morning",
+        "summary": "On Monday the S&P 500 fell about 0.5% after being up 1.1% earlier in the day, and the Nasdaq Composite lost 1.1%, while the Dow rose 0.4%, according to AP. Oracle dropped about 5% after announcing a $20 billion capital raise, Yahoo Finance reports. The semiconductor index SOX is at its lowest since May, and dpa-AFX says Barclays sees a string of disappointing AI-related news from Alphabet, Amazon and Intel as a reason for the losses. IG Markets put the DAX about 0.8% lower at 25,781 roughly two and a half hours before the Xetra open, and Korea's Kospi fell 2.5%.",
+        "whyItMatters": "Technology and chip companies carry large weights in global indices, so continued pressure on them can weigh on broad index funds even when other sectors hold up.",
+        "sources": [
+          {
+            "label": "Yahoo Finance: Stock market today, 2 Nov",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
+          },
+          {
+            "label": "ARIVA / dpa-AFX: DAX-FLASH 3 Nov",
+            "url": "https://www.ariva.de/news/dax-flash-rueckschlag-nach-neuerlicher-schwaeche-in-den-usa-12191860"
+          }
+        ]
+      },
+      {
+        "title": "Oil drops about 7.6% on hopes of Iran diplomacy",
+        "summary": "Brent crude settled at $104.77 on Monday, down 7.6%, and was roughly flat at $104.81 early today, AP reports. dpa-AFX links the move to a report on US diplomatic efforts in the Iran conflict, which also helped travel shares such as Tui and Lufthansa. In the US, United Airlines gained 4.8% and Carnival 4.2%. Traders have been reacting to news on the Strait of Hormuz for days, so the price remains volatile.",
+        "whyItMatters": "Lower energy costs ease pressure on inflation and on fuel-heavy industries, but if talks stall the move could reverse quickly.",
+        "sources": [
+          {
+            "label": "AP via WSLS: Asian shares, 3 Nov",
+            "url": "https://www.wsls.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/"
+          },
+          {
+            "label": "ARIVA / dpa-AFX: Frankfurt close 2 Nov",
+            "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-legt-zu-vor-apple-und-12191436"
+          }
+        ]
+      },
+      {
+        "title": "Apple: record revenue, but a lower margin outlook",
+        "summary": "For its fiscal fourth quarter Apple reported revenue of $114.48 billion, up 12%, and earnings per share of $2.10, both above analyst estimates, according to a KuCoin news flash. iPhone sales were $57.58 billion and services reached a record $31.57 billion. The company guided gross margin for the December quarter to 45–46%, down from 47.9%, with rising memory-chip costs cited as a factor. The shares fell as much as 4.4% during the call and recovered part of that in extended trading.",
+        "whyItMatters": "Memory-chip prices are rising as AI data centres absorb supply, which can squeeze the margins of device makers even when sales are strong.",
+        "sources": [
+          {
+            "label": "KuCoin news flash: Apple results",
+            "url": "https://www.kucoin.com/news/flash/apple-reports-record-revenue-but-stock-falls-amid-margin-concerns"
+          }
+        ]
+      },
+      {
+        "title": "Palantir beats estimates and raises its full-year outlook",
+        "summary": "Palantir reported third-quarter revenue of about $2.3 billion, up 96% from a year earlier, and earnings per share of $0.44, above the $0.41 analysts expected, according to Fortune. It raised its 2026 revenue guidance to $8.53–8.534 billion and guided fourth-quarter revenue to $2.64–2.65 billion. US commercial revenue grew 148% and surpassed US government revenue for the first time. Shares rose about 1.5% after hours at first, but Fortune says they later fell in the broader tech selloff.",
+        "whyItMatters": "Strong growth did not fully protect the shares, which shows how sensitive investors currently are to AI-related valuations.",
+        "sources": [
+          {
+            "label": "Fortune: Palantir Q3 results",
+            "url": "https://fortune.com/2026/11/02/palantir-q3-results-stock-ai-trade-selloff/"
+          }
+        ]
+      },
+      {
+        "title": "DAX ends Monday higher; Rheinmetall slips, Aixtron gains",
+        "summary": "The DAX closed 0.63% higher at 25,981.09 after briefly regaining 26,000, and the MDAX gained 1.26%. Infineon rose almost 3% as tech stocks recovered earlier in the day, while Rheinmetall fell 3.6% after a media report about a delayed large order for Boxer vehicles, according to traders quoted by dpa-AFX. Aixtron gained almost 4% after a buy recommendation from Kepler Cheuvreux, and Init Innovation fell more than 20% after cutting its 2026 profit forecast.",
+        "whyItMatters": "Single-stock moves like these show that earnings guidance and analyst views can matter more for individual shares than the index direction.",
+        "sources": [
+          {
+            "label": "ARIVA / dpa-AFX: Frankfurt close 2 Nov",
+            "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-legt-zu-vor-apple-und-12191436"
+          }
+        ]
+      },
+      {
+        "title": "Today: US midterm elections and a busy German earnings morning",
+        "summary": "The US midterm elections take place today. In Europe, Lufthansa, Evonik, Zalando, TeamViewer and FMC report at 07:00 CET and Bayer at 07:30, while BioNTech and Pfizer report around midday and AMD after the US close, according to the dpa-AFX calendar. Evonik's report follows last week's rejection of BASF's approach. Tokyo is closed for a holiday.",
+        "whyItMatters": "Election outcomes can shift expectations on fiscal policy and regulation, and a dense day of results gives fresh data on consumer demand, chemicals and travel.",
+        "sources": [
+          {
+            "label": "ARIVA / dpa-AFX: Tagesvorschau 3 Nov",
+            "url": "https://www.ariva.de/news/tagesvorschau-termine-am-3-november-2026-12191333"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−1.3% (Close 2 Nov)",
+        "note": "Shares gave up an early gain of 2.6% and ended lower with the wider tech sector, AP reports. No Nvidia-specific news was reported.",
+        "sources": [
+          {
+            "label": "AP via WSLS: Asian shares, 3 Nov",
+            "url": "https://www.wsls.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street/"
+          }
+        ]
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "No significant news"
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-03",
+        "time": "07:00",
+        "event": "Lufthansa, Evonik, Zalando, TeamViewer, FMC: Q3 results",
+        "why": "Results from travel, chemicals and retail names; Evonik is in focus after rejecting BASF's approach."
+      },
+      {
+        "date": "2026-11-03",
+        "time": "07:30",
+        "event": "Bayer: Q3 results",
+        "why": "A large DAX company with a recent court win in a glyphosate case."
+      },
+      {
+        "date": "2026-11-03",
+        "time": "",
+        "event": "US midterm elections",
+        "why": "The result could influence expectations on fiscal policy and regulation."
+      },
+      {
+        "date": "2026-11-03",
+        "time": "12:45",
+        "event": "BioNTech, Pfizer: Q3 results",
+        "why": "Read-across for the pharma and biotech sector."
+      },
+      {
+        "date": "2026-11-03",
+        "time": "22:15",
+        "event": "AMD: Q3 results",
+        "why": "AMD fell sharply last Friday, so its outlook is closely watched in the chip sector."
+      },
+      {
+        "date": "2026-11-04",
+        "time": "07:30",
+        "event": "BMW and Continental results",
+        "why": "Gauge of demand and costs in the German auto sector."
+      },
+      {
+        "date": "2026-11-04",
+        "time": "11:00",
+        "event": "Eurozone inflation, flash estimate",
+        "why": "Informs expectations for ECB policy."
+      },
+      {
+        "date": "2026-11-04",
+        "time": "after US close",
+        "event": "Qualcomm and Arm results (22:05 / 22:30)",
+        "why": "More read-across on chip demand."
+      },
+      {
+        "date": "2026-11-05",
+        "time": "07:00",
+        "event": "Deutsche Telekom, Commerzbank, DHL results; Rheinmetall at 07:30",
+        "why": "Several large DAX names report on the same morning."
+      },
+      {
+        "date": "2026-11-05",
+        "time": "13:00",
+        "event": "Bank of England rate decision",
+        "why": "A major central bank decision for sterling and global yields."
+      },
+      {
+        "date": "2026-11-05",
+        "time": "14:30",
+        "event": "US GDP, Q3 first estimate",
+        "why": "Shows how fast the US economy grew in the third quarter."
+      },
+      {
+        "date": "2026-11-06",
+        "time": "14:30",
+        "event": "US employment report (October)",
+        "why": "Influences expectations for Federal Reserve policy."
+      },
+      {
+        "date": "2026-11-09",
+        "time": "07:00",
+        "event": "UniCredit and Hannover Re results",
+        "why": "Bank and reinsurance read-across."
+      },
+      {
+        "date": "2026-11-10",
+        "time": "14:30",
+        "event": "US consumer price inflation (October)",
+        "why": "A key inflation reading for the Fed."
+      },
+      {
+        "date": "2026-11-10",
+        "time": "07:30",
+        "event": "Infineon annual figures and Henkel results",
+        "why": "Infineon fell sharply on Friday, so its outlook is watched."
+      }
+    ],
+    "learn": {
+      "term": "Gross margin",
+      "explanation": "Gross margin is the share of revenue left after subtracting the direct costs of making a product, shown as a percentage. If a company sells goods for $100 and the production costs are $55, the gross margin is 45%. Apple's guidance of 45–46% for the December quarter, down from 47.9%, shows how higher memory-chip costs can reduce what is left from each sale even when revenue grows. Margins are one of the first things investors compare between quarters."
+    }
+  },
+  {
     "date": "2026-11-02",
     "headline": "Intel's worst day since 1974 and a chip rout hit Wall Street; DAX ends a strong week on a weaker note",
     "intro": "Technology shares fell sharply on Friday as weak outlooks from Intel and Amazon revived worries about AI spending, and European markets followed lower. This morning Asia is mixed and oil has pulled back, with Apple and Palantir reporting after the close and the US midterm elections on Tuesday.",

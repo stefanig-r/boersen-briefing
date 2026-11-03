@@ -1,6 +1,6 @@
 // Market Briefing – basics. The daily task only adds glossary terms.
 window.MARKET_BRIEFING_BASICS = {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "principles": [
     {"title": "Not investment advice", "text": "The briefing explains what happened and why it may matter. It never tells you what to buy or sell."},
     {"title": "Prices are not live", "text": "Every number has a timestamp and may be out of date. Always check the current price with your bank or broker before deciding anything."},
@@ -159,6 +159,7 @@ window.MARKET_BRIEFING_BASICS = {
     }
   },
   "glossary": [
+    {"term": "Gross margin", "def": "The share of revenue left after the direct costs of making a product, shown as a percentage. A falling gross margin means each sale leaves less money to cover other costs and profit.", "added": "2026-11-03"},
     {"term": "Market correction", "def": "A fall of roughly 10% or more from a recent high in an index or share price. It is a label for the size of the decline and says nothing about what happens next.", "added": "2026-11-02"},
     {"term": "Nonfarm payrolls", "def": "The monthly US report on how many jobs were added outside agriculture. Markets watch it closely because it influences expectations for Fed interest rates.", "added": "2026-11-02"},
     {"term": "Safe-haven asset", "def": "An asset such as government bonds or gold that investors tend to buy in uncertain times because it has often held its value better than shares.", "added": "2026-10-30"},
