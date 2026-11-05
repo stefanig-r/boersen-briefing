@@ -1,6 +1,395 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-05",
+    "headline": "Dow posts its best day in over a year after Democrats win Congress, while chip shares fall; eurozone inflation hits 4%",
+    "intro": "Investors cheered the US midterm result and a sharp drop in oil, sending the DAX to 26,437.67 and Wall Street's Dow up about 3%. Chip and AI-related shares were the exception, with Asian chipmakers falling again this morning after weak Qualcomm and Arm updates.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "26,437.67",
+        "change": "+2.22%",
+        "asOf": "Close 4 Nov; intraday high was about 78 points below the late-August record",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close 4 Nov",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-naehert-sich-nach-12195046"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "31,178.27",
+        "change": "+1.41%",
+        "asOf": "Close 4 Nov",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close 4 Nov",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-naehert-sich-nach-12195046"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "6,265.71",
+        "change": "just under +2%",
+        "asOf": "Close 4 Nov",
+        "source": {
+          "label": "ARIVA / dpa-AFX: Frankfurt close 4 Nov",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-naehert-sich-nach-12195046"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,688.62",
+        "change": "+1.6%",
+        "asOf": "Close 4 Nov",
+        "source": {
+          "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "25,736.51",
+        "change": "+1.4%",
+        "asOf": "Close 4 Nov",
+        "source": {
+          "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "53,356.12",
+        "change": "+3.0%",
+        "asOf": "Close 4 Nov; best day since 9 April 2025 per StockTitan",
+        "source": {
+          "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "61,914.53",
+        "change": "−0.5%",
+        "asOf": "5 Nov, Asian session (AP, late morning)",
+        "source": {
+          "label": "AP via News4Jax: Asian shares, 5 Nov",
+          "url": "https://www.news4jax.com/business/2026/11/05/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/"
+        }
+      },
+      {
+        "name": "Hang Seng",
+        "value": "24,597.59",
+        "change": "+2.8%",
+        "asOf": "5 Nov, Asian session (AP)",
+        "source": {
+          "label": "AP via News4Jax: Asian shares, 5 Nov",
+          "url": "https://www.news4jax.com/business/2026/11/05/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/"
+        }
+      },
+      {
+        "name": "Kospi",
+        "value": "5,484.38",
+        "change": "−3.5%",
+        "asOf": "5 Nov, late morning (AP); briefly down more than 4%",
+        "source": {
+          "label": "AP via News4Jax: Asian shares, 5 Nov",
+          "url": "https://www.news4jax.com/business/2026/11/05/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.1256",
+        "change": "up from 1.1228",
+        "asOf": "5 Nov, Asian session (AP)",
+        "source": {
+          "label": "AP via News4Jax: Asian shares, 5 Nov",
+          "url": "https://www.news4jax.com/business/2026/11/05/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$93.91",
+        "change": "−0.8%",
+        "asOf": "Early 5 Nov (AP); fell 8.7% to $94.62 on 4 Nov",
+        "source": {
+          "label": "AP via News4Jax: Asian shares, 5 Nov",
+          "url": "https://www.news4jax.com/business/2026/11/05/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "$4,145.90",
+        "change": "+1.79%",
+        "asOf": "Yahoo Finance snapshot 4 Nov (no exact time shown); not a verified close",
+        "source": {
+          "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "$80,678.54",
+        "change": "+5.64%",
+        "asOf": "Yahoo Finance snapshot 4 Nov (no exact time shown)",
+        "source": {
+          "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved",
+        "source": {
+          "label": "FatTail: Euro zone inflation 4%",
+          "url": "https://fattail.ai/euro-zone-inflation-4pct-ecb-december/"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "4.894%",
+        "change": "−0.058 points",
+        "asOf": "Yahoo Finance snapshot 4 Nov (no exact time shown)",
+        "source": {
+          "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Democrats win Congress; Dow has its best day since April 2025",
+        "summary": "Democrats took both the Senate and the House in the US midterms, which Reuters said eased political uncertainty. The Dow rose 1,569 points, or 3%, to 53,356.12, the S&P 500 gained 1.6% and the Nasdaq Composite 1.4%, with all but two S&P sectors higher. In Frankfurt, dpa-AFX quoted a Dekabank strategist who read the result as a sign that US policy cannot be pushed through without limits, raising hopes for a milder foreign policy. Consumer-related shares led, while defence and energy stocks fell.",
+        "whyItMatters": "A divided Congress makes sweeping new laws harder, which many investors read as lower policy risk. Moves after a single event can fade quickly, so the details of the final seat count and later policy signals will matter more.",
+        "sources": [
+          {
+            "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+          },
+          {
+            "label": "ARIVA / dpa-AFX: Frankfurt close 4 Nov",
+            "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-naehert-sich-nach-12195046"
+          }
+        ]
+      },
+      {
+        "title": "Oil slides 8.7% on hopes of an easier stance in the Iran war",
+        "summary": "Brent crude fell 8.7% on Wednesday to $94.62, its lowest in about two months, and was slightly lower again this morning at $93.91, according to AP. Traders linked the drop to the idea that a Democratic Congress could push the White House to scale back the war with Iran. US energy stocks fell, with Reuters reporting a 4.8% drop for the S&P 500 energy sector, and defence names such as Lockheed Martin and Northrop Grumman declined on concerns about future military spending. Lower oil also supported European shares, dpa-AFX said.",
+        "whyItMatters": "High energy prices have been feeding inflation and weighing on consumers, so a lasting fall in oil would ease pressure on central banks. Oil has been very volatile on war headlines, though, and one day does not make a trend.",
+        "sources": [
+          {
+            "label": "AP via News4Jax: Asian shares, 5 Nov",
+            "url": "https://www.news4jax.com/business/2026/11/05/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/"
+          },
+          {
+            "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+          }
+        ]
+      },
+      {
+        "title": "Chip and AI shares fall again; Qualcomm and Arm disappoint",
+        "summary": "The Philadelphia semiconductor index lost 3.1% to a six-month low, and data-centre operators such as Hut 8 and IREN dropped sharply on fears of tighter AI regulation under a Democratic Congress. After the US close, Qualcomm reported revenue of $10.32 billion, but smartphone-chip sales fell 26% and it forecast a flat handset market for 2027; its shares fell more than 6% after hours, according to Seoul Economic Daily. Arm beat estimates but gave a revenue outlook some brokers had hoped to be higher. In Asia, Samsung Electronics lost 5.7%, SK Hynix 7.4%, and Tokyo Electron 7.7%. In Frankfurt, Infineon and Siemens Energy fell by up to 8%.",
+        "whyItMatters": "Chip and AI companies carry large weights in global equity indices and ETFs, so they can drag broad funds even on days when most other sectors rise. The market appears to be weighing both regulation risk and doubts about how quickly AI spending pays off.",
+        "sources": [
+          {
+            "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+          },
+          {
+            "label": "Seoul Economic Daily: Qualcomm, Arm shares slide",
+            "url": "https://en.sedaily.com/international/2026/11/05/qualcomm-arm-shares-slide-as-smartphone-slump-bites"
+          },
+          {
+            "label": "AP via News4Jax: Asian shares, 5 Nov",
+            "url": "https://www.news4jax.com/business/2026/11/05/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/"
+          }
+        ]
+      },
+      {
+        "title": "Eurozone inflation climbs to 4.0%, a three-year high",
+        "summary": "Flash estimates for October put eurozone inflation at 4.0%, up from 3.8% in September, with energy prices up 20.8% from a year earlier. Core inflation, which excludes energy, food, alcohol and tobacco, stayed at 2.5%, and services inflation edged up to 3.3%. FatTail, summarising Eurostat data, says the ECB held its deposit rate at 2.50% on 29 October after hikes in June and September, with its next meeting on 16–17 December. The same source, citing Reuters, says markets expect two to three more ECB hikes over the coming year, an expectation we could not confirm independently.",
+        "whyItMatters": "Higher inflation raises the odds of further rate rises, which tends to weigh on bond prices and on shares valued on distant profits. The stable core rate suggests the jump is mainly energy-driven, which could ease if oil stays lower.",
+        "sources": [
+          {
+            "label": "FatTail: Euro zone inflation 4%",
+            "url": "https://fattail.ai/euro-zone-inflation-4pct-ecb-december/"
+          }
+        ]
+      },
+      {
+        "title": "German earnings: Heidelberg Materials, Continental and BMW rise",
+        "summary": "Heidelberg Materials gained 9.6% to its highest since July, with DZ Bank pointing to faster cement growth and the German infrastructure programme. Continental rose 5.2% after raising its profit forecast, which a Citi analyst called rare in the car industry. BMW added 5.5% despite a profit warning, helped by hopes of milder US tariffs lifting European carmakers. Scout24 gained about 6.7% after results.",
+        "whyItMatters": "Results are showing the German economy's cyclical and infrastructure-related areas holding up better than headlines on inflation might suggest. Single-day reactions to earnings can reverse, so guidance over several quarters is the more useful signal.",
+        "sources": [
+          {
+            "label": "ARIVA / dpa-AFX: Frankfurt close 4 Nov",
+            "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-naehert-sich-nach-12195046"
+          }
+        ]
+      },
+      {
+        "title": "US private payrolls rise by 86,000 in October",
+        "summary": "ADP reported that US private employers added 86,000 jobs in October, in line with September's revised figure and above the 75,000 expected by economists polled by Dow Jones, according to CNBC as relayed by StockTitan. Treasury yields fell on Wednesday, with the 10-year yield at about 4.89% in a Yahoo Finance snapshot. The official US employment report follows on Friday.",
+        "whyItMatters": "Steady hiring supports the case that the US economy is still growing, while the Federal Reserve weighs further rate action. ADP often differs from the official government figures, so Friday's report is the more important test.",
+        "sources": [
+          {
+            "label": "StockTitan: Stock market today, 4 Nov",
+            "url": "https://stocktitan.net/articles/stock-market-today-live-november-4-2026"
+          },
+          {
+            "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "change": "+6.7% (close 4 Nov)",
+        "note": "Microsoft was among the biggest gainers as large technology platforms rallied with Amazon and Alphabet, Reuters reports. No company-specific news was reported.",
+        "sources": [
+          {
+            "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+          }
+        ]
+      },
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "note": "The shares fell on Wednesday along with other chip stocks, according to StockTitan; the Philadelphia semiconductor index lost 3.1%. No Nvidia-specific news was reported.",
+        "sources": [
+          {
+            "label": "Yahoo Finance (Reuters): Wall Street close, 4 Nov",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-index-futures-steady-083456013.html"
+          },
+          {
+            "label": "StockTitan: Stock market today, 4 Nov",
+            "url": "https://stocktitan.net/articles/stock-market-today-live-november-4-2026"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news. Annual results are due on 12 November; Siemens CEO Roland Busch is also listed for a Deutsche Telekom AI-infrastructure press event on 9 November.",
+        "sources": [
+          {
+            "label": "Deutsche Börse / dpa-AFX: Wochenvorschau bis 13 Nov 2026",
+            "url": "https://live.deutsche-boerse.com/nachrichten/WOCHENVORSCHAU-Termine-bis-13-November-2026-8f37e740-d665-411b-b47a-bfdf89be2552"
+          }
+        ]
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news. Q3 results are due on 12 November.",
+        "sources": [
+          {
+            "label": "Deutsche Börse / dpa-AFX: Wochenvorschau bis 13 Nov 2026",
+            "url": "https://live.deutsche-boerse.com/nachrichten/WOCHENVORSCHAU-Termine-bis-13-November-2026-8f37e740-d665-411b-b47a-bfdf89be2552"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-05",
+        "time": "06:30–07:30",
+        "event": "Q3 results: Hensoldt (06:30), Deutsche Telekom, DHL, Commerzbank, Siemens Healthineers (annual), Nordex (all 07:00), Rheinmetall and Renk (07:30)",
+        "why": "Many large German names report before the Xetra open, so single-stock moves are likely."
+      },
+      {
+        "date": "2026-11-05",
+        "time": "08:00",
+        "event": "German industrial orders (September)",
+        "why": "A read on demand for German manufacturers."
+      },
+      {
+        "date": "2026-11-05",
+        "time": "13:00",
+        "event": "Bank of England interest rate decision",
+        "why": "A major central bank decision for sterling and global yields."
+      },
+      {
+        "date": "2026-11-05",
+        "time": "14:30",
+        "event": "US GDP, Q3 first estimate",
+        "why": "Shows how fast the US economy grew in the third quarter."
+      },
+      {
+        "date": "2026-11-05",
+        "time": "22:00",
+        "event": "Airbnb and Lyft Q3 results",
+        "why": "Consumer and travel read-across after the US close."
+      },
+      {
+        "date": "2026-11-06",
+        "time": "07:00",
+        "event": "Daimler Truck Q3 results; German industrial production (08:00)",
+        "why": "Read-across for freight and industrial demand."
+      },
+      {
+        "date": "2026-11-06",
+        "time": "14:30",
+        "event": "US employment report (October)",
+        "why": "Influences expectations for Federal Reserve policy."
+      },
+      {
+        "date": "2026-11-09",
+        "time": "07:00–07:30",
+        "event": "UniCredit and Hannover Re Q3 results",
+        "why": "Bank and reinsurance read-across."
+      },
+      {
+        "date": "2026-11-10",
+        "time": "07:30",
+        "event": "Infineon annual results, plus Henkel and Uniper",
+        "why": "Infineon is a key German chip name."
+      },
+      {
+        "date": "2026-11-10",
+        "time": "14:30",
+        "event": "US consumer price inflation (October)",
+        "why": "A key inflation reading for the Fed."
+      },
+      {
+        "date": "2026-11-11",
+        "time": "07:00",
+        "event": "RWE, E.ON and Siemens Energy results",
+        "why": "Utilities and grid equipment, closely tied to AI power demand."
+      },
+      {
+        "date": "2026-11-12",
+        "time": "07:00",
+        "event": "Allianz Q3 and Siemens annual results",
+        "why": "Two watchlist companies report on the same morning."
+      }
+    ],
+    "learn": {
+      "term": "Core inflation",
+      "explanation": "Core inflation is the rise in consumer prices after removing the most volatile items, usually energy and food. Today's eurozone figure shows why it matters: headline inflation jumped to 4.0% mainly because energy prices rose 20.8%, while core inflation stayed at 2.5%. Central banks watch core inflation because it hints at whether price pressures are spreading through the wider economy or are tied to a temporary shock such as an oil spike. It can still be misleading if energy stays expensive for a long time and slowly feeds into other prices."
+    }
+  },
+  {
     "date": "2026-11-04",
     "headline": "Democrats win the US Senate and Asian tech shares slide; DAX indicated lower ahead of BMW results and eurozone inflation",
     "intro": "Early projections show a divided Washington after the US midterms, and investors in Asia sold technology shares, with Japan's Nikkei 225 falling to its lowest level since May. The DAX is indicated about half a percent lower this morning after a weak Tuesday, while US chip stocks and AMD's results were a bright spot.",

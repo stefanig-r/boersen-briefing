@@ -1,6 +1,6 @@
 // Market Briefing – basics. The daily task only adds glossary terms.
 window.MARKET_BRIEFING_BASICS = {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "principles": [
     {"title": "Not investment advice", "text": "The briefing explains what happened and why it may matter. It never tells you what to buy or sell."},
     {"title": "Prices are not live", "text": "Every number has a timestamp and may be out of date. Always check the current price with your bank or broker before deciding anything."},
@@ -159,6 +159,8 @@ window.MARKET_BRIEFING_BASICS = {
     }
   },
   "glossary": [
+    {"term":"Core inflation","def":"The rise in consumer prices excluding volatile items such as energy and food. It is used to judge whether price pressure is broad or temporary.","added":"2026-11-05"},
+    {"term":"HICP","def":"The Harmonised Index of Consumer Prices, the inflation measure Eurostat and the ECB use to compare prices across euro-area countries.","added":"2026-11-05"},
     {"term": "Market breadth", "def": "How many stocks take part in a market move. If an index rises while most of its stocks fall, breadth is called narrow.", "added": "2026-11-04"},
     {"term": "Midterm elections", "def": "US elections held halfway through a president's four-year term, in which all House seats and about a third of Senate seats are decided. The result can change how easily the president passes laws.", "added": "2026-11-04"},
     {"term": "Gross margin", "def": "The share of revenue left after the direct costs of making a product, shown as a percentage. A falling gross margin means each sale leaves less money to cover other costs and profit.", "added": "2026-11-03"},
