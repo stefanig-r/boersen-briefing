@@ -3,7 +3,7 @@
 // themes: what is moving markets, with how to get exposure in general terms and the risks.
 // analysts: notable rating/target changes from named institutions, clearly attributed.
 window.MARKET_BRIEFING_INSIGHTS = {
-  "updated": "2026-10-30",
+  "updated": "2026-11-06",
   "smallcaps": [
     {
       "week": "2026-W44",
@@ -39,6 +39,127 @@ window.MARKET_BRIEFING_INSIGHTS = {
     }
   ],
   "themes": [
+    {
+      "week": "2026-W45",
+      "title": "AI infrastructure and regulation risk",
+      "status": "Sharp sell-off",
+      "summary": "AI and chip shares fell heavily on Thursday after the Democratic midterm win raised fears of tougher rules on data centres. The S&P 500 lost about 4.4% and the Nasdaq 5.5%, and Asian chip-heavy markets fell further on Friday morning.",
+      "drivers": [
+        "Concern about restrictions or pauses on data-centre construction in some US states",
+        "Financing worries: Melius Research warned that very large share and bond issuance to fund AI spending has become a primary risk",
+        "Chip shares had already been weak earlier in the week"
+      ],
+      "exposure": "Broad world ETFs hold a large share of US technology and chip companies, so they are affected too. Semiconductor or AI-themed ETFs concentrate on this theme. Check the index, the number of holdings, the fee (TER) and how much a few large names dominate.",
+      "risks": [
+        "Concentrated themes can fall much faster than the broad market",
+        "Policy decisions are hard to predict and can change expectations quickly",
+        "Heavy sell-offs are often followed by sharp rebounds and further swings"
+      ],
+      "sources": [
+        {
+          "label": "Motley Fool: Stock Market Today, 5 Nov",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/"
+        },
+        {
+          "label": "StockTitan: Stock Market Today, 5 Nov",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026"
+        },
+        {
+          "label": "Bloomberg via swissinfo: Markets Wrap (6 Nov)",
+          "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+        },
+        {
+          "label": "TheStreet: Melius cuts Nvidia target",
+          "url": "https://www.thestreet.com/investing/stocks/melius-nvidia-target-cut-intel"
+        }
+      ]
+    },
+    {
+      "week": "2026-W45",
+      "title": "Central banks and interest rates",
+      "status": "Hiking again",
+      "summary": "The Bank of England raised Bank Rate to 4% on Thursday and expects UK inflation to approach 5% by mid-2027. Eurozone inflation reached 4.0% this week, and traders see about a 70% chance of a Fed rate rise in December, according to CME FedWatch data quoted by StockTitan.",
+      "drivers": [
+        "Energy-driven inflation",
+        "The Fed and ECB meetings in December",
+        "US jobs data today and US inflation on 10 November"
+      ],
+      "exposure": "Higher rates tend to weigh on growth shares and bond prices and can help bank earnings. Broad ETFs spread this across sectors, while bond or financial-sector ETFs react more directly. Check the index, duration of bond funds, TER and concentration.",
+      "risks": [
+        "Rate paths can change quickly with new data",
+        "Higher rates raise borrowing costs for companies and households"
+      ],
+      "sources": [
+        {
+          "label": "Bank of England: Bank Rate increased to 4%",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        },
+        {
+          "label": "FatTail: Euro zone inflation 4%",
+          "url": "https://fattail.ai/euro-zone-inflation-4pct-ecb-december/"
+        },
+        {
+          "label": "StockTitan: Stock Market Today, 5 Nov",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026"
+        }
+      ]
+    },
+    {
+      "week": "2026-W45",
+      "title": "Oil and the Middle East conflict",
+      "status": "Volatile",
+      "summary": "Oil fell 8.7% on Wednesday on hopes of an easier stance in the Iran war, then rebounded: Brent was about $100 a barrel on Friday morning in Asia, according to Bloomberg. The Bank of England describes the conflict as now in its ninth month.",
+      "drivers": [
+        "Headlines on the Iran war and any easing",
+        "Energy prices feeding into inflation",
+        "Demand worries if growth slows"
+      ],
+      "exposure": "Energy-sector or commodity ETFs follow oil more directly than broad ETFs. Commodity funds may use futures, so check how they are built, their TER and how closely they track prices.",
+      "risks": [
+        "Oil can move several percent in a day on news",
+        "Prices depend heavily on geopolitical events"
+      ],
+      "sources": [
+        {
+          "label": "AP via News4Jax: Asian shares, 5 Nov",
+          "url": "https://www.news4jax.com/business/2026/11/05/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/"
+        },
+        {
+          "label": "Bloomberg via swissinfo: Markets Wrap (6 Nov)",
+          "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+        },
+        {
+          "label": "Bank of England: Bank Rate increased to 4%",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        }
+      ]
+    },
+    {
+      "week": "2026-W45",
+      "title": "Defence stocks after Rheinmetall's forecast cut",
+      "status": "Under pressure",
+      "summary": "Rheinmetall fell about 16% on Thursday after cutting its 2026 forecast for the second time, and Renk fell too. JPMorgan cut its target and keeps a negative watch until Rheinmetall's capital markets day on 27 November.",
+      "drivers": [
+        "Delays on projects such as Boxer and artillery ammunition, as cited by JPMorgan",
+        "Capital markets day on 27 November",
+        "Order backlog and 2030 targets"
+      ],
+      "exposure": "Defence exposure is usually through single stocks or sector ETFs, which are concentrated in a few companies. Check the index, number of holdings, TER and how much one stock weighs.",
+      "risks": [
+        "Sector valuations had risen strongly, so disappointments can hit hard",
+        "Government budgets and contract timing are uncertain"
+      ],
+      "sources": [
+        {
+          "label": "finanznachrichten / dpa-AFX: Frankfurt close 5 Nov",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70049693-roundup-aktien-frankfurt-schluss-dax-rally-endet-am-rekordhoch-us-turbulenzen-016.htm"
+        },
+        {
+          "label": "Der Aktionär: JPMorgan cuts Rheinmetall target",
+          "url": "https://www.deraktionaer.de/artikel/aktien/rheinmetall-aktie-rauscht-nach-unten-jpmorgan-senkt-das-kursziel-und-nun-20434446.html"
+        }
+      ]
+    },
     {
       "week": "2026-W44",
       "title": "AI infrastructure spending",
@@ -139,6 +260,57 @@ window.MARKET_BRIEFING_INSIGHTS = {
     }
   ],
   "analysts": [
+    {
+      "week": "2026-W45",
+      "date": "2 Nov",
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "firm": "Melius Research",
+      "action": "Target cut",
+      "rating": "Buy (unchanged)",
+      "target": "$420 → $315",
+      "note": "Melius cited financing risk for the AI build-out, saying the amount of new securities needed has become the primary risk.",
+      "sources": [
+        {
+          "label": "TheStreet: Melius cuts Nvidia target",
+          "url": "https://www.thestreet.com/investing/stocks/melius-nvidia-target-cut-intel"
+        }
+      ]
+    },
+    {
+      "week": "2026-W45",
+      "date": "4 Nov",
+      "company": "Rheinmetall",
+      "ticker": "RHM",
+      "firm": "JPMorgan",
+      "action": "Target cut",
+      "rating": "Neutral (unchanged)",
+      "target": "€1,350 → €1,150",
+      "note": "JPMorgan's David Perry cited the lowered 2026 outlook and said the company's targets are probably unrealistic.",
+      "sources": [
+        {
+          "label": "Der Aktionär: JPMorgan cuts Rheinmetall target",
+          "url": "https://www.deraktionaer.de/artikel/aktien/rheinmetall-aktie-rauscht-nach-unten-jpmorgan-senkt-das-kursziel-und-nun-20434446.html"
+        }
+      ]
+    },
+    {
+      "week": "2026-W45",
+      "date": "5 Nov",
+      "company": "Commerzbank",
+      "ticker": "CBK",
+      "firm": "DZ Bank",
+      "action": "Downgrade",
+      "rating": "Buy → Hold",
+      "target": "€46 → €40",
+      "note": "DZ Bank downgraded despite a strong Q3 because the outlook for net interest income disappointed, according to dpa-AFX.",
+      "sources": [
+        {
+          "label": "finanznachrichten / dpa-AFX: Frankfurt close 5 Nov",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70049693-roundup-aktien-frankfurt-schluss-dax-rally-endet-am-rekordhoch-us-turbulenzen-016.htm"
+        }
+      ]
+    },
     {
       "week": "2026-W44",
       "date": "29 Oct",
