@@ -2,6 +2,104 @@
 window.MARKET_BRIEFING_RECAPS = [
   {
     "type": "week",
+    "id": "2026-W45",
+    "label": "Week 45 · 2–6 November 2026",
+    "headline": "Midterm rally gives way to a sharp AI and chip sell-off; the Bank of England hikes",
+    "summary": "US midterm results lifted stocks and pushed oil sharply lower early in the week, but a sell-off in AI and chip shares on Thursday wiped out the gains on Wall Street. The DAX still ended Thursday about 2% above last Friday's close, after touching a record. Figures run to Thursday's close; Friday's close is not included.",
+    "performance": [
+      {
+        "name": "DAX (to Thu 5 Nov)",
+        "weekChange": "+1.96%"
+      },
+      {
+        "name": "MDAX (to Thu 5 Nov)",
+        "weekChange": "+1.38%"
+      },
+      {
+        "name": "Euro Stoxx 50 (to Thu 5 Nov)",
+        "weekChange": "+1.63%"
+      },
+      {
+        "name": "S&P 500 (to Thu 5 Nov)",
+        "weekChange": "−2.99%"
+      },
+      {
+        "name": "Nasdaq Composite (to Thu 5 Nov)",
+        "weekChange": "−4.41%"
+      },
+      {
+        "name": "Dow Jones (to Thu 5 Nov)",
+        "weekChange": "−0.48%"
+      }
+    ],
+    "top": [
+      {
+        "title": "AI and chip shares sell off after the midterms",
+        "text": "On Thursday the S&P 500 fell about 4.4% and the Nasdaq 5.5%, their worst days since April 2025, on fears of tougher data-centre rules. Nvidia fell 9.26% and the iShares semiconductor ETF more than 12%.",
+        "sources": [
+          {
+            "label": "Motley Fool: Stock Market Today, 5 Nov",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/"
+          },
+          {
+            "label": "StockTitan: Stock Market Today, 5 Nov",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026"
+          }
+        ]
+      },
+      {
+        "title": "Midterm win for Democrats lifts markets, then reverses",
+        "text": "The Dow had its best day in over a year on Wednesday and oil fell 8.7% on hopes of an easier stance in the Iran war. Thursday's sell-off gave the Dow's gain back.",
+        "sources": [
+          {
+            "label": "AP via News4Jax: Asian shares, 5 Nov",
+            "url": "https://www.news4jax.com/business/2026/11/05/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/"
+          },
+          {
+            "label": "Motley Fool: Stock Market Today, 5 Nov",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/"
+          }
+        ]
+      },
+      {
+        "title": "Eurozone inflation climbs to 4.0%",
+        "text": "Flash inflation hit a three-year high, driven mainly by energy prices, while core inflation stayed at 2.5%.",
+        "sources": [
+          {
+            "label": "FatTail: Euro zone inflation 4%",
+            "url": "https://fattail.ai/euro-zone-inflation-4pct-ecb-december/"
+          }
+        ]
+      },
+      {
+        "title": "Bank of England raises rates to 4%",
+        "text": "The bank voted 8–1 for a quarter-point rise and expects UK inflation to approach 5% by mid-2027. It said policy is not on a pre-set path.",
+        "sources": [
+          {
+            "label": "Bank of England: Bank Rate increased to 4%, November 2026",
+            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+          }
+        ]
+      },
+      {
+        "title": "DAX reaches a record, then pulls back; Rheinmetall slumps",
+        "text": "The DAX touched about 26,693 on Thursday before closing at 26,325.01. Rheinmetall fell about 16% after another forecast cut, and Infineon lost about 8.5% with other chip names.",
+        "sources": [
+          {
+            "label": "finanznachrichten / dpa-AFX: Frankfurt close 5 Nov",
+            "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70049693-roundup-aktien-frankfurt-schluss-dax-rally-endet-am-rekordhoch-us-turbulenzen-016.htm"
+          }
+        ]
+      }
+    ],
+    "outlook": [
+      "The US jobs report today (14:30 CET) and whether Asia's heavy losses carry over to Europe.",
+      "US inflation on 10 November and Infineon's annual results the same morning.",
+      "Allianz and Siemens report on 12 November; ahead of the Fed's and ECB's December meetings."
+    ]
+  },
+  {
+    "type": "week",
     "id": "2026-W44",
     "label": "Week 44 · 26–30 October 2026",
     "headline": "Fed and ECB hold, but December hikes loom; Alphabet's slump rattles tech",

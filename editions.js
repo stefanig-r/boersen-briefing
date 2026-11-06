@@ -1,6 +1,358 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-06",
+    "headline": "AI and chip shares rout sends the S&P 500 down 4.4% and the Nasdaq down 5.5%; Nikkei and Kospi tumble; DAX ends off its record high",
+    "intro": "A sharp sell-off in AI and chip shares erased the post-election gains on Wall Street, and Asian markets fell heavily this morning. The DAX held up better, closing down 0.43% at 26,325.01 after touching a record earlier in the day.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "26,325.01",
+        "change": "−0.43%",
+        "asOf": "Close 5 Nov; intraday record of about 26,693 reversed",
+        "source": {
+          "label": "finanznachrichten / dpa-AFX: Frankfurt close 5 Nov",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70049693-roundup-aktien-frankfurt-schluss-dax-rally-endet-am-rekordhoch-us-turbulenzen-016.htm"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "30,891.56",
+        "change": "−0.92%",
+        "asOf": "Close 5 Nov",
+        "source": {
+          "label": "finanznachrichten / dpa-AFX: Frankfurt close 5 Nov",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70049693-roundup-aktien-frankfurt-schluss-dax-rally-endet-am-rekordhoch-us-turbulenzen-016.htm"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "6,231.54",
+        "change": "−0.55%",
+        "asOf": "Close 5 Nov",
+        "source": {
+          "label": "finanznachrichten / dpa-AFX: Frankfurt close 5 Nov",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70049693-roundup-aktien-frankfurt-schluss-dax-rally-endet-am-rekordhoch-us-turbulenzen-016.htm"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,353.73",
+        "change": "−4.4%",
+        "asOf": "Close 5 Nov (quote box on Motley Fool; the article text gives −4.36%); worst day since April 2025",
+        "source": {
+          "label": "Motley Fool: Stock Market Today, 5 Nov",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "24,315.00",
+        "change": "−5.5%",
+        "asOf": "Close 5 Nov (−5.52% per Motley Fool and StockTitan)",
+        "source": {
+          "label": "Motley Fool: Stock Market Today, 5 Nov",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,523.06",
+        "change": "−3.4%",
+        "asOf": "Close 5 Nov",
+        "source": {
+          "label": "Motley Fool: Stock Market Today, 5 Nov",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "level not available",
+        "change": "about −6%",
+        "asOf": "6 Nov, Asian session (Bloomberg/AP); on course for its biggest one-day loss since April 2025",
+        "source": {
+          "label": "Bloomberg via swissinfo: AI slump deepens, Markets Wrap (6 Nov)",
+          "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+        }
+      },
+      {
+        "name": "Kospi",
+        "value": "level not available",
+        "change": "fell as much as 8.8%",
+        "asOf": "6 Nov, Asian session (Bloomberg); a circuit breaker was triggered",
+        "source": {
+          "label": "Bloomberg via swissinfo: AI slump deepens, Markets Wrap (6 Nov)",
+          "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+        }
+      },
+      {
+        "name": "Hang Seng",
+        "value": "level not available",
+        "change": "−1.3%",
+        "asOf": "6 Nov, as of 2:02 p.m. Tokyo time (Bloomberg)",
+        "source": {
+          "label": "Bloomberg via swissinfo: AI slump deepens, Markets Wrap (6 Nov)",
+          "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.1198",
+        "change": "−0.2%",
+        "asOf": "6 Nov, as of 2:02 p.m. Tokyo time (Bloomberg)",
+        "source": {
+          "label": "Bloomberg via swissinfo: AI slump deepens, Markets Wrap (6 Nov)",
+          "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$100.01",
+        "change": "+1.8%",
+        "asOf": "6 Nov, Asian session (Bloomberg); after +3.9% the previous session",
+        "source": {
+          "label": "Bloomberg via swissinfo: AI slump deepens, Markets Wrap (6 Nov)",
+          "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "$4,043.96",
+        "change": "−1.1%",
+        "asOf": "Spot, 6 Nov, as of 2:02 p.m. Tokyo time (Bloomberg)",
+        "source": {
+          "label": "Bloomberg via swissinfo: AI slump deepens, Markets Wrap (6 Nov)",
+          "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "$75,588.67",
+        "change": "−0.2%",
+        "asOf": "6 Nov, as of 2:02 p.m. Tokyo time (Bloomberg)",
+        "source": {
+          "label": "Bloomberg via swissinfo: AI slump deepens, Markets Wrap (6 Nov)",
+          "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved",
+        "source": {
+          "label": "finanznachrichten / dpa-AFX: Frankfurt close 5 Nov",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70049693-roundup-aktien-frankfurt-schluss-dax-rally-endet-am-rekordhoch-us-turbulenzen-016.htm"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "4.83%",
+        "change": "little changed",
+        "asOf": "6 Nov, as of 2:02 p.m. Tokyo time (Bloomberg)",
+        "source": {
+          "label": "Bloomberg via swissinfo: AI slump deepens, Markets Wrap (6 Nov)",
+          "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Wall Street's worst day since April 2025 as the AI trade unravels",
+        "summary": "The S&P 500 fell about 4.4%, the Nasdaq Composite 5.5% and the Dow 3.4% on Thursday. Reports link the selling to fears that the Democratic midterm win could bring tougher rules on data-centre construction, which would slow the AI build-out. The Nasdaq is now more than 10% below last month's record, and the Dow gave back its election-day gain. Traders now see a lower, but still majority, chance of a December Fed rate rise (about 70%, per CME FedWatch via StockTitan).",
+        "whyItMatters": "Technology and AI-related companies carry a large weight in US indices, so a fall in a few names moves the whole market. It is a reminder that policy shifts can quickly reprice growth expectations.",
+        "sources": [
+          {
+            "label": "Motley Fool: Stock Market Today, 5 Nov",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/"
+          },
+          {
+            "label": "StockTitan: Stock Market Today, 5 Nov",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026"
+          }
+        ]
+      },
+      {
+        "title": "Chip shares plunge: Nvidia down 9%, AMD and Micron down more than 17%",
+        "summary": "Nvidia closed 9.26% lower at $181.60, wiping out its 2026 gain, according to StockTitan. AMD lost 17.26% and Micron 17.46%, and the iShares semiconductor ETF fell by more than 12%, its worst day since March 2020 (CNBC, quoted by StockTitan). Bloomberg says the Philadelphia semiconductor index is down almost 16% this week. UBS strategists were quoted as saying around 30% of data-centre additions expected in 2028 are now at risk.",
+        "whyItMatters": "The move shows how concentrated market gains had become in a narrow group of AI-linked shares. For long-term investors holding broad index funds, such names make up a meaningful part of the portfolio.",
+        "sources": [
+          {
+            "label": "StockTitan: Stock Market Today, 5 Nov",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026"
+          },
+          {
+            "label": "Bloomberg via swissinfo: AI slump deepens, Markets Wrap (6 Nov)",
+            "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+          }
+        ]
+      },
+      {
+        "title": "Asia tumbles: Nikkei down about 6%, Kospi hits a circuit breaker",
+        "summary": "Japan's Nikkei fell around 6% and was heading for its biggest one-day drop since April 2025, while South Korea's Kospi dropped as much as 8.8% and triggered a trading circuit breaker, Bloomberg reports. The MSCI Asia Pacific index was down about 3.8% at one point. South Korea temporarily relaxed a collateral rule for margin loans, and Taiwan's regulator was expected to announce stabilising measures. Brent crude rose to about $100 a barrel.",
+        "whyItMatters": "Asia's large chip and electronics exporters are directly exposed to AI demand, so they react first. Authorities stepping in signals how sharp the move is, and it may set the tone for the Xetra open.",
+        "sources": [
+          {
+            "label": "Bloomberg via swissinfo: AI slump deepens, Markets Wrap (6 Nov)",
+            "url": "https://www.swissinfo.ch/eng/ai-slump-deepens-as-japan-slides-most-since-2025%3a-markets-wrap/92336450"
+          },
+          {
+            "label": "AP via News4Jax: Nikkei tumbles after Wall Street drop (6 Nov)",
+            "url": "https://www.news4jax.com/business/2026/11/06/japans-stock-benchmark-nikkei-tumbles-more-than-6-after-trading-opens/"
+          }
+        ]
+      },
+      {
+        "title": "DAX closes lower after touching a record high; Infineon and Rheinmetall drag",
+        "summary": "The DAX rose to about 26,693 points on Thursday, a new record, before reversing on the turmoil in New York and closing at 26,325.01 (−0.43%). Infineon fell about 8.5% with other AI-related chip suppliers, and Siemens Energy and Hochtief also lost ground. Deutsche Telekom lost 2.1% after results; a dealer cited renewed worries about a full merger with T-Mobile US and a dividend increase that was smaller than hoped. Commerzbank fell 2.8% after DZ Bank cut it to Hold, according to dpa-AFX.",
+        "whyItMatters": "Europe fell far less than the US, partly because the sell-off came after much of the European session. A weak US close often carries over into the next morning's Xetra open.",
+        "sources": [
+          {
+            "label": "finanznachrichten / dpa-AFX: Frankfurt close 5 Nov",
+            "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70049693-roundup-aktien-frankfurt-schluss-dax-rally-endet-am-rekordhoch-us-turbulenzen-016.htm"
+          }
+        ]
+      },
+      {
+        "title": "Rheinmetall drops 16% after cutting its 2026 forecast again",
+        "summary": "Rheinmetall shares fell about 16% to their lowest level since February 2025 after the company lowered its 2026 guidance for the second time. dpa-AFX links the cut to a delayed project called Arminius. JPMorgan analyst David Perry was quoted as saying the company's strategy is not wrong but its targets are probably unrealistic. Renk also fell on the sector weakness.",
+        "whyItMatters": "It shows how a stock priced for strong growth can fall hard when targets slip. It also weighed on the defence sector, which had been a market theme this year.",
+        "sources": [
+          {
+            "label": "finanznachrichten / dpa-AFX: Frankfurt close 5 Nov",
+            "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70049693-roundup-aktien-frankfurt-schluss-dax-rally-endet-am-rekordhoch-us-turbulenzen-016.htm"
+          }
+        ]
+      },
+      {
+        "title": "Bank of England raises rates to 4% as inflation is seen near 5%",
+        "summary": "The Bank of England raised Bank Rate by 0.25 percentage points to 4% on Thursday, by an 8–1 vote; one member wanted a 0.5-point rise. The bank said inflation pressure in the pipeline is now enough to warrant a rise, and it expects UK CPI, 3.5% in September, to reach about 5% by the middle of next year. It stressed that policy is not on a pre-set path. The next decision is on 17 December.",
+        "whyItMatters": "Central banks are tightening again because of energy-driven inflation, which pushes bond yields up and weighs on valuations of growth shares.",
+        "sources": [
+          {
+            "label": "Bank of England: Bank Rate increased to 4%, November 2026",
+            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−9.26% (close 5 Nov)",
+        "note": "The shares closed at $181.60 in the chip rout, giving back their 2026 gain, according to StockTitan. No Nvidia-specific news was reported.",
+        "sources": [
+          {
+            "label": "StockTitan: Stock Market Today, 5 Nov",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026"
+          },
+          {
+            "label": "Motley Fool: Stock Market Today, 5 Nov",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "change": "about −3.6% (page snapshot, 5 Nov; not a verified close)",
+        "note": "Microsoft fell with other large technology stocks, with the quote on Motley Fool showing $535.93. No company-specific news was reported.",
+        "sources": [
+          {
+            "label": "Motley Fool: Stock Market Today, 5 Nov",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news. Annual results are due on 12 November."
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news. Q3 results are due on 12 November."
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-06",
+        "time": "06:45–08:30",
+        "event": "Q3 results: Krones (06:45), Daimler Truck (07:00), IAG (08:00), Amadeus (08:30); Airbus orders and deliveries (08:15)",
+        "why": "Industrial, airline and travel read-across before and around the Xetra open."
+      },
+      {
+        "date": "2026-11-06",
+        "time": "08:00",
+        "event": "German industrial production (September)",
+        "why": "A read on the health of German manufacturing."
+      },
+      {
+        "date": "2026-11-06",
+        "time": "14:30",
+        "event": "US employment report (October)",
+        "why": "Bloomberg Economics expects about +26,000 jobs and unemployment near 4.2%; the data feeds December Fed rate expectations."
+      },
+      {
+        "date": "2026-11-06",
+        "time": "16:00",
+        "event": "University of Michigan consumer sentiment (preliminary, November)",
+        "why": "Shows how US households feel about prices and the economy."
+      },
+      {
+        "date": "2026-11-09",
+        "time": "07:00–07:30",
+        "event": "UniCredit and Hannover Re Q3 results",
+        "why": "Bank and reinsurance read-across."
+      },
+      {
+        "date": "2026-11-10",
+        "time": "07:30",
+        "event": "Infineon annual results, plus Henkel and Uniper",
+        "why": "Infineon is a key German chip name that fell about 8.5% on Thursday."
+      },
+      {
+        "date": "2026-11-10",
+        "time": "14:30",
+        "event": "US consumer price inflation (October)",
+        "why": "A key inflation reading for the Fed."
+      },
+      {
+        "date": "2026-11-11",
+        "time": "07:00",
+        "event": "RWE, E.ON and Siemens Energy results",
+        "why": "Utilities and grid equipment, closely tied to AI power demand."
+      },
+      {
+        "date": "2026-11-12",
+        "time": "07:00",
+        "event": "Allianz Q3 and Siemens annual results",
+        "why": "Two watchlist companies report on the same morning."
+      }
+    ],
+    "learn": {
+      "term": "Concentration risk",
+      "explanation": "Concentration risk means a large part of an investment depends on a small number of companies, sectors or themes. Yesterday's rout shows it in practice: when AI and chip shares fell, whole indices dropped sharply because those shares make up a big part of them. Holding a broad, global fund spreads the risk across many companies and regions, but it does not remove it, especially when an index itself is top-heavy. Checking an index's largest holdings is a simple way to see how concentrated it is."
+    }
+  },
+  {
     "date": "2026-11-05",
     "headline": "Dow posts its best day in over a year after Democrats win Congress, while chip shares fall; eurozone inflation hits 4%",
     "intro": "Investors cheered the US midterm result and a sharp drop in oil, sending the DAX to 26,437.67 and Wall Street's Dow up about 3%. Chip and AI-related shares were the exception, with Asian chipmakers falling again this morning after weak Qualcomm and Arm updates.",
