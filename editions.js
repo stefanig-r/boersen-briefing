@@ -1,6 +1,338 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-09",
+    "headline": "Wall Street steadies after the AI rout but ends the week lower; DAX falls 2% on Friday; US jobs beat forecasts and December rate-hike odds rise",
+    "intro": "US shares recovered part of Thursday's losses on Friday as technology stocks bounced, yet all three main indices finished the week down. Germany's DAX closed about 2% lower on Friday, and a strong US jobs report kept the focus on a possible Fed rate rise in December.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "25,778",
+        "change": "−2.08%",
+        "asOf": "Close 6 Nov (list headline on Trading Economics; full article not retrievable)",
+        "source": {
+          "label": "Trading Economics: DAX Index Closes 2.08% Lower (6 Nov)",
+          "url": "https://tradingeconomics.com/germany/stock-market/news/597763"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified Friday close retrieved",
+        "source": {
+          "label": "No source retrieved",
+          "url": "https://www.boerse-frankfurt.de/"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified Friday close retrieved",
+        "source": {
+          "label": "No source retrieved",
+          "url": "https://www.boerse-frankfurt.de/"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,376.86",
+        "change": "+0.3%",
+        "asOf": "Close 6 Nov; −2.7% on the week",
+        "source": {
+          "label": "AP via La Nacion: How major US stock indexes fared Friday (6 Nov)",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1162026-nid06112026/"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "24,579.42",
+        "change": "+1.1%",
+        "asOf": "Close 6 Nov; −3.4% on the week",
+        "source": {
+          "label": "AP via La Nacion: How major US stock indexes fared Friday (6 Nov)",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1162026-nid06112026/"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,285.73",
+        "change": "−0.5%",
+        "asOf": "Close 6 Nov; −0.9% on the week",
+        "source": {
+          "label": "AP via La Nacion: How major US stock indexes fared Friday (6 Nov)",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1162026-nid06112026/"
+        }
+      },
+      {
+        "name": "Russell 2000",
+        "value": "2,754.11",
+        "change": "+0.9%",
+        "asOf": "Close 6 Nov",
+        "source": {
+          "label": "AP via La Nacion: How major US stock indexes fared Friday (6 Nov)",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1162026-nid06112026/"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Monday Asian session: no verified quote retrieved",
+        "source": {
+          "label": "No source retrieved",
+          "url": "https://www.boerse-frankfurt.de/"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved for this edition",
+        "source": {
+          "label": "No source retrieved",
+          "url": "https://www.boerse-frankfurt.de/"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$98.29",
+        "change": "+3.88%",
+        "asOf": "Settlement 5 Nov (Thursday); Friday and Monday quotes not retrieved",
+        "source": {
+          "label": "Zacks: Stock Market News for Nov 6, 2026 (covers Thursday's session)",
+          "url": "https://www.zacks.com/stock/news/3025392/stock-market-news-for-nov-6-2026"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved for this edition",
+        "source": {
+          "label": "No source retrieved",
+          "url": "https://www.boerse-frankfurt.de/"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved for this edition",
+        "source": {
+          "label": "No source retrieved",
+          "url": "https://www.boerse-frankfurt.de/"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved for this edition",
+        "source": {
+          "label": "No source retrieved",
+          "url": "https://www.boerse-frankfurt.de/"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Friday: reports say only that yields held firmer after the jobs report; no level retrieved",
+        "source": {
+          "label": "No source retrieved",
+          "url": "https://www.boerse-frankfurt.de/"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Wall Street recovers part of the rout, but all three indices lose ground on the week",
+        "summary": "The S&P 500 rose 0.3% to 7,376.86 and the Nasdaq Composite gained 1.1% to 24,579.42 on Friday, while the Dow slipped 0.5% to 51,285.73. AP says AI-related shares bounced back after Thursday's steep sell-off, and the rest of the market was mixed. For the week the S&P 500 is down 2.7%, the Nasdaq 3.4% and the Dow 0.9%. Year to date the S&P 500 is still up 7.8%.",
+        "whyItMatters": "A one-day bounce after a large fall does not by itself show that the worry has passed. It does show how quickly sentiment around AI-linked shares can swing in both directions.",
+        "sources": [
+          {
+            "label": "AP via La Nacion: How major US stock indexes fared Friday (6 Nov)",
+            "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1162026-nid06112026/"
+          },
+          {
+            "label": "Zacks: Stock Market News for Nov 6, 2026 (covers Thursday's session)",
+            "url": "https://www.zacks.com/stock/news/3025392/stock-market-news-for-nov-6-2026"
+          }
+        ]
+      },
+      {
+        "title": "Strong US jobs data raises the odds of a December Fed rate rise",
+        "summary": "US employers added 165,000 jobs in October against a forecast of 65,000, and unemployment fell to 4.1%, according to Fox Business. August and September were revised up by a combined 84,000 jobs, and average hourly earnings rose 3.1% from a year earlier. Traders now see a 76.8% chance of a 25-basis-point hike at the Fed meeting on 8–9 December, up from 66.9% a week earlier (CME FedWatch, as quoted). Analysts quoted by Fox said a hike remains firmly on the table.",
+        "whyItMatters": "Higher interest rates make borrowing more expensive and bonds more attractive, which can weigh on shares, especially growth stocks. Tuesday's US inflation report will be the next big input.",
+        "sources": [
+          {
+            "label": "Fox Business: US jobs report, October 2026",
+            "url": "https://www.foxbusiness.com/economy/us-jobs-report-october-2026"
+          }
+        ]
+      },
+      {
+        "title": "DAX drops about 2% on Friday; reinsurers and Deutsche Post fall",
+        "summary": "The DAX closed at 25,778, down 547 points or 2.08%, according to a Trading Economics headline. Deutsche Post lost 4.77%, Hannover Rück 4.50% and Munich Re 3.94%. In an intraday note, Trading Economics linked the weakness to global risk aversion and fears of tighter US AI regulation, and said Munich Re and Hannover Rück fell after JPMorgan downgrades. German industrial production for September rose 0.7%.",
+        "whyItMatters": "The fall shows that European shares are not shielded from swings in US technology sentiment. Analyst downgrades can move individual shares sharply, but they are opinions and are often later revised.",
+        "sources": [
+          {
+            "label": "Trading Economics: DAX Index Closes 2.08% Lower (6 Nov)",
+            "url": "https://tradingeconomics.com/germany/stock-market/news/597763"
+          },
+          {
+            "label": "Trading Economics: DAX Drops Over 2% (6 Nov, intraday note)",
+            "url": "https://tradingeconomics.com/germany/stock-market/news/599048"
+          }
+        ]
+      },
+      {
+        "title": "Daimler Truck falls despite a jump in quarterly profit",
+        "summary": "Daimler Truck shares fell about 4% on Friday even though the company reported a 73% rise in third-quarter operating profit and confirmed its guidance, according to an intraday Trading Economics note. Infineon rose 2.4% and Siemens Energy 1.4% at the same point of the session. The note does not explain the Daimler Truck move.",
+        "whyItMatters": "Shares can fall on good results when investors expected more or when the whole market is under pressure. Results alone rarely explain a single day's move.",
+        "sources": [
+          {
+            "label": "Trading Economics: DAX Drops Over 2% (6 Nov, intraday note)",
+            "url": "https://tradingeconomics.com/germany/stock-market/news/599048"
+          }
+        ]
+      },
+      {
+        "title": "Oil stays high on Gulf tensions",
+        "summary": "Brent crude settled at $98.29 on Thursday, up $3.67 or 3.88%, and US WTI at $90.52, Zacks reports, after declines of more than 8% on Wednesday. The reasons given were tanker attacks in the Gulf and the Iran conflict. Friday and Monday oil prices could not be verified for this edition.",
+        "whyItMatters": "High oil prices can push up inflation and raise the chance that central banks keep rates high, which affects both shares and bonds.",
+        "sources": [
+          {
+            "label": "Zacks: Stock Market News for Nov 6, 2026 (covers Thursday's session)",
+            "url": "https://www.zacks.com/stock/news/3025392/stock-market-news-for-nov-6-2026"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−9.3% (close 5 Nov)",
+        "note": "Nvidia fell 9.3% in Thursday's chip rout (Zacks). The Nasdaq rebounded 1.1% on Friday, but no verified Friday move for Nvidia was retrieved.",
+        "sources": [
+          {
+            "label": "Zacks: Stock Market News for Nov 6, 2026 (covers Thursday's session)",
+            "url": "https://www.zacks.com/stock/news/3025392/stock-market-news-for-nov-6-2026"
+          },
+          {
+            "label": "AP via La Nacion: How major US stock indexes fared Friday (6 Nov)",
+            "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1162026-nid06112026/"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "No significant news. No verified Friday price move was retrieved."
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news. Annual results are due on 12 November at 07:00.",
+        "sources": [
+          {
+            "label": "dpa-AFX Wochenvorschau: Termine bis 13 November 2026",
+            "url": "https://live.deutsche-boerse.com/nachrichten/WOCHENVORSCHAU-Termine-bis-13-November-2026-8f37e740-d665-411b-b47a-bfdf89be2552"
+          }
+        ]
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news. Q3 results are due on 12 November at 07:00, alongside Munich Re.",
+        "sources": [
+          {
+            "label": "dpa-AFX Wochenvorschau: Termine bis 13 November 2026",
+            "url": "https://live.deutsche-boerse.com/nachrichten/WOCHENVORSCHAU-Termine-bis-13-November-2026-8f37e740-d665-411b-b47a-bfdf89be2552"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-09",
+        "time": "07:00–07:30",
+        "event": "Q3 results: UniCredit (07:00), Hannover Rück and GEA (both 07:30)",
+        "why": "Hannover Rück was among Friday's biggest DAX decliners after a downgrade."
+      },
+      {
+        "date": "2026-11-09",
+        "time": "10:30",
+        "event": "Eurozone Sentix investor confidence (November)",
+        "why": "A quick read on how euro-area investors feel after the volatile week."
+      },
+      {
+        "date": "2026-11-10",
+        "time": "07:30",
+        "event": "Infineon full-year results; also Henkel and Uniper",
+        "why": "Infineon is a key German chip name, and chip shares have been the centre of the recent sell-off."
+      },
+      {
+        "date": "2026-11-10",
+        "time": "14:30",
+        "event": "US consumer price inflation (October)",
+        "why": "A key input for the Fed's December decision."
+      },
+      {
+        "date": "2026-11-11",
+        "time": "07:00",
+        "event": "RWE, E.ON and Siemens Energy results",
+        "why": "Utilities and grid equipment, tied to power demand from AI data centres."
+      },
+      {
+        "date": "2026-11-11",
+        "time": "08:00",
+        "event": "German consumer prices (October, final)",
+        "why": "Confirms the earlier inflation estimate."
+      },
+      {
+        "date": "2026-11-12",
+        "time": "07:00",
+        "event": "Allianz Q3, Siemens annual results, Munich Re Q3, Merck KGaA Q3",
+        "why": "Two watchlist companies report on the same morning."
+      },
+      {
+        "date": "2026-11-13",
+        "time": "11:00",
+        "event": "Eurozone GDP (Q3, second estimate)",
+        "why": "Shows whether the euro-area economy is growing."
+      },
+      {
+        "date": "2026-11-13",
+        "time": "14:30",
+        "event": "US producer prices (October)",
+        "why": "A gauge of price pressure at the wholesale level."
+      }
+    ],
+    "learn": {
+      "term": "Consumer price index (CPI)",
+      "explanation": "The consumer price index measures how much the prices of a typical basket of goods and services have changed, and is the most common way to track inflation. US CPI for October is due on Tuesday at 14:30 German time. Because traders already see a 76.8% chance of a Fed rate rise in December, a reading above or below forecasts can shift those odds and move shares and bond yields within minutes. Looking at the annual change and the monthly change together helps to separate a one-off jump from a trend."
+    }
+  },
+  {
     "date": "2026-11-06",
     "headline": "AI and chip shares rout sends the S&P 500 down 4.4% and the Nasdaq down 5.5%; Nikkei and Kospi tumble; DAX ends off its record high",
     "intro": "A sharp sell-off in AI and chip shares erased the post-election gains on Wall Street, and Asian markets fell heavily this morning. The DAX held up better, closing down 0.43% at 26,325.01 after touching a record earlier in the day.",
