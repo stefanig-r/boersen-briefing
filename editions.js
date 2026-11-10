@@ -1,6 +1,387 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-10",
+    "headline": "Stocks rebound strongly as oil slides on Iran hopes: DAX +1.7%, S&P 500 +2.35%; US inflation data due at 14:30 today",
+    "intro": "Shares recovered sharply on Monday after last week's AI-driven sell-off, helped by a drop in oil prices after the US president said new strikes on Iran look unlikely while talks continue. Asian markets extended the rebound on Tuesday, and attention now turns to the US October inflation report this afternoon.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "26,267.19",
+        "change": "+1.73%",
+        "asOf": "Close 9 Nov",
+        "source": {
+          "label": "dpa-AFX via finanznachrichten.de: Aktien Frankfurt Schluss (9 Nov)",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70078445-roundup-aktien-frankfurt-schluss-dax-erholt-dank-oelpreisrutsch-016.htm"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "31,072.75",
+        "change": "+1.40%",
+        "asOf": "Close 9 Nov",
+        "source": {
+          "label": "dpa-AFX via finanznachrichten.de: Aktien Frankfurt Schluss (9 Nov)",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70078445-roundup-aktien-frankfurt-schluss-dax-erholt-dank-oelpreisrutsch-016.htm"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "not available",
+        "change": "+1.9%",
+        "asOf": "At close of European trading, 9 Nov (level not retrieved)",
+        "source": {
+          "label": "dpa-AFX via finanznachrichten.de: Aktien Frankfurt Schluss (9 Nov)",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70078445-roundup-aktien-frankfurt-schluss-dax-erholt-dank-oelpreisrutsch-016.htm"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,549.94",
+        "change": "+2.35%",
+        "asOf": "Close 9 Nov; best day since 8 April (CNBC, as quoted)",
+        "source": {
+          "label": "The Wall Street Republic: Daily Market Recap (9 Nov, cites Yahoo Finance)",
+          "url": "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "25,253.14",
+        "change": "+2.74%",
+        "asOf": "Close 9 Nov",
+        "source": {
+          "label": "The Wall Street Republic: Daily Market Recap (9 Nov, cites Yahoo Finance)",
+          "url": "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,389.75",
+        "change": "+2.15%",
+        "asOf": "Close 9 Nov",
+        "source": {
+          "label": "The Wall Street Republic: Daily Market Recap (9 Nov, cites Yahoo Finance)",
+          "url": "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "60,279.37",
+        "change": "+2.6%",
+        "asOf": "Tuesday 10 Nov Asian session (AP)",
+        "source": {
+          "label": "AP via Yahoo Finance: Asian stocks rise after technology shares advance on Wall Street (10 Nov)",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rise-technology-shares-034421581.html"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.1222",
+        "change": "−0.4% (from 1.1266)",
+        "asOf": "Tuesday 10 Nov Asian session (AP quote)",
+        "source": {
+          "label": "AP via Yahoo Finance: Asian stocks rise after technology shares advance on Wall Street (10 Nov)",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rise-technology-shares-034421581.html"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$92.57",
+        "change": "−5.85%",
+        "asOf": "Settlement 9 Nov (January contract); about $91.74 in Asia on 10 Nov",
+        "source": {
+          "label": "The Wall Street Republic: Daily Market Recap (9 Nov, cites Yahoo Finance)",
+          "url": "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved for this edition",
+        "source": {
+          "label": "No source retrieved",
+          "url": "https://www.boerse-frankfurt.de/"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved for this edition",
+        "source": {
+          "label": "No source retrieved",
+          "url": "https://www.boerse-frankfurt.de/"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved for this edition",
+        "source": {
+          "label": "No source retrieved",
+          "url": "https://www.boerse-frankfurt.de/"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "4.88%",
+        "change": "+2 bp",
+        "asOf": "9 Nov, US Treasury par yield curve (as quoted)",
+        "source": {
+          "label": "The Wall Street Republic: Daily Market Recap (9 Nov, cites Yahoo Finance)",
+          "url": "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Oil slides on Iran hopes and lifts shares worldwide",
+        "summary": "Brent crude settled at $92.57 on Monday, down 5.85%, and US crude fell 4.38% to $86.85, after the US president said renewed strikes on Iran are highly unlikely while talks make progress. Dow Jones notes that Brent briefly traded below $94, its lowest level since early September. The Secretary of State, however, said no deal is in sight, so the move rests on hopes rather than an agreement. The DAX rose 1.73% to 26,267.19 and the S&P 500 gained 2.35%.",
+        "whyItMatters": "Oil feeds into fuel, transport and input costs, so a sustained fall could ease inflation worries; a reversal on Iran headlines could just as quickly push it back up.",
+        "sources": [
+          {
+            "label": "dpa-AFX via finanznachrichten.de: Aktien Frankfurt Schluss (9 Nov)",
+            "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70078445-roundup-aktien-frankfurt-schluss-dax-erholt-dank-oelpreisrutsch-016.htm"
+          },
+          {
+            "label": "Dow Jones via MarketScreener: Xetra-Schluss (9 Nov)",
+            "url": "https://de.marketscreener.com/boerse-nachrichten/xetra-schluss-dax-startet-fulminant-in-die-boersenwoche-ce785fd3df8ef220"
+          },
+          {
+            "label": "The Wall Street Republic: Daily Market Recap (9 Nov, cites Yahoo Finance)",
+            "url": "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias"
+          }
+        ]
+      },
+      {
+        "title": "Nvidia's board reviews reports about its CEO; shares fall 4.3%",
+        "summary": "Nvidia closed down 4.27% at $178.67 on Monday after its board said independent directors, with outside lawyers, will review reports that CEO Jensen Huang was the target of a foreign intelligence effort. The board said it sees no reason to believe company secrets or national security were harmed and that it has confidence in Huang. An analyst quoted by CNBC (Panmure Liberum) said the impact looks contained to Nvidia. The company reports quarterly results on 17 November.",
+        "whyItMatters": "Governance questions around the leader of the market's most closely watched AI company can weigh on sentiment, but so far the reaction looks limited to Nvidia itself, as German chip shares rose.",
+        "sources": [
+          {
+            "label": "StockTitan: Stock Market Today, 9 Nov (cites CNBC)",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-9-2026"
+          },
+          {
+            "label": "Axios: Nvidia CEO under growing scrutiny (7 Nov)",
+            "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy"
+          }
+        ]
+      },
+      {
+        "title": "AI and chip shares rebound; AMD jumps 13%",
+        "summary": "After last week's sharp falls, technology shares bounced on Monday. AMD rose 13.26% after an upgrade by Oppenheimer, and Broadcom gained 8.78%, according to StockTitan citing CNBC. Microsoft rose 2.75%. In Frankfurt, Infineon gained 6.3% and Siemens Energy 5.1%.",
+        "whyItMatters": "The size of the bounce shows how quickly sentiment around AI-linked shares can swing; one strong day does not settle the debate over data-centre spending.",
+        "sources": [
+          {
+            "label": "StockTitan: Stock Market Today, 9 Nov (cites CNBC)",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-9-2026"
+          },
+          {
+            "label": "The Wall Street Republic: Daily Market Recap (9 Nov, cites Yahoo Finance)",
+            "url": "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias"
+          },
+          {
+            "label": "dpa-AFX via finanznachrichten.de: Aktien Frankfurt Schluss (9 Nov)",
+            "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70078445-roundup-aktien-frankfurt-schluss-dax-erholt-dank-oelpreisrutsch-016.htm"
+          }
+        ]
+      },
+      {
+        "title": "Asia extends the rebound: Nikkei +2.6%, Kospi +4%",
+        "summary": "On Tuesday the Nikkei 225 rose 2.6% to 60,279.37 and South Korea's Kospi 4% to 5,219.37, led by chip names such as SK Hynix and Tokyo Electron, AP reports. The Hang Seng and Shanghai Composite gained about 0.4% each. Reuters says European futures pointed about 0.7% higher.",
+        "whyItMatters": "A strong Asian session suggests the Monday recovery is carrying over for now, which usually sets a firmer tone for the Xetra open.",
+        "sources": [
+          {
+            "label": "AP via Yahoo Finance: Asian stocks rise after technology shares advance on Wall Street (10 Nov)",
+            "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rise-technology-shares-034421581.html"
+          },
+          {
+            "label": "Reuters via Kontan: Asian stocks climb as oil prices slide ahead of US CPI (10 Nov)",
+            "url": "https://english.kontan.co.id/news/global-markets-asian-stocks-climb-as-oil-prices-slide-ahead-us-cpi"
+          }
+        ]
+      },
+      {
+        "title": "US inflation report today: traders price an 84% chance of a December Fed hike",
+        "summary": "October US consumer prices are due at 14:30 German time. Economists expect +0.3% for the headline figure and +0.2% excluding food and energy, against +0.6% and +0.3% in September, according to a market recap. Futures imply about an 84% chance of a quarter-point Fed rate rise in December, up from roughly 74% a week earlier (Reuters).",
+        "whyItMatters": "A reading far from forecasts could shift rate expectations and move shares and bond yields quickly, particularly growth stocks.",
+        "sources": [
+          {
+            "label": "The Wall Street Republic: Daily Market Recap (9 Nov, cites Yahoo Finance)",
+            "url": "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias"
+          },
+          {
+            "label": "Reuters via Kontan: Asian stocks climb as oil prices slide ahead of US CPI (10 Nov)",
+            "url": "https://english.kontan.co.id/news/global-markets-asian-stocks-climb-as-oil-prices-slide-ahead-us-cpi"
+          }
+        ]
+      },
+      {
+        "title": "DAX movers: defence and chips up, Hannover Rück down",
+        "summary": "Rheinmetall gained about 4% and Hensoldt 6.9%, rebounding after a profit warning from Rheinmetall last week. Commerzbank rose 3.9% on comments by UniCredit about a possible merger with HVB. Hannover Rück fell 1.4% despite a quarterly profit beat after JPMorgan raised questions on solvency and growth, and Hochtief lost 1.3% after ACS denied a report of a full takeover.",
+        "whyItMatters": "Single-stock moves after results or analyst comments can be large and are often partly reversed; they say little about a company's long-term value on their own.",
+        "sources": [
+          {
+            "label": "dpa-AFX via finanznachrichten.de: Aktien Frankfurt Schluss (9 Nov)",
+            "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70078445-roundup-aktien-frankfurt-schluss-dax-erholt-dank-oelpreisrutsch-016.htm"
+          },
+          {
+            "label": "Dow Jones via MarketScreener: Xetra-Schluss (9 Nov)",
+            "url": "https://de.marketscreener.com/boerse-nachrichten/xetra-schluss-dax-startet-fulminant-in-die-boersenwoche-ce785fd3df8ef220"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−4.27% (close 9 Nov)",
+        "note": "Shares fell after the board announced a review of reports about CEO Jensen Huang; the board expressed confidence in him. Quarterly results are due on 17 November.",
+        "sources": [
+          {
+            "label": "StockTitan: Stock Market Today, 9 Nov (cites CNBC)",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-9-2026"
+          },
+          {
+            "label": "The Wall Street Republic: Daily Market Recap (9 Nov, cites Yahoo Finance)",
+            "url": "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "change": "+2.75% (close 9 Nov)",
+        "note": "Microsoft rose with the broader tech rebound; no company-specific news was retrieved.",
+        "sources": [
+          {
+            "label": "The Wall Street Republic: Daily Market Recap (9 Nov, cites Yahoo Finance)",
+            "url": "https://thewallstreetrepublic.substack.com/p/the-s-and-p-500-jumps-235-as-nvidias"
+          }
+        ]
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "change": "€455.10 (9 Nov close, as quoted)",
+        "note": "Q3 figures are due on Thursday 12 November at 07:00; the shares were not mentioned in Monday's market reports.",
+        "sources": [
+          {
+            "label": "Börse Express: Allianz Aktie: Zahlen am 12. November (4 Nov)",
+            "url": "https://www.boerse-express.com/news/articles/allianz-aktie-zahlen-am-12-november-958929"
+          },
+          {
+            "label": "dpa-AFX Wochenvorschau: Termine bis 13 November 2026",
+            "url": "https://live.deutsche-boerse.com/nachrichten/WOCHENVORSCHAU-Termine-bis-13-November-2026-8f37e740-d665-411b-b47a-bfdf89be2552"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "Annual figures are due on Thursday 12 November (balance-sheet press conference 08:00); no share move was reported for Monday.",
+        "sources": [
+          {
+            "label": "dpa-AFX Wochenvorschau: Termine bis 13 November 2026",
+            "url": "https://live.deutsche-boerse.com/nachrichten/WOCHENVORSCHAU-Termine-bis-13-November-2026-8f37e740-d665-411b-b47a-bfdf89be2552"
+          }
+        ]
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "Last retrieved move: about −8% on 5 Nov during the chip sell-off, attributed to worries over data-centre spending rather than company news. No verified Monday move.",
+        "sources": [
+          {
+            "label": "TIKR: ASML sinks 8% as post-election chip rout deepens (5 Nov)",
+            "url": "https://www.tikr.com/blog/asml-sinks-8-as-post-election-chip-rout-deepens"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-10",
+        "time": "07:30",
+        "event": "Infineon annual figures; also Henkel, Uniper and Jungheinrich",
+        "why": "Infineon was a strong DAX mover on Monday and sits at the centre of the AI-chip debate."
+      },
+      {
+        "date": "2026-11-10",
+        "time": "14:30",
+        "event": "US consumer prices (CPI) for October",
+        "why": "The key input for December Fed rate-hike expectations."
+      },
+      {
+        "date": "2026-11-11",
+        "time": "07:00",
+        "event": "Q3 results: RWE, Eon; annual figures: Siemens Energy",
+        "why": "Siemens Energy rose 5.1% on Monday ahead of its results."
+      },
+      {
+        "date": "2026-11-11",
+        "time": "08:00",
+        "event": "German consumer prices, final October figure",
+        "why": "Confirms the inflation picture in Germany."
+      },
+      {
+        "date": "2026-11-12",
+        "time": "07:00",
+        "event": "Allianz Q3, Siemens annual figures, Munich Re Q3, Merck KGaA Q3",
+        "why": "Two watchlist companies and a key insurer report on the same morning."
+      },
+      {
+        "date": "2026-11-12",
+        "time": "08:00",
+        "event": "UK GDP for Q3",
+        "why": "A read on the British economy after the Bank of England's rate rise."
+      },
+      {
+        "date": "2026-11-12",
+        "time": "",
+        "event": "Applied Materials Q4 (time not listed)",
+        "why": "A chip-equipment peer of ASML; its outlook is watched for demand signals."
+      },
+      {
+        "date": "2026-11-13",
+        "time": "14:30",
+        "event": "US producer prices (PPI) for October",
+        "why": "Another inflation gauge for the Fed."
+      },
+      {
+        "date": "2026-11-13",
+        "time": "11:00",
+        "event": "Eurozone GDP Q3, second estimate",
+        "why": "Updates the growth picture for the euro area."
+      },
+      {
+        "date": "2026-11-17",
+        "time": "after US close",
+        "event": "Nvidia Q3 results (call 17:00 US Eastern time)",
+        "why": "A major test for sentiment on AI spending."
+      }
+    ],
+    "learn": {
+      "term": "Consensus estimate",
+      "explanation": "A consensus estimate is the average forecast of the analysts or economists who follow a company or a data release. Today's US inflation report is an example: economists expect +0.3% for the headline figure, and markets react less to the number itself than to how far it lands from that expectation. A company can report rising profit and still see its shares fall if the result is below consensus, as Daimler Truck showed last week. Keep in mind that consensus figures are themselves guesses and can be revised."
+    }
+  },
+  {
     "date": "2026-11-09",
     "headline": "Wall Street steadies after the AI rout but ends the week lower; DAX falls 2% on Friday; US jobs beat forecasts and December rate-hike odds rise",
     "intro": "US shares recovered part of Thursday's losses on Friday as technology stocks bounced, yet all three main indices finished the week down. Germany's DAX closed about 2% lower on Friday, and a strong US jobs report kept the focus on a possible Fed rate rise in December.",
