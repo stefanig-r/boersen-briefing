@@ -1,6 +1,361 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-11",
+    "headline": "DAX ends near its record while US shares slip on hotter inflation; Nvidia falls on lawsuit; Siemens Energy, RWE and E.ON report this morning",
+    "intro": "European shares held up on Tuesday, with the DAX closing 0.3% higher, but Wall Street slipped after US consumer prices came in above forecasts and Treasury yields touched 5%. Futures and Asian markets point to a rebound today, and the DAX was indicated about 1% higher before the open.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "26,347",
+        "change": "+0.31%",
+        "asOf": "Close 10 Nov (intraday high 26,633)",
+        "source": {
+          "label": "Der Aktionär (11 Nov)",
+          "url": "https://www.deraktionaer.de/artikel/aktien/sehr-positive-dax-prognose-siemens-energy-infineon-vw-zalando-henkel-rwe-und-eon-im-fokus-20439154.html"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "31,034",
+        "change": "−0.12%",
+        "asOf": "Close 10 Nov",
+        "source": {
+          "label": "Der Aktionär (11 Nov)",
+          "url": "https://www.deraktionaer.de/artikel/aktien/sehr-positive-dax-prognose-siemens-energy-infineon-vw-zalando-henkel-rwe-und-eon-im-fokus-20439154.html"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved",
+        "source": {
+          "label": "Der Aktionär (11 Nov)",
+          "url": "https://www.deraktionaer.de/artikel/aktien/sehr-positive-dax-prognose-siemens-energy-infineon-vw-zalando-henkel-rwe-und-eon-im-fokus-20439154.html"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,520.93",
+        "change": "−0.38%",
+        "asOf": "Close 10 Nov",
+        "source": {
+          "label": "TheStreet: Stock Market Today (10 Nov 2026)",
+          "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "25,065.88",
+        "change": "−0.74%",
+        "asOf": "Close 10 Nov",
+        "source": {
+          "label": "TheStreet: Stock Market Today (10 Nov 2026)",
+          "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,231.89",
+        "change": "−0.30%",
+        "asOf": "Close 10 Nov",
+        "source": {
+          "label": "TheStreet: Stock Market Today (10 Nov 2026)",
+          "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "about 60,940",
+        "change": "+0.8%",
+        "asOf": "Midday break, Tokyo, 11 Nov",
+        "source": {
+          "label": "investingLive: Asia midday, Nikkei up for third day (11 Nov)",
+          "url": "https://investinglive.com/stock-market-update/asia-midday-nikkei-up-for-third-day-kosdaq-jumps-5-as-ai-stocks-rebound/"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.1158",
+        "change": "−0.05%",
+        "asOf": "Snapshot from a data ticker on 10 Nov, capture time not stated",
+        "source": {
+          "label": "dpa-AFX via Investing.com: Aktien New York Schluss (10 Nov)",
+          "url": "https://de.investing.com/news/stock-market-news/roundupaktien-new-york-schluss-aussicht-auf-steigende-zinsen-druckt-kurse-3760517"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$91.49",
+        "change": "−1.17%",
+        "asOf": "Settlement 10 Nov (January contract)",
+        "source": {
+          "label": "Eurasia Business News: Stock Market Today, 10 Nov (oil and gold, citing Kitco/Rigzone)",
+          "url": "https://eurasiabusinessnews.com/2026/11/11/stock-market-today-dow-jones-nasdaq-sp-500-fall-on-november-10-2026-oil-and-gold-retreat/"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "about $4,031.80/oz",
+        "change": "−2.60%",
+        "asOf": "Spot, late US trading 10 Nov (Kitco)",
+        "source": {
+          "label": "Eurasia Business News: Stock Market Today, 10 Nov (oil and gold, citing Kitco/Rigzone)",
+          "url": "https://eurasiabusinessnews.com/2026/11/11/stock-market-today-dow-jones-nasdaq-sp-500-fall-on-november-10-2026-oil-and-gold-retreat/"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "about $73,100",
+        "change": "about −2%",
+        "asOf": "US morning session 10 Nov, vs Monday's close",
+        "source": {
+          "label": "investingLive: Bitcoin tests its 200-day moving average after hotter US CPI data (10 Nov)",
+          "url": "https://investinglive.com/cryptocurrency/bitcoin-tests-its-200-day-moving-average-after-hotter-us-cpi-data/"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved",
+        "source": {
+          "label": "Der Aktionär: DAX-Prognose, Siemens Energy, Infineon, Henkel, RWE und E.ON im Fokus (11 Nov)",
+          "url": "https://www.deraktionaer.de/artikel/aktien/sehr-positive-dax-prognose-siemens-energy-infineon-vw-zalando-henkel-rwe-und-eon-im-fokus-20439154.html"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "5.00%",
+        "change": "+13.8 bp",
+        "asOf": "10 Nov, after the CPI release",
+        "source": {
+          "label": "TheStreet: Stock Market Today (10 Nov 2026)",
+          "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Hotter US inflation lifts yields to 5% and weighs on Wall Street",
+        "summary": "US consumer prices rose 0.4% in October against the 0.3% economists expected, and core prices (excluding food and energy) rose 0.3% against 0.2%. The 10-year Treasury yield climbed about 14 basis points to roughly 5.00%. Fed Governor Waller said he backs at least a quarter-point hike in December and that a half-point move should be considered if core inflation stays at 0.3% or more, while Dallas Fed President Logan wants at least two more quarter-point hikes. The S&P 500 fell 0.38%, the Nasdaq 0.74% and the Dow 0.30%.",
+        "whyItMatters": "Higher-for-longer rates raise borrowing costs and make future profits of growth companies worth less today, which is why technology shares reacted most. It also keeps rate decisions, not just company news, at the centre of market direction.",
+        "sources": [
+          {
+            "label": "TheStreet: Stock Market Today (10 Nov 2026)",
+            "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+          },
+          {
+            "label": "dpa-AFX via Investing.com: Aktien New York Schluss (10 Nov)",
+            "url": "https://de.investing.com/news/stock-market-news/roundupaktien-new-york-schluss-aussicht-auf-steigende-zinsen-druckt-kurse-3760517"
+          }
+        ]
+      },
+      {
+        "title": "Nvidia falls further after shareholder lawsuit over CEO reports",
+        "summary": "Nvidia shares fell more than 5% in morning trading and closed at their lowest level since March, according to dpa-AFX. A shareholder lawsuit was filed in a California federal court alleging that the company and CEO Jensen Huang misled investors in connection with the reports about Huang. TheStreet also reports political calls for answers and that the shares are down about 26% over one month. Quarterly results are due on 17 November.",
+        "whyItMatters": "Nvidia is among the largest companies in major indices, so its moves affect index funds and the wider AI-chip theme. Legal and governance questions add uncertainty ahead of next week's results.",
+        "sources": [
+          {
+            "label": "TheStreet: Stock Market Today (10 Nov 2026)",
+            "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+          },
+          {
+            "label": "dpa-AFX via Investing.com: Aktien New York Schluss (10 Nov)",
+            "url": "https://de.investing.com/news/stock-market-news/roundupaktien-new-york-schluss-aussicht-auf-steigende-zinsen-druckt-kurse-3760517"
+          }
+        ]
+      },
+      {
+        "title": "DAX closes near its record; Henkel gains, Siemens Energy slips",
+        "summary": "The DAX closed at 26,347, up 0.31%, after touching 26,633 during the day, close to its record. Henkel rose 4.4% after strong figures and confirmed targets, while Siemens Energy fell 3.4% on reports of SoftBank write-downs on power equipment for US data centres. In the US, GE Vernova fell 5.4% after SoftBank disclosed a $3.7 billion charge. Der Aktionär said the DAX was indicated about 1% higher before today's open.",
+        "whyItMatters": "Shares tied to AI data-centre spending are reacting to signs that some investors may be scaling back, a theme that has driven recent swings in power-equipment and chip stocks.",
+        "sources": [
+          {
+            "label": "Der Aktionär: DAX-Prognose, Siemens Energy, Infineon, Henkel, RWE und E.ON im Fokus (11 Nov)",
+            "url": "https://www.deraktionaer.de/artikel/aktien/sehr-positive-dax-prognose-siemens-energy-infineon-vw-zalando-henkel-rwe-und-eon-im-fokus-20439154.html"
+          },
+          {
+            "label": "TheStreet: Stock Market Today (10 Nov 2026)",
+            "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+          }
+        ]
+      },
+      {
+        "title": "Infineon reports record year and guides for about €20 billion revenue",
+        "summary": "Infineon said fiscal-2026 revenue rose 12% to €16.353 billion, with a segment result of €3.223 billion and a segment margin of 19.7% (17.5% a year earlier). It proposed a dividend of €0.38 and expects fiscal-2027 revenue of about €20 billion, assuming a EUR/USD rate of 1.15. The shares jumped about 5% intraday but closed 0.9% higher. According to Börsennews, JPMorgan (overweight) and Jefferies (buy) both kept their €96 targets.",
+        "whyItMatters": "Infineon is a gauge for demand in power chips for AI data centres, cars and industry. The outlook assumes a currency rate, so a stronger euro could change the euro-reported figures.",
+        "sources": [
+          {
+            "label": "Börsennews: Infineon mit Rekord-Zahlen (10 Nov)",
+            "url": "https://www.boersennews.de/nachrichten/artikel/boersennews/infineon-mit-rekord-zahlen-aktienkurs-hebt-ab-die-naechsten-kursziele/5346053/"
+          },
+          {
+            "label": "Der Aktionär: DAX-Prognose, Siemens Energy, Infineon, Henkel, RWE und E.ON im Fokus (11 Nov)",
+            "url": "https://www.deraktionaer.de/artikel/aktien/sehr-positive-dax-prognose-siemens-energy-infineon-vw-zalando-henkel-rwe-und-eon-im-fokus-20439154.html"
+          }
+        ]
+      },
+      {
+        "title": "Oil at its lowest since August as gold drops with higher yields",
+        "summary": "Brent settled at $91.49, down 1.17% and the lowest settlement since 31 August, according to Kitco and Rigzone figures cited by Eurasia Business News. Spot gold fell about 2.6% to roughly $4,032 as Treasury yields rose. In Asia on Wednesday the Nikkei was up about 0.8% at midday and Kospi up about 1.7%, while SoftBank fell about 3% after a quarterly net loss of roughly ¥1.1 trillion. US futures pointed higher, with Nasdaq 100 up about 1%.",
+        "whyItMatters": "Lower oil eases inflation pressure, while gold tends to weaken when yields rise because it pays no interest. SoftBank's loss is the source of the write-down worries hitting power-equipment shares.",
+        "sources": [
+          {
+            "label": "Eurasia Business News: Stock Market Today, 10 Nov (oil and gold, citing Kitco/Rigzone)",
+            "url": "https://eurasiabusinessnews.com/2026/11/11/stock-market-today-dow-jones-nasdaq-sp-500-fall-on-november-10-2026-oil-and-gold-retreat/"
+          },
+          {
+            "label": "investingLive: Asia midday, Nikkei up for third day (11 Nov)",
+            "url": "https://investinglive.com/stock-market-update/asia-midday-nikkei-up-for-third-day-kosdaq-jumps-5-as-ai-stocks-rebound/"
+          }
+        ]
+      },
+      {
+        "title": "Anthropic IPO roadshow begins, with Microsoft and Nvidia named as backers",
+        "summary": "TheStreet reports that the roadshow for the AI company Anthropic's share offering began on Tuesday, with a valuation target of about $1.4 trillion and retail access through brokers such as Robinhood and SoFi. A reported private placement includes AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC. dpa-AFX reports that the maximum targeted valuation has been cut from $2 trillion to $1.5 trillion. Reported figures differ between sources.",
+        "whyItMatters": "A very large AI listing could absorb investor money and set a benchmark for AI valuations. Two watchlist companies, Microsoft and Nvidia, are named among the reported investors.",
+        "sources": [
+          {
+            "label": "TheStreet: Stock Market Today (10 Nov 2026)",
+            "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+          },
+          {
+            "label": "dpa-AFX via Investing.com: Aktien New York Schluss (10 Nov)",
+            "url": "https://de.investing.com/news/stock-market-news/roundupaktien-new-york-schluss-aussicht-auf-steigende-zinsen-druckt-kurse-3760517"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "Nvidia",
+        "ticker": "NVDA",
+        "change": "−5.4%",
+        "note": "Shares fell about 5.4% in morning trading on 10 Nov after a shareholder lawsuit tied to reports about the CEO, and closed at their lowest since March per dpa-AFX. Results are due on 17 November.",
+        "sources": [
+          {
+            "label": "TheStreet: Stock Market Today (10 Nov 2026)",
+            "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+          },
+          {
+            "label": "dpa-AFX via Investing.com: Aktien New York Schluss (10 Nov)",
+            "url": "https://de.investing.com/news/stock-market-news/roundupaktien-new-york-schluss-aussicht-auf-steigende-zinsen-druckt-kurse-3760517"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "Named by TheStreet among participants in a reported private placement in Anthropic's share offering; the US tech sector fell on Tuesday. No company-specific share move was retrieved.",
+        "sources": [
+          {
+            "label": "TheStreet: Stock Market Today (10 Nov 2026)",
+            "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+          }
+        ]
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "Q3 figures are due on Thursday 12 November at 07:00 together with Munich Re and Merck KGaA, according to Der Aktionär.",
+        "sources": [
+          {
+            "label": "Der Aktionär: DAX-Prognose, Siemens Energy, Infineon, Henkel, RWE und E.ON im Fokus (11 Nov)",
+            "url": "https://www.deraktionaer.de/artikel/aktien/sehr-positive-dax-prognose-siemens-energy-infineon-vw-zalando-henkel-rwe-und-eon-im-fokus-20439154.html"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "Annual figures are due on Thursday 12 November, according to Der Aktionär. Siemens Energy, a separate company, reports today and fell 3.4% on Tuesday.",
+        "sources": [
+          {
+            "label": "Der Aktionär: DAX-Prognose, Siemens Energy, Infineon, Henkel, RWE und E.ON im Fokus (11 Nov)",
+            "url": "https://www.deraktionaer.de/artikel/aktien/sehr-positive-dax-prognose-siemens-energy-infineon-vw-zalando-henkel-rwe-und-eon-im-fokus-20439154.html"
+          }
+        ]
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-11",
+        "time": "07:00",
+        "event": "Siemens Energy annual results; RWE and E.ON Q3",
+        "why": "Siemens Energy's 2027 outlook is in focus after the write-down reports (press conference 08:00)."
+      },
+      {
+        "date": "2026-11-11",
+        "time": "07:30",
+        "event": "Vestas Q3 results",
+        "why": "A read on wind-turbine demand."
+      },
+      {
+        "date": "2026-11-11",
+        "time": "08:00",
+        "event": "German consumer prices, final October figure",
+        "why": "Confirms the inflation picture in Germany."
+      },
+      {
+        "date": "2026-11-12",
+        "time": "07:00",
+        "event": "Allianz Q3, Siemens annual figures, Munich Re Q3, Merck KGaA Q3",
+        "why": "Two watchlist companies and a key insurer report the same morning."
+      },
+      {
+        "date": "2026-11-12",
+        "time": "08:00",
+        "event": "UK GDP for Q3",
+        "why": "A read on the British economy after the Bank of England's rate rise."
+      },
+      {
+        "date": "2026-11-12",
+        "time": "",
+        "event": "Applied Materials Q4 (time not listed)",
+        "why": "A chip-equipment peer of ASML whose outlook is watched for demand signals."
+      },
+      {
+        "date": "2026-11-13",
+        "time": "14:30",
+        "event": "US producer prices (PPI) for October",
+        "why": "Another inflation gauge for the Fed."
+      },
+      {
+        "date": "2026-11-13",
+        "time": "11:00",
+        "event": "Eurozone GDP Q3, second estimate",
+        "why": "Updates the growth picture for the euro area."
+      },
+      {
+        "date": "2026-11-17",
+        "time": "after US close",
+        "event": "Nvidia Q3 results (call 17:00 US Eastern time)",
+        "why": "A major test for sentiment on AI spending."
+      }
+    ],
+    "learn": {
+      "term": "Write-down",
+      "explanation": "A write-down is when a company lowers the book value of an asset or investment because it is now thought to be worth less than first recorded. It reduces reported profit but involves no cash leaving the company at that moment. Today's example is SoftBank, whose reported write-downs and a $3.7 billion charge disclosed by it hit shares of power-equipment makers such as Siemens Energy and GE Vernova. A write-down can signal that earlier expectations were too high, or simply be an accounting step."
+    }
+  },
+  {
     "date": "2026-11-10",
     "headline": "Stocks rebound strongly as oil slides on Iran hopes: DAX +1.7%, S&P 500 +2.35%; US inflation data due at 14:30 today",
     "intro": "Shares recovered sharply on Monday after last week's AI-driven sell-off, helped by a drop in oil prices after the US president said new strikes on Iran look unlikely while talks continue. Asian markets extended the rebound on Tuesday, and attention now turns to the US October inflation report this afternoon.",

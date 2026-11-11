@@ -1,6 +1,6 @@
 // Market Briefing – basics. The daily task only adds glossary terms.
 window.MARKET_BRIEFING_BASICS = {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "principles": [
     {"title": "Not investment advice", "text": "The briefing explains what happened and why it may matter. It never tells you what to buy or sell."},
     {"title": "Prices are not live", "text": "Every number has a timestamp and may be out of date. Always check the current price with your bank or broker before deciding anything."},
@@ -159,6 +159,8 @@ window.MARKET_BRIEFING_BASICS = {
     }
   },
   "glossary": [
+    {"term":"Write-down","def":"A reduction in the recorded value of an asset or investment because it is now thought to be worth less. It lowers reported profit without cash leaving the company.","added":"2026-11-11"},
+    {"term":"Segment result","def":"The operating profit a company reports for its business segments before certain items. Companies such as Infineon use it as a key profitability measure.","added":"2026-11-11"},
     {"term":"Consensus estimate","def":"The average forecast of the analysts or economists covering a company or data release. Markets often react to the gap between the actual figure and the consensus.","added":"2026-11-10"},
     {"term":"Upgrade","def":"When an analyst raises a rating or price target for a company. Like a downgrade, it is an opinion and can move a share price in the short term.","added":"2026-11-10"},
     {"term":"CPI (consumer price index)","def":"A measure of how much the prices of a typical basket of consumer goods and services have changed over time. It is the most widely quoted inflation figure.","added":"2026-11-09"},
