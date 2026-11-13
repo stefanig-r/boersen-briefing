@@ -2,6 +2,108 @@
 window.MARKET_BRIEFING_RECAPS = [
   {
     "type": "week",
+    "id": "2026-W46",
+    "label": "Week 46 · 9–13 November 2026",
+    "headline": "Stocks rebound from the AI sell-off and the DAX reaches 27,000, but yields near 5% and Nvidia's CEO exit keep nerves high",
+    "summary": "Stocks recovered strongly early in the week, and the DAX briefly passed 27,000 on Thursday while Wall Street indices ended Thursday well above last Friday's close. Hotter US inflation pushed the 10-year Treasury yield to about 5.1% and markets now price a December Fed hike. Figures run to Thursday's close; Friday's close is not included.",
+    "performance": [
+      {
+        "name": "DAX (Fri 6 Nov to Thu 12 Nov)",
+        "weekChange": "+3.86%"
+      },
+      {
+        "name": "S&P 500 (Fri 6 Nov to Thu 12 Nov)",
+        "weekChange": "+2.92%"
+      },
+      {
+        "name": "Nasdaq Composite (Fri 6 Nov to Thu 12 Nov)",
+        "weekChange": "+3.20%"
+      },
+      {
+        "name": "Dow Jones (Fri 6 Nov to Thu 12 Nov)",
+        "weekChange": "+1.97%"
+      }
+    ],
+    "top": [
+      {
+        "title": "Nvidia CEO Jensen Huang resigns",
+        "text": "Nvidia said Huang left as CEO and director with immediate effect, and CFO Colette Kress became interim CEO. The shares closed at $166.19 on Thursday, down 4.34%, ahead of results on 17 November.",
+        "sources": [
+          {
+            "label": "SEC: Nvidia 8-K (11 Nov 2026)",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
+          },
+          {
+            "label": "Motley Fool: Stock Market Today, 12 Nov",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+          }
+        ]
+      },
+      {
+        "title": "Hot inflation lifts yields to about 5%",
+        "text": "US consumer prices rose 0.4% in October against 0.3% expected, and the 10-year yield rose to about 5.1% by Thursday. Futures priced about a 90% chance of a quarter-point Fed hike in December, per Reuters.",
+        "sources": [
+          {
+            "label": "Reuters via Kitco: US yields rise after inflation data (10 Nov)",
+            "url": "https://www.kitco.com/news/off-the-wire/2026-11-10/us-yields-rise-stocks-fall-inflation-data-boosts-odds-larger-december"
+          },
+          {
+            "label": "Reuters via Kitco: Wall Street set to dip (12 Nov)",
+            "url": "https://www.kitco.com/news/off-the-wire/2026-11-12/wall-street-set-dip-nvidia-storm-continues-treasury-yields-bob-5"
+          }
+        ]
+      },
+      {
+        "title": "DAX hits a record above 27,000 intraday",
+        "text": "The index closed Thursday at 26,771.88, its fourth straight gain. Siemens, Allianz and Munich Re reported on Thursday; Allianz closed at a record.",
+        "sources": [
+          {
+            "label": "dpa-AFX via Investing.com: Aktien Frankfurt Schluss (12 Nov)",
+            "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-vorubergehend-erstmals-uber-27000-punkten-3765571"
+          },
+          {
+            "label": "Der Aktionär: Schlussglocke Frankfurt (12 Nov)",
+            "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/schlussglocke-frankfurt-dax-knackt-naechsten-meilenstein-20441668.html"
+          }
+        ]
+      },
+      {
+        "title": "Siemens reports record orders and raises mid-term targets",
+        "text": "Orders were €108.2bn and the dividend proposal is €5.50. Siemens lifted its mid-term revenue growth target to 7–11% and plans to distribute 34.1% of Healthineers to shareholders in May.",
+        "sources": [
+          {
+            "label": "RTTNews: Siemens Q4 and FY2026 (12 Nov)",
+            "url": "https://www.rttnews.com/3713847/siemens-stock-gains-on-strong-q4-dividend-hike-positive-outlook.aspx"
+          },
+          {
+            "label": "Investing.com: Siemens FY26 slides (12 Nov)",
+            "url": "https://in.investing.com/news/stock-market-news/siemens-fy26-slides-industrial-ai-drives-record-orders-raised-targets-93CH-5698681"
+          }
+        ]
+      },
+      {
+        "title": "Oil and Iran headlines swing prices",
+        "text": "Brent rose 3.3% to $95.82 on Thursday after Trump said the US did not need an Iran deal, according to AP, having fallen sharply early in the week.",
+        "sources": [
+          {
+            "label": "AP via Boston Globe: Wall Street swings (12 Nov)",
+            "url": "https://www.bostonglobe.com/2026/11/12/business/wall-street-swings-nvidia-oil-prices-recovers-most-early-losses/"
+          },
+          {
+            "label": "Newsquawk: European market wrap (12 Nov)",
+            "url": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---12th-november-2026"
+          }
+        ]
+      }
+    ],
+    "outlook": [
+      "Nvidia reports on Tuesday 17 November after the US close, its first results under interim CEO Colette Kress.",
+      "FOMC minutes are due on Wednesday 18 November; markets are focused on the December Fed meeting.",
+      "Oil and Iran headlines, plus US producer prices today, will likely keep inflation and yield worries in focus."
+    ]
+  },
+  {
+    "type": "week",
     "id": "2026-W45",
     "label": "Week 45 · 2–6 November 2026",
     "headline": "Midterm rally gives way to a sharp AI and chip sell-off; the Bank of England hikes",

@@ -3,8 +3,104 @@
 // themes: what is moving markets, with how to get exposure in general terms and the risks.
 // analysts: notable rating/target changes from named institutions, clearly attributed.
 window.MARKET_BRIEFING_INSIGHTS = {
-  "updated": "2026-11-06",
+  "updated": "2026-11-13",
   "smallcaps": [
+    {
+      "week": "2026-W46",
+      "name": "Patrizia SE",
+      "ticker": "PAT",
+      "exchange": "Xetra / Frankfurt (regulated market)",
+      "country": "Germany",
+      "sector": "Real estate investment management",
+      "business": "Patrizia manages real assets for institutional investors, with about €55bn of assets under management according to the offer release.",
+      "whyInNews": "On 12 November main shareholder First Capital Partner announced a voluntary partial offer at €8.20 per share, and the shares rose roughly 20%.",
+      "facts": [
+        "9M 2026 EBITDA of €61.3m (+37.3%), margin 30.1% versus 22.1% a year earlier; net debt €69.0m versus €101.6m at end-2025.",
+        "Assets under management of €55.0bn, down 2.1% from year-end 2025; AUM guidance now €53–57bn (was €55–60bn).",
+        "EBITDA guidance narrowed upward to €65–75m (was €60–75m).",
+        "The offer has no minimum acceptance; First Capital Partner holds 58.89% and may go up to 73%."
+      ],
+      "risks": [
+        "Low liquidity: free float shrinks if the holder moves towards 73%.",
+        "Patrizia plans to move to the Scale segment by January 2027, which means lighter transparency rules and possibly index-related selling.",
+        "It is a partial offer, so tendered shares may be scaled back and minority holders are not offered an exit for all shares.",
+        "Earnings depend on real estate valuations and fundraising; AUM fell in 2026."
+      ],
+      "sources": [
+        {
+          "label": "Investing.com: Patrizia shares surge on €8.20 partial offer (12 Nov)",
+          "url": "https://uk.investing.com/news/stock-market-news/patrizia-shares-surge-21-on-820-partial-takeover-offer-plan-93CH-4976443"
+        },
+        {
+          "label": "finanzen.net: Patrizia-Aktie springt zweistellig hoch (12 Nov)",
+          "url": "https://www.finanzen.net/nachricht/aktien/neue-offerte-patrizia-aktie-springt-zweistellig-hoch-grossaktionaerin-bietet-8-20-euro-je-anteilsschein-16059061"
+        },
+        {
+          "label": "Cash-Online: Patrizia 9M 2026 (10 Nov)",
+          "url": "https://www.cash-online.de/a/patrizia-aktie-ebitda-steigt-37-prozent-ergebnisprognose-angehoben-729943/"
+        }
+      ]
+    },
+    {
+      "week": "2026-W46",
+      "name": "Secunet Security Networks AG",
+      "ticker": "YSN",
+      "exchange": "Xetra (SDAX)",
+      "country": "Germany",
+      "sector": "IT security",
+      "business": "Secunet supplies IT security products and services, with roughly half of orders coming from public-sector customers according to finanzen.net.",
+      "whyInNews": "After Q3 figures on 12 November, with order intake down sharply, the shares fell 14–18% depending on the quote.",
+      "facts": [
+        "Q3 revenue of €135m, up about 20%; Q3 EBIT of €14.3m, down about 19%.",
+        "Q3 order intake of €105.1m, down almost a third; October orders were €120m.",
+        "Guidance confirmed: revenue at the upper end of €460–500m and EBIT of €53–58m.",
+        "Q3 included a €2.3m one-off for restructuring."
+      ],
+      "risks": [
+        "Volatility: a single quarter moved the shares by more than 14%.",
+        "Dependence on public-sector customers and lumpy order intake.",
+        "Falling margins as investment and costs rise faster than sales.",
+        "Valuation had been supported by high expectations, according to an analyst quoted by finanzen.net."
+      ],
+      "sources": [
+        {
+          "label": "finanzen.net: Secunet-Aktie zweistellig tiefer (12 Nov)",
+          "url": "https://www.finanzen.net/nachricht/aktien/gute-geschaefte-secunet-aktie-zweistellig-tiefer-behoerdengeschaeft-traegt-weiter-investitionen-belasten-ergebnis-16058974"
+        }
+      ]
+    },
+    {
+      "week": "2026-W46",
+      "name": "Grenke AG",
+      "ticker": "GLJ",
+      "exchange": "Xetra (Frankfurt)",
+      "country": "Germany",
+      "sector": "Leasing / financial services",
+      "business": "Grenke provides leasing to small and mid-sized businesses.",
+      "whyInNews": "On 12 November it reported nine-month results and narrowed its new-business guidance; the shares rose about 8.9%.",
+      "facts": [
+        "9M group earnings of €55.7m, up 14.6% from €48.6m; Q3 earnings €23.0m.",
+        "Leasing new business of €2.44bn (+1.7%); operating income €533m (+9.4%).",
+        "Return on equity of 5.2% (4.7% a year earlier) against a 10% target for 2030.",
+        "2026 earnings guidance of €74–86m confirmed; new business now about €3.4bn (was €3.4–3.6bn)."
+      ],
+      "risks": [
+        "Unprofitability relative to target: ROE is far below the 10% goal.",
+        "Margin pressure: the DB2 margin fell to 15.7% from 17.1% as higher rates pass through with a lag.",
+        "Loss ratio rose to 1.9% from 1.8%, and exposure to a weak SME economy remains.",
+        "Share price volatility: the stock was still down about 28% year to date at the time of the report."
+      ],
+      "sources": [
+        {
+          "label": "Goldesel: Grenke 9M 2026 (12 Nov)",
+          "url": "https://goldesel.de/aktien/news/grenke-aktie-gewinn-steigt-neugeschaftsprognose-auf-34-milliarden-euro-prazisiert"
+        },
+        {
+          "label": "wallstreet-online: Grenke 9M 2026 (12 Nov)",
+          "url": "https://www.wallstreet-online.de/nachricht/21679713-grenke-ueberrascht-konzernergebnis-deutlich-gesteigert"
+        }
+      ]
+    },
     {
       "week": "2026-W44",
       "name": "Basler AG",
@@ -39,6 +135,126 @@ window.MARKET_BRIEFING_INSIGHTS = {
     }
   ],
   "themes": [
+    {
+      "week": "2026-W46",
+      "title": "AI chips and Nvidia's leadership change",
+      "status": "In focus",
+      "summary": "Nvidia's CEO Jensen Huang resigned and CFO Colette Kress became interim CEO, and the shares closed down 4.34% at $166.19. Some chip peers rose, with AMD up 5.9% and Broadcom up 5.5%.",
+      "drivers": [
+        "Reported board and national-security scrutiny around the former CEO, not confirmed by Nvidia",
+        "Shares already fell about 26–27% from their record before the news",
+        "Results due 17 November, the first under an interim CEO"
+      ],
+      "exposure": "Broad world ETFs hold large US technology and chip companies, so they are affected indirectly. Semiconductor or AI-themed ETFs concentrate on this theme. Check the index, the number of holdings, the fee (TER) and how much a few large names dominate.",
+      "risks": [
+        "Succession and legal uncertainty",
+        "Concentrated themes can fall or rebound much faster than the broad market",
+        "Results next week could move the whole group"
+      ],
+      "sources": [
+        {
+          "label": "SEC: Nvidia 8-K (11 Nov 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
+        },
+        {
+          "label": "Motley Fool: Stock Market Today, 12 Nov",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+        },
+        {
+          "label": "Tech Times: Huang resigns, Kress interim CEO (12 Nov)",
+          "url": "https://www.techtimes.com/articles/330561/20261112/jensen-huang-resigns-nvidia-shares-tumble-interim-ceo-kress-keeps-cfo-job-before-earnings.htm"
+        }
+      ]
+    },
+    {
+      "week": "2026-W46",
+      "title": "Rates, inflation and the Fed",
+      "status": "Decision ahead",
+      "summary": "Hotter October US inflation pushed the 10-year Treasury yield from 4.98% on 10 November to about 5.1% on Thursday. Fed funds futures priced about a 90% chance of a quarter-point hike in December, according to Reuters.",
+      "drivers": [
+        "US CPI of +0.4% on the month versus 0.3% expected",
+        "Fed Governor Waller saying he would consider a half-point hike if core inflation stays at 0.3% or more",
+        "ECB's Kazaks saying a December ECB hike is likely, per Newsquawk"
+      ],
+      "exposure": "Higher yields tend to weigh on long-duration growth shares and small caps, and affect bond funds through falling prices. Broad ETFs carry some of this; short-term bond funds react less than long-term ones. Check duration, the index, the TER and the credit quality.",
+      "risks": [
+        "A larger-than-expected hike",
+        "Stress in equity and credit markets at 5% yields",
+        "Rate-sensitive lenders and borrowers feel higher funding costs"
+      ],
+      "sources": [
+        {
+          "label": "Reuters via Kitco: US yields rise after inflation data (10 Nov)",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-10/us-yields-rise-stocks-fall-inflation-data-boosts-odds-larger-december"
+        },
+        {
+          "label": "Reuters via Kitco: Wall Street set to dip (12 Nov)",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-12/wall-street-set-dip-nvidia-storm-continues-treasury-yields-bob-5"
+        },
+        {
+          "label": "Newsquawk: European market wrap (12 Nov)",
+          "url": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---12th-november-2026"
+        }
+      ]
+    },
+    {
+      "week": "2026-W46",
+      "title": "Oil and the Iran conflict",
+      "status": "Volatile",
+      "summary": "Brent rose 3.3% to $95.82 on Thursday after Trump said the US did not need an Iran deal, per AP, after falling sharply earlier in the week. Other sources quote lower intraday levels.",
+      "drivers": [
+        "US-Iran negotiation headlines",
+        "Reported incidents around the Strait of Hormuz",
+        "Gas prices in Europe also elevated, per Newsquawk"
+      ],
+      "exposure": "Energy sector ETFs and oil producers tend to benefit from higher prices, while airlines and chemicals suffer. Broad indices hold both. Check sector weights, the TER and whether an ETF holds producers or tracks futures.",
+      "risks": [
+        "A deal could cut prices quickly",
+        "Escalation could spike prices and inflation",
+        "Sector funds are concentrated in a few large companies"
+      ],
+      "sources": [
+        {
+          "label": "AP via Boston Globe: Wall Street swings (12 Nov)",
+          "url": "https://www.bostonglobe.com/2026/11/12/business/wall-street-swings-nvidia-oil-prices-recovers-most-early-losses/"
+        },
+        {
+          "label": "Newsquawk: European market wrap (12 Nov)",
+          "url": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---12th-november-2026"
+        }
+      ]
+    },
+    {
+      "week": "2026-W46",
+      "title": "European earnings season and the DAX record",
+      "status": "Strong prints",
+      "summary": "Siemens, Allianz and Munich Re reported on Thursday, and the DAX briefly topped 27,000 before closing at 26,771.88. Allianz closed at a record and Siemens reported record orders.",
+      "drivers": [
+        "Siemens orders of €108.2bn and a raised mid-term target",
+        "Allianz lifting the upper end of its 2026 operating profit guidance to about €18.6bn",
+        "Munich Re confirming a €6.6bn profit target despite higher catastrophe losses"
+      ],
+      "exposure": "A broad Europe or Germany index ETF gives exposure to these large companies, while sector ETFs focus on industrials or insurers. Check the index, number of holdings, TER and the weight of the largest holdings.",
+      "risks": [
+        "Higher yields and a stronger dollar weigh on valuations",
+        "Insurers face catastrophe losses",
+        "Record index levels can reverse quickly"
+      ],
+      "sources": [
+        {
+          "label": "dpa-AFX via Investing.com: Aktien Frankfurt Schluss (12 Nov)",
+          "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-vorubergehend-erstmals-uber-27000-punkten-3765571"
+        },
+        {
+          "label": "Der Aktionär: Schlussglocke Frankfurt (12 Nov)",
+          "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/schlussglocke-frankfurt-dax-knackt-naechsten-meilenstein-20441668.html"
+        },
+        {
+          "label": "dpa-AFX via onvista: Unternehmen-Überblick (12 Nov)",
+          "url": "https://www.onvista.de/news/2026/11-12-dpa-afx-ueberblick-unternehmen-vom-12-11-2026-15-15-uhr-0-10-26575750"
+        }
+      ]
+    },
     {
       "week": "2026-W45",
       "title": "AI infrastructure and regulation risk",
@@ -260,6 +476,108 @@ window.MARKET_BRIEFING_INSIGHTS = {
     }
   ],
   "analysts": [
+    {
+      "week": "2026-W46",
+      "date": "9 Nov",
+      "company": "SAP",
+      "ticker": "SAP",
+      "firm": "JPMorgan",
+      "action": "Upgrade",
+      "rating": "Neutral → Overweight",
+      "target": "€175 → €275",
+      "note": "JPMorgan's Toby Ogg cited enterprise AI moving from pilot to production, which he said favours established platforms that already hold companies' core data.",
+      "sources": [
+        {
+          "label": "Yahoo Finance: SAP gains as JPMorgan upgrades (9 Nov)",
+          "url": "https://sg.finance.yahoo.com/news/sap-gains-jpmorgan-upgrades-stock-085639473.html"
+        }
+      ]
+    },
+    {
+      "week": "2026-W46",
+      "date": "9 Nov",
+      "company": "AMD",
+      "ticker": "AMD",
+      "firm": "Oppenheimer",
+      "action": "Upgrade",
+      "rating": "Market Perform → Outperform",
+      "target": "$600",
+      "note": "Oppenheimer set a $600 target; no reason was given in the roundup.",
+      "sources": [
+        {
+          "label": "24/7 Wall St.: Monday's top upgrades and downgrades (9 Nov)",
+          "url": "https://247wallst.com/investing/2026/11/09/buy-sell-or-hold-mondays-top-upgrades-and-downgrades-advanced-micro-devices-airbnb-draftkings-l3-harris-technologies-molson-coors-nvidia-take-two-interactive-uber-technologies-and-more/"
+        }
+      ]
+    },
+    {
+      "week": "2026-W46",
+      "date": "12 Nov",
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "firm": "Bank of America",
+      "action": "Target cut",
+      "rating": "Buy (unchanged)",
+      "target": "$350 → $280",
+      "note": "Analyst Vivek Arya pointed to a strong ramp of the next-generation Vera processor but expects high near-term share price volatility.",
+      "sources": [
+        {
+          "label": "onvista/dpa-AFX: BofA senkt Kursziele für Intel und Nvidia (12 Nov)",
+          "url": "https://www.onvista.de/news/2026/11-12-analyse-bofa-senkt-kursziele-fuer-intel-und-nvidia-amd-ziel-angehoben-0-10-26575665"
+        }
+      ]
+    },
+    {
+      "week": "2026-W46",
+      "date": "12 Nov",
+      "company": "AMD",
+      "ticker": "AMD",
+      "firm": "Bank of America",
+      "action": "Target raised",
+      "rating": "Buy (unchanged)",
+      "target": "to $700",
+      "note": "Arya named AMD his favourite server CPU pick and raised his 2030 server CPU market estimate to $240bn from $210bn on demand for agentic AI.",
+      "sources": [
+        {
+          "label": "onvista/dpa-AFX: BofA senkt Kursziele für Intel und Nvidia (12 Nov)",
+          "url": "https://www.onvista.de/news/2026/11-12-analyse-bofa-senkt-kursziele-fuer-intel-und-nvidia-amd-ziel-angehoben-0-10-26575665"
+        }
+      ]
+    },
+    {
+      "week": "2026-W46",
+      "date": "12 Nov",
+      "company": "Intel",
+      "ticker": "INTC",
+      "firm": "Bank of America",
+      "action": "Target cut",
+      "rating": "Neutral (unchanged)",
+      "target": "$100 → $80",
+      "note": "Arya cited a lack of clarity on how many chip units will be available.",
+      "sources": [
+        {
+          "label": "onvista/dpa-AFX: BofA senkt Kursziele für Intel und Nvidia (12 Nov)",
+          "url": "https://www.onvista.de/news/2026/11-12-analyse-bofa-senkt-kursziele-fuer-intel-und-nvidia-amd-ziel-angehoben-0-10-26575665"
+        }
+      ]
+    },
+    {
+      "week": "2026-W46",
+      "date": "12 Nov",
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "firm": "Bernstein",
+      "action": "Downgrade",
+      "rating": "to Market Perform",
+      "target": "to $200 (as reported)",
+      "note": "Tech Times reported the downgrade after the CEO resignation; reports differ on the prior target, so treat the figures with caution.",
+      "sources": [
+        {
+          "label": "Tech Times: Huang resigns, Kress interim CEO (12 Nov)",
+          "url": "https://www.techtimes.com/articles/330561/20261112/jensen-huang-resigns-nvidia-shares-tumble-interim-ceo-kress-keeps-cfo-job-before-earnings.htm"
+        }
+      ]
+    },
     {
       "week": "2026-W45",
       "date": "2 Nov",

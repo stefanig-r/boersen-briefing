@@ -1,6 +1,380 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-13",
+    "headline": "DAX briefly tops 27,000 for the first time as Siemens, Allianz and Munich Re rise; Nvidia's CEO resigns and Wall Street slips; US producer prices due today",
+    "intro": "European shares rose on Thursday, with the DAX closing 0.41% higher after briefly trading above 27,000 for the first time, helped by results from Siemens, Allianz and Munich Re. Wall Street closed slightly lower as Nvidia's CEO stepped down and the 10-year Treasury yield rose to about 5.1%.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "26,771.88",
+        "change": "+0.41%",
+        "asOf": "Close 12 Nov (briefly above 27,000 intraday)",
+        "source": {
+          "label": "dpa-AFX via Investing.com: Aktien Frankfurt Schluss (12 Nov)",
+          "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-vorubergehend-erstmals-uber-27000-punkten-3765571"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "30,858.13",
+        "change": "−0.70%",
+        "asOf": "Close 12 Nov",
+        "source": {
+          "label": "dpa-AFX via Investing.com: Aktien Frankfurt Schluss (12 Nov)",
+          "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-vorubergehend-erstmals-uber-27000-punkten-3765571"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "not available",
+        "change": "+0.1%",
+        "asOf": "Close 12 Nov (level not retrieved)",
+        "source": {
+          "label": "dpa-AFX via Investing.com: Aktien Frankfurt Schluss (12 Nov)",
+          "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-vorubergehend-erstmals-uber-27000-punkten-3765571"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,592.40",
+        "change": "−0.35%",
+        "asOf": "Close 12 Nov",
+        "source": {
+          "label": "AP via Boston Globe: Wall Street swings (12 Nov)",
+          "url": "https://www.bostonglobe.com/2026/11/12/business/wall-street-swings-nvidia-oil-prices-recovers-most-early-losses/"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "25,366.09",
+        "change": "−0.39%",
+        "asOf": "Close 12 Nov",
+        "source": {
+          "label": "AP via Boston Globe: Wall Street swings (12 Nov)",
+          "url": "https://www.bostonglobe.com/2026/11/12/business/wall-street-swings-nvidia-oil-prices-recovers-most-early-losses/"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,297.09",
+        "change": "−0.36%",
+        "asOf": "Close 12 Nov",
+        "source": {
+          "label": "AP via Boston Globe: Wall Street swings (12 Nov)",
+          "url": "https://www.bostonglobe.com/2026/11/12/business/wall-street-swings-nvidia-oil-prices-recovers-most-early-losses/"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "61,283.16",
+        "change": "+0.8%",
+        "asOf": "Tokyo session, 13 Nov (AP)",
+        "source": {
+          "label": "AP via Yahoo Finance: Asian shares mixed (13 Nov)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-mixed-investors-assess-053708191.html"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.1059",
+        "change": "+0.04%",
+        "asOf": "Ticker snapshot on 12 Nov, capture time not stated",
+        "source": {
+          "label": "dpa-AFX via Investing.com: Aktien Frankfurt Schluss (12 Nov)",
+          "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-vorubergehend-erstmals-uber-27000-punkten-3765571"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$95.82",
+        "change": "+3.3%",
+        "asOf": "US session 12 Nov (AP); other sources quote lower intraday levels",
+        "source": {
+          "label": "AP via Boston Globe: Wall Street swings (12 Nov)",
+          "url": "https://www.bostonglobe.com/2026/11/12/business/wall-street-swings-nvidia-oil-prices-recovers-most-early-losses/"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "$3,877.80/oz",
+        "change": "−3.07%",
+        "asOf": "12 Nov, US trading (Vista Partners)",
+        "source": {
+          "label": "Vista Partners: Stock Market Today, 12 Nov",
+          "url": "https://vistapglobal.com/stock-market-today-november-12-2026-stocks-fall-as-treasury-yields-hit-5-10-oil-rises-and-nvidia-faces-leadership-reset-amd-crwv-eprx-googl-modd-msft-nvda-ser-spcx-ttek-ual/"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Sources conflict on 12 Nov (about −3.8% to −6.6%)",
+        "source": {
+          "label": "Vista Partners: Stock Market Today, 12 Nov",
+          "url": "https://vistapglobal.com/stock-market-today-november-12-2026-stocks-fall-as-treasury-yields-hit-5-10-oil-rises-and-nvidia-faces-leadership-reset-amd-crwv-eprx-googl-modd-msft-nvda-ser-spcx-ttek-ual/"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "3.31%",
+        "change": "not available",
+        "asOf": "10 Nov (latest retrieved), dpa-AFX",
+        "source": {
+          "label": "dpa-AFX via Ariva: Deutsche Anleihen (10 Nov)",
+          "url": "https://www.ariva.de/news/deutsche-anleihen-deutliche-kursverluste-12202076"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "about 5.1%",
+        "change": "up from 4.98% on 10 Nov",
+        "asOf": "12 Nov close; sources print 5.10% and 5.12%; bond market closed 11 Nov",
+        "source": {
+          "label": "AP via Boston Globe: Wall Street swings (12 Nov)",
+          "url": "https://www.bostonglobe.com/2026/11/12/business/wall-street-swings-nvidia-oil-prices-recovers-most-early-losses/"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Nvidia CEO Jensen Huang resigns; shares fall 4%",
+        "summary": "Nvidia said in a filing dated 11 November that Jensen Huang resigned as president, CEO and director with immediate effect. CFO Colette Kress is interim CEO while keeping her finance role, and Harvey C. Jones was named chair. The filing gives no reason; media reports cited by AP and others link it to a board investigation into his personal relationships and a national-security angle, which Nvidia has not confirmed. The shares fell sharply at the open and closed at $166.19, down 4.34%, after a day range of $148.80 to $167.14. Results are due on Tuesday 17 November.",
+        "whyItMatters": "Nvidia is one of the largest companies in major indices and the central name in the AI-chip theme, so leadership uncertainty can move index funds and suppliers. Next week's results will be the first under an interim CEO.",
+        "sources": [
+          {
+            "label": "SEC: Nvidia 8-K (11 Nov 2026)",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
+          },
+          {
+            "label": "Motley Fool: Stock Market Today, 12 Nov",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+          },
+          {
+            "label": "Tech Times: Huang resigns, Kress interim CEO (12 Nov)",
+            "url": "https://www.techtimes.com/articles/330561/20261112/jensen-huang-resigns-nvidia-shares-tumble-interim-ceo-kress-keeps-cfo-job-before-earnings.htm"
+          }
+        ]
+      },
+      {
+        "title": "Treasury yield rises to about 5.1%; markets price a December Fed hike",
+        "summary": "The 10-year US Treasury yield rose to about 5.1% on Thursday, up from 4.98% on Tuesday (the bond market was shut on Wednesday). Before the open, fed funds futures priced roughly a 90% chance of a quarter-point hike at the next Fed meeting, according to CME FedWatch as cited by Reuters. Weekly jobless claims rose by 9,000 to 200,000, slightly above forecasts. Gold fell about 3% to $3,877.80 and the Russell 2000 small-cap index dropped 1.66%.",
+        "whyItMatters": "Higher yields make bonds more competitive with shares and lower the present value of future profits, which tends to hit growth companies and small caps hardest. They also raise borrowing costs across the economy.",
+        "sources": [
+          {
+            "label": "Vista Partners: Stock Market Today, 12 Nov",
+            "url": "https://vistapglobal.com/stock-market-today-november-12-2026-stocks-fall-as-treasury-yields-hit-5-10-oil-rises-and-nvidia-faces-leadership-reset-amd-crwv-eprx-googl-modd-msft-nvda-ser-spcx-ttek-ual/"
+          },
+          {
+            "label": "AP via Boston Globe: Wall Street swings (12 Nov)",
+            "url": "https://www.bostonglobe.com/2026/11/12/business/wall-street-swings-nvidia-oil-prices-recovers-most-early-losses/"
+          },
+          {
+            "label": "Reuters via Kitco: Wall Street set to dip (12 Nov)",
+            "url": "https://www.kitco.com/news/off-the-wire/2026-11-12/wall-street-set-dip-nvidia-storm-continues-treasury-yields-bob-5"
+          }
+        ]
+      },
+      {
+        "title": "DAX touches 27,000 as Siemens, Allianz and Munich Re report",
+        "summary": "The DAX closed at 26,771.88, its fourth straight gain, after briefly trading above 27,000 for the first time. Siemens rose 1.7% after reporting record orders of €108.2bn, a €5.50 dividend proposal and a raised mid-term target. Allianz gained 1.9% to a record after lifting the upper end of its 2026 operating profit range to about €18.6bn. Munich Re rose 2.9% after confirming a €6.6bn profit target despite a 13% drop in quarterly profit from higher natural-catastrophe losses. Merck KGaA fell 2.3% after it said it would stop developing an experimental heart drug.",
+        "whyItMatters": "Solid results from large German companies help explain why the DAX held up while US tech wobbled. A record index level says little about what comes next, though, as earnings, yields and oil all keep moving.",
+        "sources": [
+          {
+            "label": "dpa-AFX via Investing.com: Aktien Frankfurt Schluss (12 Nov)",
+            "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-vorubergehend-erstmals-uber-27000-punkten-3765571"
+          },
+          {
+            "label": "Der Aktionär: Schlussglocke Frankfurt (12 Nov)",
+            "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/schlussglocke-frankfurt-dax-knackt-naechsten-meilenstein-20441668.html"
+          },
+          {
+            "label": "dpa-AFX via onvista: Unternehmen-Überblick (12 Nov)",
+            "url": "https://www.onvista.de/news/2026/11-12-dpa-afx-ueberblick-unternehmen-vom-12-11-2026-15-15-uhr-0-10-26575750"
+          }
+        ]
+      },
+      {
+        "title": "Oil jumps after Trump says the US does not need an Iran deal",
+        "summary": "Brent crude rose 3.3% to $95.82 a barrel on Thursday after President Trump said the US no longer needed a deal with Iran, according to AP. Other sources quote lower intraday levels, between about $91 and $94, so the exact settlement varies by source. Newsquawk reported continued incidents around the Strait of Hormuz and Iranian conditions for talks. Energy shares such as Marathon Petroleum and ExxonMobil rose.",
+        "whyItMatters": "Oil feeds into inflation and central bank decisions, so a renewed rise adds to pressure on yields. It tends to help energy producers and hurt fuel-intensive sectors such as airlines.",
+        "sources": [
+          {
+            "label": "AP via Boston Globe: Wall Street swings (12 Nov)",
+            "url": "https://www.bostonglobe.com/2026/11/12/business/wall-street-swings-nvidia-oil-prices-recovers-most-early-losses/"
+          },
+          {
+            "label": "Newsquawk: European market wrap (12 Nov)",
+            "url": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---12th-november-2026"
+          }
+        ]
+      },
+      {
+        "title": "Wave of German company news: Patrizia offer, Secunet and Ottobock slump, CEO changes",
+        "summary": "Patrizia jumped 23% after its main shareholder First Capital Partner proposed a partial offer at €8.20 per share. Secunet fell about 17% after quarterly orders disappointed, and Ottobock also fell about 17% to a record low, with Jefferies pointing to a tougher reimbursement environment. GEA said CEO Stefan Klebert will leave at the end of April 2027, and Hugo Boss said CEO Daniel Grieder will step down on 31 December, to be succeeded by David Epstein. Brenntag set new five-year targets and its shares fell.",
+        "whyItMatters": "Mid-sized companies can move sharply on a single report, which shows how much expectations already matter. CEO changes add uncertainty, but their effect depends on the company.",
+        "sources": [
+          {
+            "label": "dpa-AFX via Investing.com: Aktien Frankfurt Schluss (12 Nov)",
+            "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-vorubergehend-erstmals-uber-27000-punkten-3765571"
+          },
+          {
+            "label": "dpa-AFX via onvista: Unternehmen-Überblick (12 Nov)",
+            "url": "https://www.onvista.de/news/2026/11-12-dpa-afx-ueberblick-unternehmen-vom-12-11-2026-15-15-uhr-0-10-26575750"
+          },
+          {
+            "label": "Broker-Test: Börsen-Radar Deutschland (12 Nov)",
+            "url": "https://broker-test.de/trading-news/boersen-radar-deutschland-siemens-nach-rekordjahr-gefragt-allianz-und-patrizia-steigen/"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "Nvidia",
+        "ticker": "NVDA",
+        "change": "−4.34%",
+        "note": "CEO Jensen Huang resigned and CFO Colette Kress is interim CEO; the shares closed at $166.19 on 12 Nov. Results are due on 17 November after the US close. After the move, Bank of America cut its price target to $280 from $350 and kept its Buy rating, according to dpa-AFX.",
+        "sources": [
+          {
+            "label": "SEC: Nvidia 8-K (11 Nov 2026)",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
+          },
+          {
+            "label": "Motley Fool: Stock Market Today, 12 Nov",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/"
+          },
+          {
+            "label": "onvista/dpa-AFX: BofA senkt Kursziele für Intel und Nvidia (12 Nov)",
+            "url": "https://www.onvista.de/news/2026/11-12-analyse-bofa-senkt-kursziele-fuer-intel-und-nvidia-amd-ziel-angehoben-0-10-26575665"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "change": "+1.7%",
+        "note": "Annual results showed record orders of €108.2bn, free cash flow of €12.1bn and a proposed dividend of €5.50. Siemens guided for FY2027 EPS before purchase price allocation of €10.20–10.80, lower mainly because Healthineers is now reported separately, and raised its mid-term revenue growth target to 7–11%. Close change as of 12 Nov.",
+        "sources": [
+          {
+            "label": "RTTNews: Siemens Q4 and FY2026 (12 Nov)",
+            "url": "https://www.rttnews.com/3713847/siemens-stock-gains-on-strong-q4-dividend-hike-positive-outlook.aspx"
+          },
+          {
+            "label": "Investing.com: Siemens FY26 slides (12 Nov)",
+            "url": "https://in.investing.com/news/stock-market-news/siemens-fy26-slides-industrial-ai-drives-record-orders-raised-targets-93CH-5698681"
+          },
+          {
+            "label": "dpa-AFX via Investing.com: Aktien Frankfurt Schluss (12 Nov)",
+            "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-vorubergehend-erstmals-uber-27000-punkten-3765571"
+          }
+        ]
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "change": "+1.9%",
+        "note": "Nine-month operating profit was €14.1bn versus €13.1bn a year earlier, and Allianz raised the upper end of its 2026 range to about €18.6bn. The shares closed at a record €472.40. Change as of 12 Nov close.",
+        "sources": [
+          {
+            "label": "dpa-AFX via Investing.com: Aktien Frankfurt Schluss (12 Nov)",
+            "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-vorubergehend-erstmals-uber-27000-punkten-3765571"
+          },
+          {
+            "label": "Broker-Test: Börsen-Radar Deutschland (12 Nov)",
+            "url": "https://broker-test.de/trading-news/boersen-radar-deutschland-siemens-nach-rekordjahr-gefragt-allianz-und-patrizia-steigen/"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "change": "+0.76%",
+        "note": "Shares rose to €212.55 on 12 Nov. On 9 November JPMorgan upgraded SAP to Overweight with a €275 target, citing enterprise AI moving from pilots to production, per Yahoo Finance.",
+        "sources": [
+          {
+            "label": "dpa-AFX via Investing.com: Aktien Frankfurt Schluss (12 Nov)",
+            "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-vorubergehend-erstmals-uber-27000-punkten-3765571"
+          },
+          {
+            "label": "Yahoo Finance: SAP gains as JPMorgan upgrades (9 Nov)",
+            "url": "https://sg.finance.yahoo.com/news/sap-gains-jpmorgan-upgrades-stock-085639473.html"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "A service disruption affected Outlook, Teams and Microsoft 365 on 12 Nov, according to Vista Partners; Microsoft said it was restoring capacity. No verified share move or financial impact.",
+        "sources": [
+          {
+            "label": "Vista Partners: Stock Market Today, 12 Nov",
+            "url": "https://vistapglobal.com/stock-market-today-november-12-2026-stocks-fall-as-treasury-yields-hit-5-10-oil-rises-and-nvidia-faces-leadership-reset-amd-crwv-eprx-googl-modd-msft-nvda-ser-spcx-ttek-ual/"
+          }
+        ]
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "change": "−2.41%",
+        "note": "Shares fell 2.41% on Tradegate on 12 Nov according to Der Aktionär, amid weakness in some European tech shares. No company-specific news found.",
+        "sources": [
+          {
+            "label": "Der Aktionär: Schlussglocke Frankfurt (12 Nov)",
+            "url": "https://www.deraktionaer.de/artikel/maerkte-forex-zinsen/schlussglocke-frankfurt-dax-knackt-naechsten-meilenstein-20441668.html"
+          }
+        ]
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-13",
+        "time": "11:00",
+        "event": "Eurozone GDP Q3, second estimate",
+        "why": "Updates the growth picture for the euro area."
+      },
+      {
+        "date": "2026-11-13",
+        "time": "14:30",
+        "event": "US producer prices (PPI) for October",
+        "why": "Another inflation gauge after Tuesday's hotter consumer prices."
+      },
+      {
+        "date": "2026-11-16",
+        "time": "",
+        "event": "Baidu and Tyson Foods results",
+        "why": "A read on Chinese tech and US food demand."
+      },
+      {
+        "date": "2026-11-17",
+        "time": "morning",
+        "event": "Home Depot and Disney results; US industrial production",
+        "why": "Consumer and housing-related demand signals, plus factory output."
+      },
+      {
+        "date": "2026-11-17",
+        "time": "after US close",
+        "event": "Nvidia Q3 FY2027 results (call 17:00 US Eastern time)",
+        "why": "First report under interim CEO Colette Kress; a major test for sentiment on AI spending."
+      },
+      {
+        "date": "2026-11-18",
+        "time": "",
+        "event": "FOMC minutes; US housing starts; Target, Lowe's, TJX, Palo Alto Networks results",
+        "why": "The minutes may add detail on how the Fed sees a December rate hike."
+      }
+    ],
+    "learn": {
+      "term": "Key-person risk",
+      "explanation": "Key-person risk is the risk that a company's results or share price depend heavily on one individual, such as a founder or CEO, and suffer if that person leaves. It is hard to measure, so investors usually watch how quickly a board names a successor and how deep the management team is. Nvidia is today's example: Jensen Huang's resignation as CEO sent the shares down 4.34% on 12 November, with CFO Colette Kress stepping in as interim CEO. Broad index funds spread this risk across many companies, but very large holdings like Nvidia still matter."
+    }
+  },
+  {
     "date": "2026-11-11",
     "headline": "DAX ends near its record while US shares slip on hotter inflation; Nvidia falls on lawsuit; Siemens Energy, RWE and E.ON report this morning",
     "intro": "European shares held up on Tuesday, with the DAX closing 0.3% higher, but Wall Street slipped after US consumer prices came in above forecasts and Treasury yields touched 5%. Futures and Asian markets point to a rebound today, and the DAX was indicated about 1% higher before the open.",
