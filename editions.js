@@ -1,6 +1,341 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-16",
+    "headline": "Asian chip shares slide ahead of Nvidia's results on Tuesday; Fed rate-hike bets and Anthropic's planned listing keep investors cautious",
+    "intro": "Asian markets started the week lower, led by chip stocks in South Korea, Taiwan and Japan, while US futures pointed slightly higher in Reuters' early-morning report. Investors are waiting for Nvidia's quarterly results on Tuesday, and the DAX ended Friday almost unchanged at 26,749.95 after a week of record highs.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "26,749.95",
+        "change": "−0.08%",
+        "asOf": "Close 13 Nov",
+        "source": {
+          "label": "dpa-AFX via news.de: Wochenausblick (13 Nov)",
+          "url": "https://www.news.de/wirtschaft/860187076/anleger-warten-auf-nvidia-zahlen-und-anthropic-boersengang-wochenausblick-news-der-dpa-aktuell-zu/1/"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved",
+        "source": {
+          "label": "dpa-AFX via news.de: Wochenausblick (13 Nov)",
+          "url": "https://www.news.de/wirtschaft/860187076/anleger-warten-auf-nvidia-zahlen-und-anthropic-boersengang-wochenausblick-news-der-dpa-aktuell-zu/1/"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Close not retrieved",
+        "source": {
+          "label": "XTB: Marktbericht Börse (13 Nov)",
+          "url": "https://xtb.com/de/Marktanalysen/Trading-News/boerse-aktuell-werden-sich-die-maerkte-von-dem-skandal-um-den-entlassenen-ceo-von-nvidia-erholen"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,561.67",
+        "change": "−0.4%",
+        "asOf": "Close 13 Nov (week +2.5%)",
+        "source": {
+          "label": "AP: How major US stock indexes fared Friday 13 Nov",
+          "url": "https://mymotherlode.com/news/national/11307764/how-major-us-stock-indexes-fared-friday-11-13-2026.html"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "25,136.27",
+        "change": "−0.9%",
+        "asOf": "Close 13 Nov (week +2.3%)",
+        "source": {
+          "label": "AP: How major US stock indexes fared Friday 13 Nov",
+          "url": "https://mymotherlode.com/news/national/11307764/how-major-us-stock-indexes-fared-friday-11-13-2026.html"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,347.55",
+        "change": "+0.1%",
+        "asOf": "Close 13 Nov (week +2.1%)",
+        "source": {
+          "label": "AP: How major US stock indexes fared Friday 13 Nov",
+          "url": "https://mymotherlode.com/news/national/11307764/how-major-us-stock-indexes-fared-friday-11-13-2026.html"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "60,182.50",
+        "change": "−1.6%",
+        "asOf": "Tokyo session, 16 Nov (AP; Reuters' earlier report showed a smaller fall)",
+        "source": {
+          "label": "AP via Click On Detroit: Stocks decline in Asia (16 Nov)",
+          "url": "https://www.clickondetroit.com/business/2026/11/16/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/"
+        }
+      },
+      {
+        "name": "Kospi",
+        "value": "5,142.84",
+        "change": "−2.8%",
+        "asOf": "Seoul session, 16 Nov (AP)",
+        "source": {
+          "label": "AP via Click On Detroit: Stocks decline in Asia (16 Nov)",
+          "url": "https://www.clickondetroit.com/business/2026/11/16/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.1017",
+        "change": "vs 1.1029 before",
+        "asOf": "Asian trading, 16 Nov (AP)",
+        "source": {
+          "label": "AP via Click On Detroit: Stocks decline in Asia (16 Nov)",
+          "url": "https://www.clickondetroit.com/business/2026/11/16/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$94.91",
+        "change": "−1.0%",
+        "asOf": "Asian trading, 16 Nov (AP)",
+        "source": {
+          "label": "AP via Click On Detroit: Stocks decline in Asia (16 Nov)",
+          "url": "https://www.clickondetroit.com/business/2026/11/16/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "$3,891/oz",
+        "change": "not available",
+        "asOf": "Early 16 Nov (Reuters)",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Asian shares fall before Nvidia earnings (16 Nov)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No reliable quote retrieved",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Asian shares fall before Nvidia earnings (16 Nov)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved",
+        "source": {
+          "label": "dpa-AFX via news.de: Wochenausblick (13 Nov)",
+          "url": "https://www.news.de/wirtschaft/860187076/anleger-warten-auf-nvidia-zahlen-und-anthropic-boersengang-wochenausblick-news-der-dpa-aktuell-zu/1/"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "5.1433%",
+        "change": "not available",
+        "asOf": "Early 16 Nov (Reuters)",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Asian shares fall before Nvidia earnings (16 Nov)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Asian chip shares fall ahead of Nvidia results",
+        "summary": "Chip-related stocks led losses in Asia on Monday. South Korea's Kospi fell 2.8% with SK Hynix down 5.5%, Taiwan's Taiex dropped 4.1% and Japan's Nikkei 225 lost 1.6%, according to AP. Japan's economy also contracted in the latest quarter, official data showed. Hong Kong's Hang Seng rose 0.9%, while mainland China's Shanghai Composite slipped 0.4% after retail sales and industrial output disappointed analysts.",
+        "whyItMatters": "Asia's chip makers are closely tied to AI-hardware demand, so the moves show how nervous investors are before Nvidia reports. Weak Chinese and Japanese data add a separate growth worry.",
+        "sources": [
+          {
+            "label": "AP via Click On Detroit: Stocks decline in Asia (16 Nov)",
+            "url": "https://www.clickondetroit.com/business/2026/11/16/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/"
+          },
+          {
+            "label": "Reuters via Yahoo Finance: Asian shares fall before Nvidia earnings (16 Nov)",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+          }
+        ]
+      },
+      {
+        "title": "Nvidia reports on Tuesday under an interim CEO",
+        "summary": "Nvidia reports fiscal third-quarter results after the US close on Tuesday. Analysts quoted by Reuters expect revenue of about $109bn and roughly 90% earnings growth, and options pricing implies a move of about 7% either way. The shares fell about 2% on Friday, their sixth weekly decline in a row, after CEO Jensen Huang resigned last week; CFO Colette Kress is interim CEO and the board is searching for a successor. Reuters puts the company's market value at about $3.9trn, down from about $5.8trn in early October.",
+        "whyItMatters": "Nvidia is one of the largest index weights and the key name in AI spending, so its guidance and any comments on leadership can move chip stocks, indices and global ETFs.",
+        "sources": [
+          {
+            "label": "Reuters via Yahoo Finance: Asian shares fall before Nvidia earnings (16 Nov)",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+          },
+          {
+            "label": "WiWo (Reuters): US-Börsen im Minus (14 Nov)",
+            "url": "https://wiwo.de/finanzen/boerse/us-boersen-im-minus-nvidia-und-microsoft-druecken-techwerte/100269787.html"
+          },
+          {
+            "label": "XTB: Marktbericht Börse (13 Nov)",
+            "url": "https://xtb.com/de/Marktanalysen/Trading-News/boerse-aktuell-werden-sich-die-maerkte-von-dem-skandal-um-den-entlassenen-ceo-von-nvidia-erholen"
+          }
+        ]
+      },
+      {
+        "title": "Fed rate-hike expectations stay high",
+        "summary": "US producer prices rose 6.5% in October from a year earlier, slightly less than forecast but the highest since November 2022, according to Reuters via WiWo. Futures markets price a quarter-point Fed increase in December as essentially certain, and the 10-year Treasury yield was about 5.14% early on Monday. The minutes of the Fed's October meeting are due on Wednesday.",
+        "whyItMatters": "Higher yields make future company profits worth less today and compete with stocks for investors' money, which tends to weigh most on richly valued growth shares.",
+        "sources": [
+          {
+            "label": "WiWo (Reuters): US-Börsen im Minus (14 Nov)",
+            "url": "https://wiwo.de/finanzen/boerse/us-boersen-im-minus-nvidia-und-microsoft-druecken-techwerte/100269787.html"
+          },
+          {
+            "label": "Reuters via Yahoo Finance: Asian shares fall before Nvidia earnings (16 Nov)",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+          }
+        ]
+      },
+      {
+        "title": "Anthropic's stock market debut planned for Thursday",
+        "summary": "According to Reuters and XTB, Anthropic is expected to price its IPO on Wednesday and begin trading on Nasdaq on Thursday. Reuters cites people familiar with the matter saying the offering drew more institutional interest than SpaceX's. XTB reports a target valuation of about $1trn, which is not confirmed by the company in the sources read.",
+        "whyItMatters": "A very large AI listing tests investor appetite for the theme at the same time as Nvidia's results and higher interest rates, and could pull money towards or away from other tech shares.",
+        "sources": [
+          {
+            "label": "Reuters via Yahoo Finance: Asian shares fall before Nvidia earnings (16 Nov)",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+          },
+          {
+            "label": "XTB: Marktbericht Börse (13 Nov)",
+            "url": "https://xtb.com/de/Marktanalysen/Trading-News/boerse-aktuell-werden-sich-die-maerkte-von-dem-skandal-um-den-entlassenen-ceo-von-nvidia-erholen"
+          }
+        ]
+      },
+      {
+        "title": "DAX ends a record-setting week almost flat",
+        "summary": "The DAX closed Friday at 26,749.95 points, 0.08% lower, and gained about 3.6% over the week, according to dpa-AFX; it briefly topped 27,000 on Thursday. EY data cited by aktien.news show the 27 DAX companies that reported raised third-quarter operating profit by 4.6% to €37.7bn. Chip maker Infineon fell 4.3% on Friday and Rheinmetall closed at €754.20, its lowest level since February 2025. Brent crude was near $95 after US President Donald Trump said Washington does not need a deal with Iran.",
+        "whyItMatters": "The index is near record levels while US tech and oil prices are unsettled, so European shares are exposed to swings in the AI trade and in energy costs.",
+        "sources": [
+          {
+            "label": "dpa-AFX via news.de: Wochenausblick (13 Nov)",
+            "url": "https://www.news.de/wirtschaft/860187076/anleger-warten-auf-nvidia-zahlen-und-anthropic-boersengang-wochenausblick-news-der-dpa-aktuell-zu/1/"
+          },
+          {
+            "label": "aktien.news: DAX beendet Rekordwoche (15 Nov)",
+            "url": "https://www.aktien.news/dax-beendet-rekordwoche-mit-mini-rucksetzer-ki-beben-um-nvidia-erschuettert-tech-welt"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "about −2% (Fri 13 Nov close, WiWo/Reuters)",
+        "note": "Reports Q3 results on Tuesday after the US close; analysts expect about $109bn revenue. Shares fell for a sixth week in a row after CEO Jensen Huang's resignation.",
+        "sources": [
+          {
+            "label": "WiWo (Reuters): US-Börsen im Minus (14 Nov)",
+            "url": "https://wiwo.de/finanzen/boerse/us-boersen-im-minus-nvidia-und-microsoft-druecken-techwerte/100269787.html"
+          },
+          {
+            "label": "Reuters via Yahoo Finance: Asian shares fall before Nvidia earnings (16 Nov)",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "change": "+0.2% (Fri 13 Nov close, WiWo)",
+        "note": "A global Outlook and Teams outage cut the shares by up to 1.7% on Friday before the service was restored and they recovered.",
+        "sources": [
+          {
+            "label": "WiWo (Reuters): US-Börsen im Minus (14 Nov)",
+            "url": "https://wiwo.de/finanzen/boerse/us-boersen-im-minus-nvidia-und-microsoft-druecken-techwerte/100269787.html"
+          },
+          {
+            "label": "aktien.news: DAX beendet Rekordwoche (15 Nov)",
+            "url": "https://www.aktien.news/dax-beendet-rekordwoche-mit-mini-rucksetzer-ki-beben-um-nvidia-erschuettert-tech-welt"
+          }
+        ]
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "XTB flagged the stock as one to watch because of possible tighter US chip-export limits being discussed in Congress; no verified price move or company news.",
+        "sources": [
+          {
+            "label": "XTB: Marktbericht Börse (13 Nov)",
+            "url": "https://xtb.com/de/Marktanalysen/Trading-News/boerse-aktuell-werden-sich-die-maerkte-von-dem-skandal-um-den-entlassenen-ceo-von-nvidia-erholen"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-16",
+        "time": "",
+        "event": "Uniper capital markets day; Baidu and Tyson Foods results",
+        "why": "Company updates on German energy and on Chinese tech and US food demand."
+      },
+      {
+        "date": "2026-11-17",
+        "time": "after US close",
+        "event": "Nvidia Q3 FY2027 results",
+        "why": "First report since the CEO's resignation and a gauge of AI-chip demand."
+      },
+      {
+        "date": "2026-11-17",
+        "time": "",
+        "event": "Springer Nature, Asta Energy and RTL results; Home Depot and Disney results",
+        "why": "Media, energy and US consumer readings."
+      },
+      {
+        "date": "2026-11-18",
+        "time": "",
+        "event": "Fed minutes; Anthropic IPO pricing; Drägerwerk capital markets day",
+        "why": "The minutes may show how the Fed views a December rate hike."
+      },
+      {
+        "date": "2026-11-18",
+        "time": "",
+        "event": "Target, Lowe's, TJX and Palo Alto Networks results",
+        "why": "US retail and cybersecurity demand."
+      },
+      {
+        "date": "2026-11-19",
+        "time": "",
+        "event": "Anthropic expected to start trading on Nasdaq; Sto results; Rational and Mutares capital markets days; APEC summit in Shenzhen",
+        "why": "A major AI listing and a possible Trump–Xi meeting."
+      }
+    ],
+    "learn": {
+      "term": "Implied move",
+      "explanation": "An implied move is the size of share-price swing that options prices suggest the market expects after an event such as quarterly results. It is read from what traders pay for options and is an estimate of size, not of direction. Reuters notes that options imply a move of about 7% in either direction for Nvidia after Tuesday's report. The real move can be smaller or much larger."
+    }
+  },
+  {
     "date": "2026-11-13",
     "headline": "DAX briefly tops 27,000 for the first time as Siemens, Allianz and Munich Re rise; Nvidia's CEO resigns and Wall Street slips; US producer prices due today",
     "intro": "European shares rose on Thursday, with the DAX closing 0.41% higher after briefly trading above 27,000 for the first time, helped by results from Siemens, Allianz and Munich Re. Wall Street closed slightly lower as Nvidia's CEO stepped down and the 10-year Treasury yield rose to about 5.1%.",
