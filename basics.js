@@ -1,6 +1,6 @@
 // Market Briefing – basics. The daily task only adds glossary terms.
 window.MARKET_BRIEFING_BASICS = {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "principles": [
     {"title": "Not investment advice", "text": "The briefing explains what happened and why it may matter. It never tells you what to buy or sell."},
     {"title": "Prices are not live", "text": "Every number has a timestamp and may be out of date. Always check the current price with your bank or broker before deciding anything."},
@@ -159,6 +159,8 @@ window.MARKET_BRIEFING_BASICS = {
     }
   },
   "glossary": [
+    {"term":"Earnings per share (EPS)","def":"A company's profit divided by its number of shares. Reported figures are usually compared with analysts' forecasts.","added":"2026-11-17"},
+    {"term":"Futures","def":"Contracts to buy or sell an asset at a set price on a future date. Index futures trade almost around the clock and give an early hint of where markets may open.","added":"2026-11-17"},
     {"term":"Implied move","def":"The size of price swing that options prices suggest the market expects around an event such as results. It indicates expected size, not direction.","added":"2026-11-16"},
     {"term":"Export controls","def":"Government limits on selling certain goods, such as advanced chips, to specific countries. They can change a company's addressable market.","added":"2026-11-16"},
     {"term":"Key-person risk","def":"The risk that a company depends heavily on one person, such as a CEO or founder, so that their departure could hurt its results or share price.","added":"2026-11-13"},

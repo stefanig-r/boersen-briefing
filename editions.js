@@ -1,6 +1,380 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-17",
+    "headline": "Tech selloff pushes DAX and Wall Street lower ahead of Nvidia's results tonight; ZEW sentiment and US retail sales due today",
+    "intro": "Chip and AI shares fell sharply on Monday, with the Nasdaq Composite down about 2.5% and the DAX closing at its daily low. Investors are now waiting for Nvidia's first quarterly report since its CEO resigned, due after the US close tonight.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "26,598.64",
+        "change": "−0.57%",
+        "asOf": "Close 16 Nov (closed at its intraday low)",
+        "source": {
+          "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss (16 Nov)",
+          "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-frankfurt-schluss-tech-schwaeche-macht-dax-zu-schaffen-16068878"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "30,528.26",
+        "change": "−0.56%",
+        "asOf": "Close 16 Nov",
+        "source": {
+          "label": "dpa-AFX via ariva.de: Aktien Frankfurt Schluss (16 Nov)",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-tech-schwaeche-macht-dax-zu-12209139"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "6,348.35",
+        "change": "−0.6%",
+        "asOf": "Close 16 Nov (single aggregator source)",
+        "source": {
+          "label": "ad-hoc-news.de: Euro Stoxx 50 (16 Nov)",
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-falls-0-6-prozent-as-ai-linked-tech-shares-weigh/70522928"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,416.60",
+        "change": "−1.92%",
+        "asOf": "Close 16 Nov (newsletter source; another outlet shows −1.98%)",
+        "source": {
+          "label": "The Weekend Spread: The Close, 16 Nov",
+          "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "24,509.76",
+        "change": "−2.49%",
+        "asOf": "Close 16 Nov (newsletter source; another outlet shows −2.54%)",
+        "source": {
+          "label": "The Weekend Spread: The Close, 16 Nov",
+          "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "51,608.35",
+        "change": "−1.41%",
+        "asOf": "Close 16 Nov (newsletter source)",
+        "source": {
+          "label": "The Weekend Spread: The Close, 16 Nov",
+          "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "not available",
+        "change": "−1.3%",
+        "asOf": "Early trade, 17 Nov (Reuters; closing level not retrieved)",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Asia shares stumble (17 Nov)",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-shares-stumble-tech-weakness-012906483.html"
+        }
+      },
+      {
+        "name": "Kospi",
+        "value": "not available",
+        "change": "about −2%",
+        "asOf": "Early trade, 17 Nov (Reuters)",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Asia shares stumble (17 Nov)",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-shares-stumble-tech-weakness-012906483.html"
+        }
+      },
+      {
+        "name": "DAX futures",
+        "value": "not available",
+        "change": "−0.57%",
+        "asOf": "Asian hours, 17 Nov (Reuters; indication only)",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Asia shares stumble (17 Nov)",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-shares-stumble-tech-weakness-012906483.html"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.1009",
+        "change": "−0.1%",
+        "asOf": "Close 16 Nov",
+        "source": {
+          "label": "The Weekend Spread: The Close, 16 Nov",
+          "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "$3,851.80",
+        "change": "−0.89%",
+        "asOf": "Futures, close 16 Nov",
+        "source": {
+          "label": "The Weekend Spread: The Close, 16 Nov",
+          "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$92.44",
+        "change": "−3.6%",
+        "asOf": "Close 16 Nov",
+        "source": {
+          "label": "The Weekend Spread: The Close, 16 Nov",
+          "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "$64,879",
+        "change": "−0.67%",
+        "asOf": "16 Nov",
+        "source": {
+          "label": "The Weekend Spread: The Close, 16 Nov",
+          "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "3.38%",
+        "change": "not available",
+        "asOf": "Monday morning, 16 Nov, 09:23 (not a close)",
+        "source": {
+          "label": "dpa-AFX via onvista: Deutsche Anleihen (16 Nov)",
+          "url": "https://www.onvista.de/news/2026/11/11-16-deutsche-anleihen-leichte-kursgewinne-0-10-26576742"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "about 5.12%",
+        "change": "not available",
+        "asOf": "17 Nov (sources differ on Monday's change)",
+        "source": {
+          "label": "Reuters via Yahoo Finance (17 Nov)",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-shares-stumble-tech-weakness-012906483.html"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Chip and AI shares sell off worldwide",
+        "summary": "Technology shares fell sharply on Monday. According to a US market report, the Nasdaq Composite lost about 2.5%, with Micron down 7.6%, AMD down 5.6% and Broadcom down 3.9%. TSMC fell 5.7% in Taiwan, and Asian markets opened lower again on Tuesday. The report attributes the move to a weekend note from the research firm SemiAnalysis that reportedly cut forecasts for AI chip spending, while Goldman Sachs described AI sentiment as unusually negative, according to Reuters.",
+        "whyItMatters": "The AI theme has been a major driver of index gains, so a sharp reversal in chip stocks can pull broad indices down. Heavily tech-weighted funds usually feel this more than broadly diversified ones.",
+        "sources": [
+          {
+            "label": "The Weekend Spread: The Close, 16 Nov",
+            "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+          },
+          {
+            "label": "Reuters via Yahoo Finance (17 Nov)",
+            "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-shares-stumble-tech-weakness-012906483.html"
+          }
+        ]
+      },
+      {
+        "title": "Nvidia reports tonight, its first results since the CEO's exit",
+        "summary": "Nvidia publishes quarterly results after the US close, at about 22:20 German time, with a call at 23:00. Jensen Huang resigned as CEO and board member on 12 November; finance chief Colette Kress is interim CEO. Management guided revenue of about $108bn, and a pre-selloff preview put the consensus near $108.8bn with earnings of $2.47 per share. Options prices implied a move of roughly 10% in either direction.",
+        "whyItMatters": "Nvidia is among the largest stocks in global indices and a bellwether for AI spending, so its outlook for the next quarter can move chip and tech shares broadly. Leadership uncertainty adds a further question for the call.",
+        "sources": [
+          {
+            "label": "NVIDIA: CEO transition announcement",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+          },
+          {
+            "label": "MarketPulse: Nvidia Q3 earnings preview",
+            "url": "https://www.marketpulse.com/markets/nvidia-nvda-q3-earnings-preview-ai-spending-risks-and-governance-concerns-threaten-major-uptrend/"
+          }
+        ]
+      },
+      {
+        "title": "New US chip-export rules and rate worries add to the caution",
+        "summary": "Reuters reports that the US Commerce Department issued a rule on remote access to advanced chips and that Washington plans further limits on China's access. A separate report says new licence requirements cover advanced chip exports to several countries including Singapore and Malaysia. At the same time, dpa-AFX notes that recent US inflation data dampened hopes of rate cuts, and Reuters says markets see a slim chance of a 50 basis point Fed hike in December.",
+        "whyItMatters": "Tighter export rules can cut the markets open to chip makers and their suppliers, while higher-for-longer rates weigh on valuations of growth companies.",
+        "sources": [
+          {
+            "label": "Reuters via Yahoo Finance (17 Nov)",
+            "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-shares-stumble-tech-weakness-012906483.html"
+          },
+          {
+            "label": "dpa-AFX via finanzen.net (16 Nov)",
+            "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-frankfurt-schluss-tech-schwaeche-macht-dax-zu-schaffen-16068878"
+          }
+        ]
+      },
+      {
+        "title": "Oil falls on signs of ample supply; dollar and yields stay firm",
+        "summary": "Brent crude fell 3.6% to about $92 on Monday after an IEA report that, according to the newsletter source, showed supply exceeding demand. Reuters says the dollar index is near its highest since April 2025, and gold fell to its lowest level since October 2025. The yen is near 160 per dollar, which Reuters links to a risk of intervention by Japan.",
+        "whyItMatters": "Lower oil prices can ease inflation pressure, which matters for central banks, while a strong dollar and high yields tend to weigh on gold and on shares that are priced on distant profits.",
+        "sources": [
+          {
+            "label": "The Weekend Spread: The Close, 16 Nov",
+            "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+          },
+          {
+            "label": "Reuters via Yahoo Finance (17 Nov)",
+            "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-shares-stumble-tech-weakness-012906483.html"
+          }
+        ]
+      },
+      {
+        "title": "DAX ends at its daily low; RWE out of the Uniper sale, analysts move on single stocks",
+        "summary": "The DAX fell 0.57% to 26,598.64 on global tech weakness, inflation worries, the planned Anthropic listing and Middle East tension, according to dpa-AFX. Bloomberg, citing insiders, reported that RWE and KKR were eliminated from the second round of the Uniper sale, and RWE fell 0.5%. Analysts at DZ Bank downgraded Brenntag to Sell, while Berenberg raised its target for Friedrich Vorwerk to EUR 115.",
+        "whyItMatters": "Single-stock ratings and deal news can move individual shares noticeably, but they say little about the broader market direction.",
+        "sources": [
+          {
+            "label": "dpa-AFX via finanzen.net (16 Nov)",
+            "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-frankfurt-schluss-tech-schwaeche-macht-dax-zu-schaffen-16068878"
+          }
+        ]
+      },
+      {
+        "title": "Tyson Foods jumps on results; Baidu falls on weaker advertising",
+        "summary": "Tyson Foods rose 8.7% in the US after adjusted earnings of $0.61 per share beat the $0.58 expected, with sales of $14.59bn, though its outlook points to lower sales next year. Baidu fell 5.4% after reporting that online marketing revenue declined 22%. XPeng reported record revenue of RMB 24.28bn with a wider loss.",
+        "whyItMatters": "Beating expectations matters as much as the absolute numbers: shares often move on how results compare with what analysts had forecast.",
+        "sources": [
+          {
+            "label": "The Weekend Spread: The Close, 16 Nov",
+            "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−4.12% (close 16 Nov, $156.14)",
+        "note": "Shares fell as chip stocks sold off and new US export-licence rules were reported; results are due tonight after the US close.",
+        "sources": [
+          {
+            "label": "HeyGoTrade: Nvidia stock news (17 Nov)",
+            "url": "https://heygotrade.com/en/news/nvidia-nvda-stock-news-november-17-2026"
+          },
+          {
+            "label": "NVIDIA: CEO transition",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "change": "about −1.3% to −2.5% (16 Nov; dpa-AFX gave a range for several stocks)",
+        "note": "Siemens was among the weaker DAX stocks on Monday, together with Siemens Energy and Infineon. No company-specific news was found.",
+        "sources": [
+          {
+            "label": "dpa-AFX via finanzen.net (16 Nov)",
+            "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-frankfurt-schluss-tech-schwaeche-macht-dax-zu-schaffen-16068878"
+          }
+        ]
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No company news found; the Dutch chip-equipment maker operates in the sector that sold off, with TSMC down 5.7% on Monday.",
+        "sources": [
+          {
+            "label": "The Weekend Spread: The Close, 16 Nov",
+            "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news. The fund tracks global shares, which were broadly lower on Monday (S&P 500 −1.9%, Euro Stoxx 50 −0.6%)."
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-17",
+        "time": "11:05",
+        "event": "Germany: ZEW economic sentiment, November",
+        "why": "Shows how financial analysts rate the German economic outlook."
+      },
+      {
+        "date": "2026-11-17",
+        "time": "14:30",
+        "event": "US retail sales and import prices, October",
+        "why": "A read on consumer spending and price pressure, relevant for Fed expectations."
+      },
+      {
+        "date": "2026-11-17",
+        "time": "pre-market",
+        "event": "Home Depot and Disney results",
+        "why": "Consumer-facing results for the housing and media sectors."
+      },
+      {
+        "date": "2026-11-17",
+        "time": "22:20 (call 23:00)",
+        "event": "Nvidia Q3 FY2027 results",
+        "why": "The key AI-spending barometer and the first report since the CEO change."
+      },
+      {
+        "date": "2026-11-18",
+        "time": "14:30",
+        "event": "US housing starts and building permits, October",
+        "why": "Gauges the interest-rate-sensitive housing market."
+      },
+      {
+        "date": "2026-11-18",
+        "time": "20:00",
+        "event": "FOMC minutes from the 27–28 October meeting",
+        "why": "Details on how Fed members view possible rate hikes."
+      },
+      {
+        "date": "2026-11-18",
+        "time": "pre-market",
+        "event": "Target, Lowe's and TJX results",
+        "why": "More evidence on US consumer demand."
+      },
+      {
+        "date": "2026-11-19",
+        "time": "",
+        "event": "Walmart results (time unconfirmed) and Alibaba results",
+        "why": "Walmart is a large retailer and a gauge of US consumers."
+      },
+      {
+        "date": "2026-11-19",
+        "time": "",
+        "event": "US weekly jobless claims",
+        "why": "A frequent check on the US labour market."
+      },
+      {
+        "date": "2026-11-20",
+        "time": "",
+        "event": "University of Michigan final consumer sentiment, November",
+        "why": "Shows consumer mood and inflation expectations."
+      },
+      {
+        "date": "2026-11-24",
+        "time": "",
+        "event": "Germany: ifo business climate, November",
+        "why": "A closely watched survey of German company sentiment."
+      }
+    ],
+    "learn": {
+      "term": "Earnings per share (EPS)",
+      "explanation": "Earnings per share is a company's profit divided by its number of shares. Analysts publish forecasts for it, and the gap between the reported figure and that forecast often moves a share price more than the number itself. Today's example is Nvidia, where the consensus before its results was about $2.47 per share. A company can beat expectations and still fall if its outlook disappoints."
+    }
+  },
+  {
     "date": "2026-11-16",
     "headline": "Asian chip shares slide ahead of Nvidia's results on Tuesday; Fed rate-hike bets and Anthropic's planned listing keep investors cautious",
     "intro": "Asian markets started the week lower, led by chip stocks in South Korea, Taiwan and Japan, while US futures pointed slightly higher in Reuters' early-morning report. Investors are waiting for Nvidia's quarterly results on Tuesday, and the DAX ended Friday almost unchanged at 26,749.95 after a week of record highs.",
