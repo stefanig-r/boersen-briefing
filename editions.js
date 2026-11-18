@@ -1,6 +1,408 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-18",
+    "headline": "Nvidia's results beat expectations and lift futures after a heavy selloff; Fed minutes and Anthropic's IPO pricing due today",
+    "intro": "European and US shares fell sharply again on Tuesday, with the DAX down about 2% and Wall Street posting a fourth straight losing day. Asian markets and US futures are steadier this morning after Nvidia reported results above analyst forecasts.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "26,045.37",
+        "change": "−2.08%",
+        "asOf": "Close 17 Nov",
+        "source": {
+          "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss (17 Nov)",
+          "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-aktien-frankfurt-schluss-verluste-nervositaet-vor-nvidia-zahlen-16071509"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "30,147.34",
+        "change": "−1.25%",
+        "asOf": "Close 17 Nov",
+        "source": {
+          "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss (17 Nov)",
+          "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-aktien-frankfurt-schluss-verluste-nervositaet-vor-nvidia-zahlen-16071509"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "6,212.11",
+        "change": "−2.15%",
+        "asOf": "Close 17 Nov",
+        "source": {
+          "label": "dpa-AFX via finanzen.net: Aktien Europa Schluss (17 Nov)",
+          "url": "https://www.finanzen.net/nachricht/aktien/aktien-europa-schluss-deutliche-verluste-vor-nvidia-zahlen-16071418"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,340.53",
+        "change": "−1.03%",
+        "asOf": "Close 17 Nov",
+        "source": {
+          "label": "Xinhua: U.S. stocks fall for 4th straight day (17 Nov)",
+          "url": "https://english.news.cn/northamerica/20261118/7fe12af3e0514dc99d350ac154d41ae5/c.html"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "24,328.38",
+        "change": "−0.74%",
+        "asOf": "Close 17 Nov",
+        "source": {
+          "label": "Xinhua: U.S. stocks fall for 4th straight day (17 Nov)",
+          "url": "https://english.news.cn/northamerica/20261118/7fe12af3e0514dc99d350ac154d41ae5/c.html"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "50,759.42",
+        "change": "−1.64%",
+        "asOf": "Close 17 Nov",
+        "source": {
+          "label": "Xinhua: U.S. stocks fall for 4th straight day (17 Nov)",
+          "url": "https://english.news.cn/northamerica/20261118/7fe12af3e0514dc99d350ac154d41ae5/c.html"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "not available",
+        "change": "+0.4% to +0.6%",
+        "asOf": "Early trade, 18 Nov (two reports differ slightly; level not retrieved)",
+        "source": {
+          "label": "Investing.com: Asia stocks mixed as Nvidia optimism offsets Wall Street rout (18 Nov)",
+          "url": "https://in.investing.com/news/stock-market-news/asia-stocks-mixed-as-nvidia-optimism-offsets-wall-street-rout-fed-mins-in-focus-5711387"
+        }
+      },
+      {
+        "name": "Kospi",
+        "value": "not available",
+        "change": "+1.4%",
+        "asOf": "Asian morning, 18 Nov (Investing.com; Reuters noted an intraday high of +3.3%)",
+        "source": {
+          "label": "Investing.com: Asia stocks mixed as Nvidia optimism offsets Wall Street rout (18 Nov)",
+          "url": "https://in.investing.com/news/stock-market-news/asia-stocks-mixed-as-nvidia-optimism-offsets-wall-street-rout-fed-mins-in-focus-5711387"
+        }
+      },
+      {
+        "name": "Hang Seng",
+        "value": "not available",
+        "change": "−1.2%",
+        "asOf": "Asian morning, 18 Nov",
+        "source": {
+          "label": "Investing.com: Asia stocks mixed as Nvidia optimism offsets Wall Street rout (18 Nov)",
+          "url": "https://in.investing.com/news/stock-market-news/asia-stocks-mixed-as-nvidia-optimism-offsets-wall-street-rout-fed-mins-in-focus-5711387"
+        }
+      },
+      {
+        "name": "S&P 500 futures",
+        "value": "not available",
+        "change": "+0.2% to +0.5%",
+        "asOf": "Asian morning, 18 Nov (indication only; sources differ)",
+        "source": {
+          "label": "Reuters via Business Standard: Asia stocks set to snap losing streak (18 Nov)",
+          "url": "https://www.business-standard.com/amp/markets/news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-126111800126_1.html"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified quote retrieved",
+        "source": {
+          "label": "Reuters via Business Standard: Asia stocks set to snap losing streak (18 Nov)",
+          "url": "https://www.business-standard.com/amp/markets/news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-126111800126_1.html"
+        }
+      },
+      {
+        "name": "US Dollar Index",
+        "value": "103.66",
+        "change": "+0.1%",
+        "asOf": "Asian morning, 18 Nov (Reuters; reached its highest since 2 April 2025 on Tuesday)",
+        "source": {
+          "label": "Reuters via Business Standard: Asia stocks set to snap losing streak (18 Nov)",
+          "url": "https://www.business-standard.com/amp/markets/news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-126111800126_1.html"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "below $3,800",
+        "change": "not available",
+        "asOf": "18 Nov, per an Investing.com headline; exact level not verified",
+        "source": {
+          "label": "Investing.com: Asia stocks mixed as Nvidia optimism offsets Wall Street rout (18 Nov)",
+          "url": "https://in.investing.com/news/stock-market-news/asia-stocks-mixed-as-nvidia-optimism-offsets-wall-street-rout-fed-mins-in-focus-5711387"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$93.00",
+        "change": "−0.2%",
+        "asOf": "Asian trading start, 18 Nov",
+        "source": {
+          "label": "Reuters via Business Standard: Asia stocks set to snap losing streak (18 Nov)",
+          "url": "https://www.business-standard.com/amp/markets/news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-126111800126_1.html"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "$64,862.82",
+        "change": "+0.9%",
+        "asOf": "Asian morning, 18 Nov",
+        "source": {
+          "label": "Reuters via Business Standard: Asia stocks set to snap losing streak (18 Nov)",
+          "url": "https://www.business-standard.com/amp/markets/news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-126111800126_1.html"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved",
+        "source": {
+          "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss (17 Nov)",
+          "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-aktien-frankfurt-schluss-verluste-nervositaet-vor-nvidia-zahlen-16071509"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "5.123%",
+        "change": "+2.2 bp",
+        "asOf": "Asian morning, 18 Nov (Reuters)",
+        "source": {
+          "label": "Reuters via Business Standard: Asia stocks set to snap losing streak (18 Nov)",
+          "url": "https://www.business-standard.com/amp/markets/news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-126111800126_1.html"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Nvidia beats forecasts and guides above expectations",
+        "summary": "Nvidia reported revenue of $115.8bn for the quarter ended 25 October, up 103% from a year earlier, with data-centre sales of $107.6bn. Adjusted earnings were $2.68 per share, against a consensus of about $2.47 cited in previews. The company guided next-quarter revenue to about $130bn, plus or minus 3%, and said the outlook assumes no data-centre compute revenue from China. Interim CEO Colette Kress led the first report since Jensen Huang's resignation, and shares rose by roughly 4–5% in after-hours trading, according to Reuters.",
+        "whyItMatters": "Nvidia is a bellwether for AI spending and a very large index weight, so its numbers shape sentiment across chip, tech and broad-market funds. The leadership question and the China exclusion remain open points.",
+        "sources": [
+          {
+            "label": "NVIDIA: Q3 fiscal 2027 results",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+          },
+          {
+            "label": "Reuters via Business Standard: Asia stocks set to snap losing streak (18 Nov)",
+            "url": "https://www.business-standard.com/amp/markets/news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-126111800126_1.html"
+          }
+        ]
+      },
+      {
+        "title": "Europe and Wall Street extend losses before the Nvidia report",
+        "summary": "The DAX fell 2.08% to 26,045.37 and the Euro Stoxx 50 lost 2.15%, its third straight decline. On Wall Street the Dow dropped 1.64%, the S&P 500 1.03% and the Nasdaq Composite 0.74%, a fourth straight losing session, with all 11 S&P sectors lower. Commentators pointed to nerves ahead of Nvidia, new US export curbs on advanced chips to countries such as Singapore and Malaysia, and rate worries. US retail sales for October rose 0.2%, and the NAHB housing index fell to 25, its lowest since April 2012.",
+        "whyItMatters": "A broad decline across sectors suggests investors were reducing risk rather than reacting to one story. After several down days, markets are sensitive to how Nvidia and the Fed minutes are read.",
+        "sources": [
+          {
+            "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss (17 Nov)",
+            "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-aktien-frankfurt-schluss-verluste-nervositaet-vor-nvidia-zahlen-16071509"
+          },
+          {
+            "label": "Xinhua: U.S. stocks fall for 4th straight day (17 Nov)",
+            "url": "https://english.news.cn/northamerica/20261118/7fe12af3e0514dc99d350ac154d41ae5/c.html"
+          }
+        ]
+      },
+      {
+        "title": "Fed rate-hike talk lifts yields; minutes due tonight",
+        "summary": "St. Louis Fed President Alberto Musalem said on Tuesday the Fed may need several rate hikes to bring down inflation, according to Reuters. The 10-year US yield stood at 5.123% in Asian trading and the dollar index touched its highest since April 2025. Xinhua reports that traders increasingly price a 25 basis-point hike at the December meeting. The minutes of the 27–28 October meeting are published at 20:00 German time.",
+        "whyItMatters": "Higher yields reduce the present value of future profits, which tends to weigh on growth and tech shares and on companies that need a lot of financing. The minutes show how widely hikes are discussed inside the Fed.",
+        "sources": [
+          {
+            "label": "Reuters via Business Standard: Asia stocks set to snap losing streak (18 Nov)",
+            "url": "https://www.business-standard.com/amp/markets/news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-126111800126_1.html"
+          },
+          {
+            "label": "Xinhua: U.S. stocks fall for 4th straight day (17 Nov)",
+            "url": "https://english.news.cn/northamerica/20261118/7fe12af3e0514dc99d350ac154d41ae5/c.html"
+          }
+        ]
+      },
+      {
+        "title": "Software shares slide; SAP down 5.6%",
+        "summary": "US software stocks dropped on Tuesday, with Salesforce down 9.45% and ServiceNow down 6.51%, according to Xinhua. Yahoo Finance linked the move to concern that new AI models could disrupt software businesses. In Frankfurt, dpa-AFX reported SAP down 5.6%, its lowest level in four weeks, amid weakness across European software shares.",
+        "whyItMatters": "Investors are weighing whether AI helps or threatens established software firms. Such sector-wide swings can hit funds with large software holdings regardless of company results.",
+        "sources": [
+          {
+            "label": "Xinhua: U.S. stocks fall for 4th straight day (17 Nov)",
+            "url": "https://english.news.cn/northamerica/20261118/7fe12af3e0514dc99d350ac154d41ae5/c.html"
+          },
+          {
+            "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss (17 Nov)",
+            "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-aktien-frankfurt-schluss-verluste-nervositaet-vor-nvidia-zahlen-16071509"
+          }
+        ]
+      },
+      {
+        "title": "Deutsche Bank falls 6% on media reports; Evonik rises on bid talk",
+        "summary": "Deutsche Bank was the DAX's weakest stock, down 6.0%, after several media reports criticised its handling of anti-money-laundering controls and difficult clients, with allegations also aimed at CEO Christian Sewing, dpa-AFX reports. The bank said the issues go back many years and that it has changed fundamentally since 2018. In the MDAX, Evonik gained 4.2% after Bloomberg reported that BASF is preparing an improved bid, while Home Depot fell 2.45% after a cautious outlook and a CEO change.",
+        "whyItMatters": "Allegations are not findings, but regulatory and reputational questions can weigh on a bank's shares. Takeover reports show how M&A talk can move a stock before any offer is confirmed.",
+        "sources": [
+          {
+            "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss (17 Nov)",
+            "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-aktien-frankfurt-schluss-verluste-nervositaet-vor-nvidia-zahlen-16071509"
+          },
+          {
+            "label": "Xinhua: U.S. stocks fall for 4th straight day (17 Nov)",
+            "url": "https://english.news.cn/northamerica/20261118/7fe12af3e0514dc99d350ac154d41ae5/c.html"
+          }
+        ]
+      },
+      {
+        "title": "Anthropic expected to price its IPO today",
+        "summary": "Reuters reports that Anthropic prepares to price its shares later on Wednesday before its market debut, with a valuation of up to $1.4 trillion on a fully diluted basis. According to Bloomberg, it is guiding investors to the top of its range or above. A filing reported on 10 November set a range of $70–78 a share on Nasdaq, with trading expected to start on 19 November, according to Decrypt.",
+        "whyItMatters": "A very large AI listing is read as a test of investor appetite for the sector after a week of selling. It could also draw funds away from other tech shares.",
+        "sources": [
+          {
+            "label": "Reuters via Business Standard: Asia stocks set to snap losing streak (18 Nov)",
+            "url": "https://www.business-standard.com/amp/markets/news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-126111800126_1.html"
+          },
+          {
+            "label": "Decrypt: Anthropic sets IPO price range (10 Nov)",
+            "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion?amp=1"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−0.44% close 17 Nov ($155.46); about +4.7% after hours",
+        "note": "Quarterly revenue rose 103% to $115.8bn and guidance of about $130bn beat expectations; it assumes no China data-centre sales. A $0.25 quarterly dividend was also announced.",
+        "sources": [
+          {
+            "label": "NVIDIA: Q3 fiscal 2027 results",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+          },
+          {
+            "label": "Yahoo Finance: Stock market today, 17 Nov",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "change": "−5.6% (close 17 Nov, Xetra)",
+        "note": "Fell to a four-week low amid broad weakness in European software shares.",
+        "sources": [
+          {
+            "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss (17 Nov)",
+            "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-aktien-frankfurt-schluss-verluste-nervositaet-vor-nvidia-zahlen-16071509"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "CEO Satya Nadella opened the Ignite conference; no share-price move was verified. US software peers fell sharply on Tuesday.",
+        "sources": [
+          {
+            "label": "Yahoo Finance: Stock market today, 17 Nov",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news. The fund tracks global shares, which fell on Tuesday (S&P 500 −1.03%, Euro Stoxx 50 −2.15%)."
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-18",
+        "time": "10:00",
+        "event": "ECB press conference on the Financial Stability Review",
+        "why": "Shows how the ECB sees risks to banks and markets."
+      },
+      {
+        "date": "2026-11-18",
+        "time": "11:00",
+        "event": "Eurozone consumer prices, October (final)",
+        "why": "Confirms the inflation figure that guides ECB policy."
+      },
+      {
+        "date": "2026-11-18",
+        "time": "14:30",
+        "event": "US building starts and permits, October",
+        "why": "Gauges the rate-sensitive housing market."
+      },
+      {
+        "date": "2026-11-18",
+        "time": "20:00",
+        "event": "FOMC minutes of the 27–28 October meeting",
+        "why": "Details on how Fed members view possible rate hikes."
+      },
+      {
+        "date": "2026-11-18",
+        "time": "",
+        "event": "Target Q3 results; Anthropic IPO pricing (expected)",
+        "why": "A read on US consumers and on appetite for AI listings."
+      },
+      {
+        "date": "2026-11-19",
+        "time": "13:00",
+        "event": "Walmart Q3 results",
+        "why": "A large retailer and a gauge of US consumer demand."
+      },
+      {
+        "date": "2026-11-19",
+        "time": "14:30",
+        "event": "US weekly jobless claims and Philadelphia Fed index",
+        "why": "Regular checks on the labour market and factory activity."
+      },
+      {
+        "date": "2026-11-19",
+        "time": "",
+        "event": "Anthropic expected to begin trading on Nasdaq",
+        "why": "Per a 10 November report; the date depends on pricing."
+      },
+      {
+        "date": "2026-11-20",
+        "time": "",
+        "event": "University of Michigan final consumer sentiment, November",
+        "why": "Shows consumer mood and inflation expectations."
+      },
+      {
+        "date": "2026-11-23",
+        "time": "",
+        "event": "Home Depot CEO change takes effect",
+        "why": "CFO Richard McPhail succeeds Ted Decker."
+      },
+      {
+        "date": "2026-11-24",
+        "time": "",
+        "event": "Germany: ifo business climate, November",
+        "why": "A closely watched survey of German company sentiment."
+      }
+    ],
+    "learn": {
+      "term": "FOMC minutes",
+      "explanation": "The FOMC is the committee that sets US interest rates, and its minutes are a written summary of a meeting, published about three weeks later. They show how many members favoured different options and what risks they discussed. Markets read them for hints about future rate moves. Today's release covers the 27–28 October meeting, at a time when some Fed officials are openly discussing further rate hikes."
+    }
+  },
+  {
     "date": "2026-11-17",
     "headline": "Tech selloff pushes DAX and Wall Street lower ahead of Nvidia's results tonight; ZEW sentiment and US retail sales due today",
     "intro": "Chip and AI shares fell sharply on Monday, with the Nasdaq Composite down about 2.5% and the DAX closing at its daily low. Investors are now waiting for Nvidia's first quarterly report since its CEO resigned, due after the US close tonight.",
