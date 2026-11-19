@@ -1,6 +1,344 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-19",
+    "headline": "Hawkish Fed minutes weigh on markets as gold hits a 14-month low; Anthropic starts trading today",
+    "intro": "The DAX fell below 26,000 points on Wednesday and Wall Street ended mixed, as Fed minutes showed some officials favoured raising interest rates. Asian markets are mostly weaker this morning, and the day's main event is the Nasdaq debut of Anthropic.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "25,736.24",
+        "change": "−1.19%",
+        "asOf": "Close 18 Nov",
+        "source": {
+          "label": "dpa-AFX via finanzen.at: Aktien Frankfurt Schluss (18 Nov)",
+          "url": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-schluss-dax-rutscht-wieder-unter-26-000-punkte-1036779860"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "29,878.63",
+        "change": "−0.89%",
+        "asOf": "Close 18 Nov",
+        "source": {
+          "label": "dpa-AFX via finanzen.at: Aktien Frankfurt Schluss (18 Nov)",
+          "url": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-schluss-dax-rutscht-wieder-unter-26-000-punkte-1036779860"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "not available",
+        "change": "about −1% (pan-European)",
+        "asOf": "Close 18 Nov not retrieved; Reuters put European shares about 1% lower, at a two-week low",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Trading Day (18 Nov)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,323.63",
+        "change": "−0.23%",
+        "asOf": "Close 18 Nov (figures from a post-close snapshot)",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Trading Day (18 Nov)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "24,429.88",
+        "change": "+0.42%",
+        "asOf": "Close 18 Nov (figures from a post-close snapshot)",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Trading Day (18 Nov)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "50,198.17",
+        "change": "−1.11%",
+        "asOf": "Close 18 Nov (figures from a post-close snapshot)",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Trading Day (18 Nov)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "not available",
+        "change": "about +1%",
+        "asOf": "Early trade, 19 Nov (level not retrieved)",
+        "source": {
+          "label": "HDFC Sky market report citing Reuters/CNBC/AP (19 Nov)",
+          "url": "https://hdfcsky.com/news/bse-nse-sensex-november-19-2026-open-report-sensex-nifty-edge-lower-as-hawkish-us-fed-minutes-weigh-it-stocks-drag"
+        }
+      },
+      {
+        "name": "Kospi",
+        "value": "not available",
+        "change": "down more than 1%",
+        "asOf": "Early trade, 19 Nov (level not retrieved)",
+        "source": {
+          "label": "HDFC Sky market report citing Reuters/CNBC/AP (19 Nov)",
+          "url": "https://hdfcsky.com/news/bse-nse-sensex-november-19-2026-open-report-sensex-nifty-edge-lower-as-hawkish-us-fed-minutes-weigh-it-stocks-drag"
+        }
+      },
+      {
+        "name": "Hang Seng",
+        "value": "not available",
+        "change": "−1.34%",
+        "asOf": "Early trade, 19 Nov (level not retrieved)",
+        "source": {
+          "label": "HDFC Sky market report citing Reuters/CNBC/AP (19 Nov)",
+          "url": "https://hdfcsky.com/news/bse-nse-sensex-november-19-2026-open-report-sensex-nifty-edge-lower-as-hawkish-us-fed-minutes-weigh-it-stocks-drag"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.0974",
+        "change": "−0.2%",
+        "asOf": "As of 18 Nov, 17:47 CET",
+        "source": {
+          "label": "dpa-AFX via finanzen.at: Aktien Frankfurt Schluss (18 Nov)",
+          "url": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-schluss-dax-rutscht-wieder-unter-26-000-punkte-1036779860"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "$3,738",
+        "change": "−2.9%",
+        "asOf": "As of 18 Nov, 17:47 CET (Reuters cites a 14-month low of $3,735)",
+        "source": {
+          "label": "dpa-AFX via finanzen.at: Aktien Frankfurt Schluss (18 Nov)",
+          "url": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-schluss-dax-rutscht-wieder-unter-26-000-punkte-1036779860"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "$91.47",
+        "change": "−0.58%",
+        "asOf": "Early Asian trade, 19 Nov",
+        "source": {
+          "label": "HDFC Sky market report citing Reuters/CNBC/AP (19 Nov)",
+          "url": "https://hdfcsky.com/news/bse-nse-sensex-november-19-2026-open-report-sensex-nifty-edge-lower-as-hawkish-us-fed-minutes-weigh-it-stocks-drag"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "$62,441.11",
+        "change": "−3.43%",
+        "asOf": "18 Nov, after the US close",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Trading Day (18 Nov)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved",
+        "source": {
+          "label": "dpa-AFX via finanzen.at: Aktien Frankfurt Schluss (18 Nov)",
+          "url": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-schluss-dax-rutscht-wieder-unter-26-000-punkte-1036779860"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "5.07%",
+        "change": "−0.04 pts",
+        "asOf": "18 Nov, after the US close (quote widget)",
+        "source": {
+          "label": "Reuters via Yahoo Finance: Trading Day (18 Nov)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Fed minutes show some officials wanted a rate rise in October",
+        "summary": "The minutes of the Federal Reserve's 27–28 October meeting, published on Wednesday evening in Europe, show rates were held with a 10–2 vote, with Governors Cook and Hammack dissenting. According to a market report summarising the release, some participants favoured a 25 basis point increase, and the vast majority saw upside risks to inflation, with many pointing to the AI investment boom as a source. The meeting took place before the latest higher-than-expected inflation data. Reuters described the minutes as hawkish, and Governor Christopher Waller has said a half-point hike in December is possible.",
+        "whyItMatters": "Higher interest rates make bonds more attractive and tend to weigh on richly valued growth shares, which is why markets reacted nervously. Whether the Fed actually raises rates in December will depend on coming inflation data.",
+        "sources": [
+          {
+            "label": "HDFC Sky market report citing Reuters/CNBC/AP (19 Nov)",
+            "url": "https://hdfcsky.com/news/bse-nse-sensex-november-19-2026-open-report-sensex-nifty-edge-lower-as-hawkish-us-fed-minutes-weigh-it-stocks-drag"
+          },
+          {
+            "label": "Reuters via Yahoo Finance: Trading Day (18 Nov)",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html"
+          }
+        ]
+      },
+      {
+        "title": "Gold falls to a 14-month low as the dollar strengthens",
+        "summary": "Gold dropped about 3% on Wednesday to around $3,735 an ounce, its lowest in 14 months, according to Reuters. The US dollar rose to a 19-month high and the euro slipped below $1.10. Oil also fell, with Brent down roughly 1–2% depending on the time of the quote. Bitcoin lost about 3.4% in the same session.",
+        "whyItMatters": "Gold usually struggles when rate expectations and the dollar rise, because it pays no interest. A stronger dollar also lowers the euro value of US assets held by European investors.",
+        "sources": [
+          {
+            "label": "Reuters via Yahoo Finance: Trading Day (18 Nov)",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html"
+          },
+          {
+            "label": "dpa-AFX via finanzen.at: Aktien Frankfurt Schluss (18 Nov)",
+            "url": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-schluss-dax-rutscht-wieder-unter-26-000-punkte-1036779860"
+          }
+        ]
+      },
+      {
+        "title": "Nvidia slips for a fifth day despite beating forecasts",
+        "summary": "Nvidia shares fell 2.89% to $150.96 on Wednesday, extending a losing streak a day after quarterly results that beat analyst estimates. Investors are weighing the departure of CEO Jensen Huang, according to market reports. Analysts quoted by dpa-AFX were split: Bank of America's Vivek Arya called the news broadly reassuring, while Barclays' Tom O'Malley still sees leadership questions, data-centre infrastructure delays and China risk as headwinds.",
+        "whyItMatters": "Nvidia is one of the largest index weights worldwide, so its share price influences global equity funds. The reaction shows that good results alone did not settle concerns about leadership and AI spending.",
+        "sources": [
+          {
+            "label": "HDFC Sky market report citing Reuters/CNBC/AP (19 Nov)",
+            "url": "https://hdfcsky.com/news/bse-nse-sensex-november-19-2026-open-report-sensex-nifty-edge-lower-as-hawkish-us-fed-minutes-weigh-it-stocks-drag"
+          },
+          {
+            "label": "dpa-AFX via finanzen.at: Aktien Frankfurt Schluss (18 Nov)",
+            "url": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-schluss-dax-rutscht-wieder-unter-26-000-punkte-1036779860"
+          }
+        ]
+      },
+      {
+        "title": "Anthropic prices its IPO above the target range",
+        "summary": "Anthropic priced its initial public offering at $83 per share on Wednesday, above the earlier $70–$78 range, and shares are due to start trading on Nasdaq under the ticker ANT today. A market summary puts the offering at 980 million shares, about $81bn raised, at a valuation of roughly $1.5 trillion on a fully diluted basis; earlier terms reported on 11 November differed, and the figures are not fully reconciled. Microsoft, Nvidia, Google and other large technology firms were named as cornerstone investors.",
+        "whyItMatters": "A listing of this size tests how much money investors are willing to put into AI companies at a time of rising rate worries. It could also draw funds away from other technology shares.",
+        "sources": [
+          {
+            "label": "HDFC Sky market report citing Reuters/CNBC/AP (19 Nov)",
+            "url": "https://hdfcsky.com/news/bse-nse-sensex-november-19-2026-open-report-sensex-nifty-edge-lower-as-hawkish-us-fed-minutes-weigh-it-stocks-drag"
+          },
+          {
+            "label": "The Next Web: Anthropic IPO terms (11 Nov)",
+            "url": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
+          }
+        ]
+      },
+      {
+        "title": "DAX falls below 26,000 and its 21-day average",
+        "summary": "The DAX closed 1.19% lower at 25,736.24 points, falling below 26,000 and below its 21-day average for the first time since late October. Last week the index had briefly traded above 27,000 for the first time. The MDAX lost 0.89%. Reuters said European shares overall were about 1% lower, at a two-week low.",
+        "whyItMatters": "The move is a pullback from a record, not a trend by itself. Investors watching the DAX will look at whether the rate worries from the US continue to spread into Europe.",
+        "sources": [
+          {
+            "label": "dpa-AFX via finanzen.at: Aktien Frankfurt Schluss (18 Nov)",
+            "url": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-schluss-dax-rutscht-wieder-unter-26-000-punkte-1036779860"
+          },
+          {
+            "label": "Reuters via Yahoo Finance: Trading Day (18 Nov)",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−2.89% to $150.96 (close 18 Nov)",
+        "note": "Fifth straight daily loss, a day after results beat estimates; investors are weighing the CEO's departure.",
+        "sources": [
+          {
+            "label": "HDFC Sky market report citing Reuters/CNBC/AP (19 Nov)",
+            "url": "https://hdfcsky.com/news/bse-nse-sensex-november-19-2026-open-report-sensex-nifty-edge-lower-as-hawkish-us-fed-minutes-weigh-it-stocks-drag"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "Named as a cornerstone investor in Anthropic's IPO in reports dated 11 November. No share-price move was verified.",
+        "sources": [
+          {
+            "label": "The Next Web: Anthropic IPO terms (11 Nov)",
+            "url": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news. The fund tracks global shares, which were mixed on Wednesday (S&P 500 −0.23%, DAX −1.19%)."
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-19",
+        "time": "11:00",
+        "event": "Eurozone labour costs, Q3 (preliminary)",
+        "why": "Wage growth feeds into the ECB's view on inflation."
+      },
+      {
+        "date": "2026-11-19",
+        "time": "13:00",
+        "event": "Walmart Q3 results",
+        "why": "A large retailer and a gauge of US consumer demand."
+      },
+      {
+        "date": "2026-11-19",
+        "time": "14:30",
+        "event": "US weekly jobless claims and Philadelphia Fed index",
+        "why": "Regular checks on the labour market and factory activity."
+      },
+      {
+        "date": "2026-11-19",
+        "time": "",
+        "event": "Anthropic (ANT) expected to begin trading on Nasdaq",
+        "why": "Tests investor appetite for very large AI listings."
+      },
+      {
+        "date": "2026-11-19",
+        "time": "16:00",
+        "event": "US leading economic indicators, October",
+        "why": "A composite pointer to the direction of the US economy."
+      },
+      {
+        "date": "2026-11-20",
+        "time": "",
+        "event": "University of Michigan final consumer sentiment, November",
+        "why": "Shows consumer mood and inflation expectations."
+      },
+      {
+        "date": "2026-11-23",
+        "time": "",
+        "event": "Home Depot CEO change takes effect",
+        "why": "CFO Richard McPhail succeeds Ted Decker."
+      },
+      {
+        "date": "2026-11-24",
+        "time": "",
+        "event": "Germany: ifo business climate, November",
+        "why": "A closely watched survey of German company sentiment."
+      }
+    ],
+    "learn": {
+      "term": "Hawkish vs. dovish",
+      "explanation": "Central bankers are called hawkish when they lean towards higher interest rates to fight inflation, and dovish when they lean towards lower rates to support growth. Markets read speeches and meeting minutes for these signals. The Fed minutes published on Wednesday were described as hawkish because some officials favoured raising rates, and shares, gold and bitcoin fell on the day. The labels describe a leaning, not a decision."
+    }
+  },
+  {
     "date": "2026-11-18",
     "headline": "Nvidia's results beat expectations and lift futures after a heavy selloff; Fed minutes and Anthropic's IPO pricing due today",
     "intro": "European and US shares fell sharply again on Tuesday, with the DAX down about 2% and Wall Street posting a fourth straight losing day. Asian markets and US futures are steadier this morning after Nvidia reported results above analyst forecasts.",
