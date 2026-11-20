@@ -1,6 +1,6 @@
 // Market Briefing – basics. The daily task only adds glossary terms.
 window.MARKET_BRIEFING_BASICS = {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "principles": [
     {"title": "Not investment advice", "text": "The briefing explains what happened and why it may matter. It never tells you what to buy or sell."},
     {"title": "Prices are not live", "text": "Every number has a timestamp and may be out of date. Always check the current price with your bank or broker before deciding anything."},
@@ -159,6 +159,8 @@ window.MARKET_BRIEFING_BASICS = {
     }
   },
   "glossary": [
+    {"term":"Opening auction","def":"A call auction at the start of trading that collects orders and sets a single opening price. New listings often open this way.","added":"2026-11-20"},
+    {"term":"Short selling","def":"Selling borrowed shares in the hope of buying them back cheaper, a bet that the price will fall. Short sellers sometimes publish research to support their position, which is one party's view.","added":"2026-11-20"},
     {"term":"Hawkish","def":"Describes a central banker or statement leaning towards higher interest rates to fight inflation. The opposite is called dovish.","added":"2026-11-19"},
     {"term":"Cornerstone investor","def":"A large investor that commits to buy a big block of shares in an IPO before it happens, signalling demand to other buyers.","added":"2026-11-19"},
     {"term":"FOMC minutes","def":"A written summary of a US Federal Reserve rate-setting meeting, published about three weeks afterwards. Markets read it for hints about future interest-rate decisions.","added":"2026-11-18"},

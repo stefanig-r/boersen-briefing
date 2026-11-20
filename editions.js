@@ -1,6 +1,310 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-20",
+    "headline": "Wall Street slides about 2% as Anthropic's debut fades and chip stocks sell off; Lagarde speaks today",
+    "intro": "US shares had a sharp down day on Thursday, with the Dow losing more than 2% and chip stocks leading the fall, as early enthusiasm for Anthropic's market debut faded. Several European and Asian figures could not be verified this morning and are marked as not available.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "19 Nov close not retrieved (18 Nov close was 25,736.24)",
+        "source": {
+          "label": "Previous edition (dpa-AFX via finanzen.at, 18 Nov)",
+          "url": "https://www.finanzen.at/nachrichten/aktien/aktien-frankfurt-schluss-dax-rutscht-wieder-unter-26-000-punkte-1036779860"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "not available",
+        "change": "about −2%",
+        "asOf": "19 Nov, late session; level not retrieved. Described as its longest losing streak since April 2024",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "not available",
+        "change": "about −2.2%",
+        "asOf": "19 Nov, late session; level not retrieved",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "49,097",
+        "change": "−2.19%",
+        "asOf": "Close 19 Nov (−1,101 points)",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved for this edition",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved for this edition",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved for this edition",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved for this edition",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved for this edition",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved for this edition",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved for this edition",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved for this edition",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not retrieved for this edition",
+        "source": {
+          "label": "Trading Economics: US stock market news (19 Nov items)",
+          "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "US stocks fall about 2% in a broad sell-off",
+        "summary": "The Dow Jones closed 2.19% lower at 49,097 points on Thursday, a loss of about 1,101 points, led by UnitedHealth, Nike and Amazon. Reports from the same source put the S&P 500 down about 2%, its longest losing run since April 2024, and the Nasdaq down about 2.2%. Earlier in the session the S&P 500 had traded at its lowest level since June.",
+        "whyItMatters": "A multi-day slide in the broad US index shows nervousness after weeks of high yields and AI-related swings. One-day moves are noisy, and long-term investors typically focus on the trend rather than single sessions.",
+        "sources": [
+          {
+            "label": "Trading Economics: US stock market news (19 Nov items)",
+            "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+          }
+        ]
+      },
+      {
+        "title": "Anthropic's Nasdaq debut: strong open, then gains shrink",
+        "summary": "Anthropic (ticker ANT) had priced its IPO at $83 per share, above the $70–78 range. The first trade came at $111.50, about 34% above the IPO price, after a long opening auction. The shares then slipped to a low of $92.72 and closed at $97.17, 17.1% above the IPO price, with about 832 million shares traded.",
+        "whyItMatters": "The fading of the first-day gain shows how sentiment toward large AI listings can turn within hours. It also adds a very large new AI name to indices and investor attention.",
+        "sources": [
+          {
+            "label": "StockTitan: Anthropic IPO live, first trading day (updated 19 Nov)",
+            "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026"
+          }
+        ]
+      },
+      {
+        "title": "Chip stocks under pressure: Nvidia and AMD fall",
+        "summary": "Nvidia fell about 3.3% amid continued uncertainty over its leadership after CEO Jensen Huang's resignation. AMD dropped about 7.7% after a short-seller report from Hunterbrook that, according to the report summary, flagged China-related risk. Applied Materials was also reported sharply lower.",
+        "whyItMatters": "Semiconductor companies are heavily weighted in major indices, so declines there can pull whole markets down. A short-seller report is one party's claim, not a verified fact.",
+        "sources": [
+          {
+            "label": "Trading Economics: US stock market news (19 Nov items)",
+            "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+          }
+        ]
+      },
+      {
+        "title": "Payment and health stocks weak; Walmart dips despite raising outlook",
+        "summary": "Visa fell about 3.1% and Mastercard about 2.6% after a vendor cyberattack disclosure, according to the report. UnitedHealth was down more than 5% on the day. Walmart traded about 1.5% lower earlier in the session even though it raised its full-year sales and earnings forecasts.",
+        "whyItMatters": "Even good company news can be outweighed by a weak overall market. The payment-sector move shows how a single security incident can affect sentiment across competitors.",
+        "sources": [
+          {
+            "label": "Trading Economics: US stock market news (19 Nov items)",
+            "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+          }
+        ]
+      },
+      {
+        "title": "Lagarde speaks in Frankfurt; flash PMIs and ifo follow next week",
+        "summary": "ECB President Christine Lagarde is scheduled to speak at the Frankfurt European Banking Congress at 09:00 German time. German producer prices for October are due at 08:00 and US consumer sentiment (final) at 16:00. Next week brings flash purchasing managers' indices on Monday and the ifo business climate on Tuesday.",
+        "whyItMatters": "With yields high, central-bank comments and inflation-related data are closely watched for hints about interest rates.",
+        "sources": [
+          {
+            "label": "dpa-AFX via ariva.de: Wochenvorschau Termine bis 30 November 2026 (16 Nov)",
+            "url": "https://www.ariva.de/news/wochenvorschau-termine-bis-30-november-2026-12209083"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−3.3% (19 Nov, US session)",
+        "note": "Fell amid the ongoing leadership uncertainty and a broad chip-sector sell-off.",
+        "sources": [
+          {
+            "label": "Trading Economics: US stock market news (19 Nov items)",
+            "url": "https://tradingeconomics.com/united-states/stock-market/news/503442"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "No significant news"
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news. The fund tracks global shares, which were pressured by Thursday's US sell-off (Dow −2.19%)."
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-20",
+        "time": "08:00",
+        "event": "Germany: producer prices, October",
+        "why": "A pointer to inflation pressure further up the supply chain."
+      },
+      {
+        "date": "2026-11-20",
+        "time": "09:00",
+        "event": "ECB President Lagarde speaks at the European Banking Congress, Frankfurt",
+        "why": "Markets listen for hints on interest-rate policy."
+      },
+      {
+        "date": "2026-11-20",
+        "time": "16:00",
+        "event": "US University of Michigan consumer sentiment (final) and euro-area consumer confidence (flash)",
+        "why": "Show consumer mood and inflation expectations."
+      },
+      {
+        "date": "2026-11-23",
+        "time": "09:30",
+        "event": "Flash PMIs for Germany, euro area and (15:45) the US, November",
+        "why": "Early read on business activity."
+      },
+      {
+        "date": "2026-11-23",
+        "time": "",
+        "event": "BASF Capital Markets Day (day 1 of 2)",
+        "why": "Company outlook for investors in a large German chemicals group."
+      },
+      {
+        "date": "2026-11-24",
+        "time": "10:00",
+        "event": "Germany: ifo business climate, November",
+        "why": "A closely watched survey of German company sentiment."
+      },
+      {
+        "date": "2026-11-24",
+        "time": "13:00 / 22:00",
+        "event": "Best Buy (13:00) and Dell (22:00) Q3 results",
+        "why": "Signals on US consumer and tech hardware demand."
+      },
+      {
+        "date": "2026-11-25",
+        "time": "14:30",
+        "event": "US PCE inflation and Q3 GDP (second estimate)",
+        "why": "PCE is the Fed's preferred inflation gauge."
+      },
+      {
+        "date": "2026-11-25",
+        "time": "20:00",
+        "event": "US Federal Reserve Beige Book",
+        "why": "Anecdotal report on the US economy."
+      },
+      {
+        "date": "2026-11-26",
+        "time": "",
+        "event": "US markets closed for Thanksgiving; Rheinmetall Capital Markets Day starts",
+        "why": "Thinner global trading; the Rheinmetall event runs to 27 November."
+      }
+    ],
+    "learn": {
+      "term": "Opening auction",
+      "explanation": "Many exchanges start trading with an auction that collects buy and sell orders and sets one opening price where the most shares can change hands. For a new listing, this price can differ a lot from the IPO price. Anthropic's first trade came more than two hours after the market opened, at $111.50, versus an $83 IPO price. By the close the shares had settled at $97.17."
+    }
+  },
+  {
     "date": "2026-11-19",
     "headline": "Hawkish Fed minutes weigh on markets as gold hits a 14-month low; Anthropic starts trading today",
     "intro": "The DAX fell below 26,000 points on Wednesday and Wall Street ended mixed, as Fed minutes showed some officials favoured raising interest rates. Asian markets are mostly weaker this morning, and the day's main event is the Nasdaq debut of Anthropic.",
