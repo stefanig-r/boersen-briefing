@@ -1,6 +1,288 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-23",
+    "headline": "DAX ends Friday 2.6% lower as US stocks tumble into correction territory; flash PMIs and BASF day today",
+    "intro": "Global shares ended last week under heavy pressure: the DAX lost 2.6% on Friday, and US headlines describe a sharp sell-off led by chip stocks that pushed the S&P 500 into a correction. Several morning figures (Asia, futures, currencies, commodities, yields) could not be verified and are marked as not available.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "24,802.78",
+        "change": "−2.60%",
+        "asOf": "Official level, Fri 20 Nov (−661.03 points; previous close 25,463.81)",
+        "source": {
+          "label": "finanzen.net: DAX (official level, 20 Nov)",
+          "url": "https://www.finanzen.net/index/dax"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "not available",
+        "change": "−3.7% (headline)",
+        "asOf": "Fri 20 Nov, per a headline; level not retrieved. Headline also says the index entered correction territory",
+        "source": {
+          "label": "NBC Bay Area: stock market updates, 20 Nov (headline)",
+          "url": "https://www.nbcbayarea.com/news/national-international/november-20-stock-market-updates/4179477/"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "not available",
+        "change": "−5.3% (headline)",
+        "asOf": "Fri 20 Nov, per a headline; level not retrieved",
+        "source": {
+          "label": "StockInvest.us: US market close digest, 20 Nov (headline)",
+          "url": "https://stockinvest.us/digest/digest-us-market-close-2026-11-20"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Fri 20 Nov close not retrieved (19 Nov close was 49,097)",
+        "source": {
+          "label": "NBC Bay Area: stock market updates, 20 Nov (headline)",
+          "url": "https://www.nbcbayarea.com/news/national-international/november-20-stock-market-updates/4179477/"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified for this edition",
+        "source": {
+          "label": "finanzen.net: DAX (official level, 20 Nov)",
+          "url": "https://www.finanzen.net/index/dax"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified for this edition",
+        "source": {
+          "label": "finanzen.net: DAX (official level, 20 Nov)",
+          "url": "https://www.finanzen.net/index/dax"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified for this edition",
+        "source": {
+          "label": "BigGo Finance: US stocks, seventh straight losing session (headline)",
+          "url": "https://finance.biggo.com/news/fec3c6ad-a6aa-4865-bdfc-b79902796bac"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified for this edition",
+        "source": {
+          "label": "ECB: Lagarde speech \"Acting in time\", 20 Nov",
+          "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified for this edition",
+        "source": {
+          "label": "BigGo Finance: US stocks, seventh straight losing session (headline)",
+          "url": "https://finance.biggo.com/news/fec3c6ad-a6aa-4865-bdfc-b79902796bac"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified for this edition",
+        "source": {
+          "label": "BigGo Finance: US stocks, seventh straight losing session (headline)",
+          "url": "https://finance.biggo.com/news/fec3c6ad-a6aa-4865-bdfc-b79902796bac"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified for this edition",
+        "source": {
+          "label": "BigGo Finance: US stocks, seventh straight losing session (headline)",
+          "url": "https://finance.biggo.com/news/fec3c6ad-a6aa-4865-bdfc-b79902796bac"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified for this edition",
+        "source": {
+          "label": "ECB: Lagarde speech \"Acting in time\", 20 Nov",
+          "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified for this edition",
+        "source": {
+          "label": "ECB: Lagarde speech \"Acting in time\", 20 Nov",
+          "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "DAX falls 2.6% on Friday to 24,802.78",
+        "summary": "The German blue-chip index closed at 24,802.78 points on Friday, down 661.03 points, after 25,463.81 the day before. It opened at about 25,188 and stayed in a range of roughly 24,801 to 25,195, so it finished near the low of the day. The page I read lists the index as down about 3.3% over one month and up about 1.3% year to date. I could not retrieve a weekly figure or a reported reason for the drop.",
+        "whyItMatters": "A move of this size in one session shows how closely Frankfurt followed Wall Street's weakness. One-day swings are noisy; long-term investors usually look at the longer trend.",
+        "sources": [
+          {
+            "label": "finanzen.net: DAX (official level, 20 Nov)",
+            "url": "https://www.finanzen.net/index/dax"
+          }
+        ]
+      },
+      {
+        "title": "US stocks tumble; S&P 500 reported in correction territory",
+        "summary": "Headlines for Friday's US session describe a very weak day: the S&P 500 is reported down about 3.7% and the Nasdaq Composite down about 5.3%, with chip stocks leading. One headline says the Nasdaq turned negative for the year and another says the S&P 500 entered a correction. A further headline describes the longest losing streak since 2020 and a drop of more than 15% in silver over the week. I only saw these headlines, so exact index levels and the full drivers are unverified.",
+        "whyItMatters": "A correction is usually defined as a fall of 10% or more from a recent high. Such phases happen from time to time, and the figures here should be checked against a full report before drawing conclusions.",
+        "sources": [
+          {
+            "label": "NBC Bay Area: stock market updates, 20 Nov (headline)",
+            "url": "https://www.nbcbayarea.com/news/national-international/november-20-stock-market-updates/4179477/"
+          },
+          {
+            "label": "StockInvest.us: US market close digest, 20 Nov (headline)",
+            "url": "https://stockinvest.us/digest/digest-us-market-close-2026-11-20"
+          }
+        ]
+      },
+      {
+        "title": "Nvidia leadership change keeps chip sector in focus",
+        "summary": "Nvidia said on 12 November that Jensen Huang had resigned as CEO after 33 years, and the company filed the change with the US SEC. Media reports since then discuss Colette Kress as a figure in the transition and a possible new outside candidate under consideration by the board. These reports about candidates are unconfirmed. The chip sector led Friday's US sell-off according to the headlines above.",
+        "whyItMatters": "Nvidia is among the largest index weights, so uncertainty at the top can affect sentiment well beyond one stock. Reports about candidates are not decisions.",
+        "sources": [
+          {
+            "label": "CNBC: Nvidia CEO Jensen Huang resigns, live updates",
+            "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+          },
+          {
+            "label": "Fox Business: Nvidia's board eyes new candidate",
+            "url": "https://www.foxbusiness.com/fox-news-tech/new-candidate-emerges-replace-jensen-huang-nvidia-ceo"
+          }
+        ]
+      },
+      {
+        "title": "Lagarde: ECB speech titled \"Acting in time\"",
+        "summary": "ECB President Christine Lagarde gave a speech on 20 November titled \"Acting in time\" at the ECB's website. A Bloomberg video headline from the same day says she warned that Europe is too hesitant in responding to crises. I did not read the full text, so I cannot summarise what it implies for interest rates.",
+        "whyItMatters": "Central-bank speeches can move bond yields and currencies if they hint at the rate path. The ECB's own text is the primary source to check.",
+        "sources": [
+          {
+            "label": "ECB: Lagarde speech \"Acting in time\", 20 Nov",
+            "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "note": "CEO succession remains the main story after Huang's resignation on 12 November, and chips led Friday's US sell-off according to headlines. No price figure verified.",
+        "sources": [
+          {
+            "label": "CNBC: Nvidia CEO Huang resigns, live updates",
+            "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "No significant news"
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "No significant news"
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news. As a chip-equipment maker it belongs to the sector that led Friday's sell-off, but I found no company-specific report."
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news. The fund tracks global shares, which were pressured by Friday's US and German declines."
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-23",
+        "time": "09:30",
+        "event": "Flash PMIs for Germany and the euro area, November (US at 15:45)",
+        "why": "Early read on business activity."
+      },
+      {
+        "date": "2026-11-23",
+        "time": "",
+        "event": "BASF Capital Markets Day (day 1 of 2)",
+        "why": "Company outlook for investors in a large German chemicals group."
+      },
+      {
+        "date": "2026-11-24",
+        "time": "10:00",
+        "event": "Germany: ifo business climate, November",
+        "why": "A closely watched survey of German company sentiment."
+      },
+      {
+        "date": "2026-11-24",
+        "time": "13:00 / 22:00",
+        "event": "Best Buy (13:00) and Dell (22:00) Q3 results",
+        "why": "Signals on US consumer and tech hardware demand."
+      },
+      {
+        "date": "2026-11-25",
+        "time": "14:30",
+        "event": "US PCE inflation and Q3 GDP (second estimate)",
+        "why": "PCE is the Fed's preferred inflation gauge."
+      },
+      {
+        "date": "2026-11-25",
+        "time": "20:00",
+        "event": "US Federal Reserve Beige Book",
+        "why": "Anecdotal report on the US economy."
+      },
+      {
+        "date": "2026-11-26",
+        "time": "",
+        "event": "US markets closed for Thanksgiving; Rheinmetall Capital Markets Day starts",
+        "why": "Thinner global trading; the Rheinmetall event runs to 27 November."
+      }
+    ],
+    "learn": {
+      "term": "Drawdown",
+      "explanation": "A drawdown is the fall from a previous peak to a later low, usually shown as a percentage. It measures how much an investment lost from its high before recovering, and a fall of 10% or more in an index is commonly called a correction. Headlines on Friday described the S&P 500 entering such a phase after a long losing streak. Looking at the largest drawdowns of a fund helps judge how much temporary loss an investor would have had to sit through."
+    }
+  },
+  {
     "date": "2026-11-20",
     "headline": "Wall Street slides about 2% as Anthropic's debut fades and chip stocks sell off; Lagarde speaks today",
     "intro": "US shares had a sharp down day on Thursday, with the Dow losing more than 2% and chip stocks leading the fall, as early enthusiasm for Anthropic's market debut faded. Several European and Asian figures could not be verified this morning and are marked as not available.",
