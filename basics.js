@@ -1,6 +1,6 @@
 // Market Briefing – basics. The daily task only adds glossary terms.
 window.MARKET_BRIEFING_BASICS = {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "principles": [
     {"title": "Not investment advice", "text": "The briefing explains what happened and why it may matter. It never tells you what to buy or sell."},
     {"title": "Prices are not live", "text": "Every number has a timestamp and may be out of date. Always check the current price with your bank or broker before deciding anything."},
@@ -159,6 +159,8 @@ window.MARKET_BRIEFING_BASICS = {
     }
   },
   "glossary": [
+    {"term": "VIX", "def": "An index showing how much movement investors expect in the US S&P 500 over the next 30 days, derived from option prices. Higher readings mean more expected turbulence.", "added": "2026-11-24"},
+    {"term": "Exchange ratio", "def": "In a share-based takeover, the number of acquirer shares each target share is converted into. The deal's final value moves with the acquirer's share price.", "added": "2026-11-24"},
     {"term": "Drawdown", "def": "The fall of an investment or index from a previous peak to a later low, usually shown as a percentage. A drawdown of 10% or more in an index is commonly called a correction.", "added": "2026-11-23"},
     {"term": "Flash PMI", "def": "An early estimate of a purchasing managers' survey on business activity, published shortly before the final figure. Readings above 50 usually signal growth and below 50 contraction.", "added": "2026-11-23"},
     {"term":"Opening auction","def":"A call auction at the start of trading that collects orders and sets a single opening price. New listings often open this way.","added":"2026-11-20"},

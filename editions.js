@@ -1,6 +1,322 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-24",
+    "headline": "Wall Street surges as Jensen Huang returns to Nvidia; DAX gains 2.15% ahead of today's ifo survey",
+    "intro": "Markets bounced hard on Monday: US stocks recovered a large part of last week's losses after Nvidia reinstated its CEO, and the DAX followed with a gain of about 2%. Investors now look to the German ifo survey and US inflation data on Wednesday, while several overnight Asian figures could not be verified.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "25,337.27",
+        "change": "+2.15%",
+        "asOf": "Close Mon 23 Nov, as reported by dpa-AFX (article timed 16:59 CET)",
+        "source": {
+          "label": "dpa-AFX via onvista: Aktien Frankfurt Schluss, 23 Nov",
+          "url": "https://www.onvista.de/news/2026/11-23-roundup-aktien-frankfurt-schluss-anleger-feiern-rueckkehr-des-nvidia-chefs-0-10-26579616"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "29,296.26",
+        "change": "+1.93%",
+        "asOf": "Close Mon 23 Nov, as reported by dpa-AFX",
+        "source": {
+          "label": "dpa-AFX via onvista: Aktien Frankfurt Schluss, 23 Nov",
+          "url": "https://www.onvista.de/news/2026/11-23-roundup-aktien-frankfurt-schluss-anleger-feiern-rueckkehr-des-nvidia-chefs-0-10-26579616"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "6,074.47",
+        "change": "+2.23%",
+        "asOf": "Close Mon 23 Nov, as reported by dpa-AFX",
+        "source": {
+          "label": "dpa-AFX via onvista: Aktien Frankfurt Schluss, 23 Nov",
+          "url": "https://www.onvista.de/news/2026/11-23-roundup-aktien-frankfurt-schluss-anleger-feiern-rueckkehr-des-nvidia-chefs-0-10-26579616"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,237.17",
+        "change": "+4.73%",
+        "asOf": "Close Mon 23 Nov (previous close 6,910.39)",
+        "source": {
+          "label": "Fox Business: US stocks rebound, 23 Nov",
+          "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "24,089.56",
+        "change": "+6.51%",
+        "asOf": "Close Mon 23 Nov (previous close 22,617.73)",
+        "source": {
+          "label": "Fox Business: US stocks rebound, 23 Nov",
+          "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "49,595.31",
+        "change": "+3.01%",
+        "asOf": "Close Mon 23 Nov (previous close 48,147.33)",
+        "source": {
+          "label": "Fox Business: US stocks rebound, 23 Nov",
+          "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Japan was closed on Mon 23 Nov (holiday); Tuesday session not verified",
+        "source": {
+          "label": "Reuters/Yahoo Finance: Trading Day, 23 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-market-euphoria-huang-220642616.html"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified; sources gave conflicting values",
+        "source": {
+          "label": "Reuters/Yahoo Finance: Trading Day, 23 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-market-euphoria-huang-220642616.html"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "3,634.40 USD",
+        "change": "+3.39%",
+        "asOf": "US session quote, Mon 23 Nov (Reuters: about +3% to 3,640)",
+        "source": {
+          "label": "Reuters/Yahoo Finance: Trading Day, 23 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-market-euphoria-huang-220642616.html"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "not available",
+        "change": "−3% to −4% (oil, per Reuters)",
+        "asOf": "Reuters reported oil at a three-month low on Mon 23 Nov; Brent-specific level not verified",
+        "source": {
+          "label": "Reuters/Yahoo Finance: Trading Day, 23 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-market-euphoria-huang-220642616.html"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "about 61,000 USD",
+        "change": "not available",
+        "asOf": "Quotes of about 61,000–61,300 USD on 23 Nov; sources differ slightly",
+        "source": {
+          "label": "Reuters/Yahoo Finance: Trading Day, 23 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-market-euphoria-huang-220642616.html"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified for this edition",
+        "source": {
+          "label": "dpa-AFX via onvista: Aktien Frankfurt Schluss, 23 Nov",
+          "url": "https://www.onvista.de/news/2026/11-23-roundup-aktien-frankfurt-schluss-anleger-feiern-rueckkehr-des-nvidia-chefs-0-10-26579616"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "4.92%",
+        "change": "about +0.01 pt",
+        "asOf": "Quote on Mon 23 Nov; Reuters: barely a one-basis-point rise",
+        "source": {
+          "label": "Reuters/Yahoo Finance: Trading Day, 23 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-market-euphoria-huang-220642616.html"
+        }
+      },
+      {
+        "name": "VIX (US volatility index)",
+        "value": "26.62",
+        "change": "−25.83%",
+        "asOf": "Quote on Mon 23 Nov",
+        "source": {
+          "label": "Reuters/Yahoo Finance: Trading Day, 23 Nov",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-market-euphoria-huang-220642616.html"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Nvidia reinstates Jensen Huang; shares jump 31%",
+        "summary": "Nvidia's board brought back Jensen Huang as CEO and president after he resigned on 12 November. The share price closed at $165.05, up 31.48%, one of the largest one-day gains for a company of its size and about $1 trillion of added market value according to Motley Fool. Reuters reports the decision came amid pressure from US President Trump and investors, while some US lawmakers criticised it. Open questions mentioned in coverage include an SEC accounting investigation and China export controls.",
+        "whyItMatters": "Nvidia is one of the largest companies in global indices, so a swing of this size moves broad funds and the whole chip sector. It also shows how much AI-linked sentiment depends on a few names.",
+        "sources": [
+          {
+            "label": "Motley Fool: Stock Market Today, 23 Nov",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/"
+          },
+          {
+            "label": "Fox Business: US stocks rebound, 23 Nov",
+            "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+          }
+        ]
+      },
+      {
+        "title": "US stocks rebound sharply, ending a seven-day losing streak",
+        "summary": "The S&P 500 rose 4.73% to 7,237.17, the Nasdaq Composite 6.51% and the Dow 3.01%, ending the S&P's longest losing streak since April 2024 according to Reuters. Chip stocks led, with the chip index up about 12%, and the VIX volatility gauge fell by more than a quarter. The dollar strengthened to its highest since March 2025, gold rose about 3% and oil fell to a three-month low. Fox Business cites CME FedWatch pricing about a 96% chance of a quarter-point Fed rate hike in December.",
+        "whyItMatters": "A one-day move of this size recovers a lot of last week's losses but does not by itself end the debate about AI valuations. Rate expectations remain a key factor for growth and tech shares.",
+        "sources": [
+          {
+            "label": "Reuters/Yahoo Finance: Trading Day, 23 Nov",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-market-euphoria-huang-220642616.html"
+          },
+          {
+            "label": "Fox Business: US stocks rebound, 23 Nov",
+            "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+          }
+        ]
+      },
+      {
+        "title": "DAX rises 2.15% to 25,337; Siemens Energy, Infineon lead",
+        "summary": "The DAX closed Monday at 25,337.27, ending a six-day losing run, according to dpa-AFX. Analysts quoted by the agency said Huang's return brought stability back to AI-related stocks. Siemens Energy (+6.9%), Infineon (+6.6%) and Hochtief (+5.4%) led the index, while Deutsche Börse fell 1.3% and Bayer slipped 0.7% after a US court approved a $7.25bn settlement. In the MDAX, Nemetschek fell about 5.7% after JPMorgan cut its rating to Underweight.",
+        "whyItMatters": "The recovery in Frankfurt followed Wall Street rather than domestic news. Commentators called it a recovery on probation, so the next days show whether it holds.",
+        "sources": [
+          {
+            "label": "dpa-AFX via onvista: Aktien Frankfurt Schluss, 23 Nov",
+            "url": "https://www.onvista.de/news/2026/11-23-roundup-aktien-frankfurt-schluss-anleger-feiern-rueckkehr-des-nvidia-chefs-0-10-26579616"
+          },
+          {
+            "label": "finanzen.at: Montagshandel in Frankfurt, 23 Nov",
+            "url": "https://www.finanzen.at/nachrichten/aktien/montagshandel-in-frankfurt-lus-dax-schlussendlich-mit-kursplus-1036792723"
+          }
+        ]
+      },
+      {
+        "title": "Flash PMIs: German activity at a 56-month high, France contracts",
+        "summary": "The euro-area composite PMI was 51.7, unchanged from October and slightly below the Reuters poll of 51.9. Germany's composite rose to 55.0, its highest in 56 months, while France fell to 46.2, a six-month low. Euro-area services slowed to 51.2, below the forecast of 51.8. S&P Global's economist said the data fit growth of about 0.3% in the fourth quarter.",
+        "whyItMatters": "The euro area is growing, but unevenly: Germany is accelerating while France weakens. Persistent price pressure could keep the ECB cautious about its next steps.",
+        "sources": [
+          {
+            "label": "Reuters via RTE: Euro zone growth holds steady, 23 Nov",
+            "url": "https://www.rte.ie/news/business/2026/1123/1600272-euro-zone-growth-pmi/"
+          },
+          {
+            "label": "ActionForex: Eurozone PMI, German growth at four-year high",
+            "url": "https://www.actionforex.com/live-comments/661769-eurozone-pmi-holds-steady-as-german-growth-hits-four-year-high-france-slumps-further/"
+          }
+        ]
+      },
+      {
+        "title": "CrowdStrike agrees to buy Zscaler in all-stock deal valued at $43.9bn",
+        "summary": "CrowdStrike announced alongside its quarterly results that it will acquire Zscaler for about $43.9 billion in an all-stock transaction. Each Zscaler share converts into 1.135 CrowdStrike shares, and the deal needs regulatory approvals. CrowdStrike reported quarterly revenue of $1.58 billion, up 28%. Reuters says CrowdStrike shares fell about 9% on the day.",
+        "whyItMatters": "Large software mergers can reshape the cybersecurity sector and attract antitrust review. In stock deals, the final value changes with CrowdStrike's share price.",
+        "sources": [
+          {
+            "label": "CrowdStrike Q3 FY2027 release (SEC filing), 23 Nov",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm"
+          },
+          {
+            "label": "Reuters/Yahoo Finance: Trading Day, 23 Nov",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-market-euphoria-huang-220642616.html"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "+31.48% (close Mon 23 Nov, $165.05)",
+        "note": "Board reinstated Jensen Huang as CEO, triggering the largest one-day gain in over two decades according to Motley Fool.",
+        "sources": [
+          {
+            "label": "Motley Fool: Stock Market Today, 23 Nov",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/"
+          },
+          {
+            "label": "Fox Business: US stocks rebound, 23 Nov",
+            "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "change": "+3.82% to €187.04 (finanzen.at table, 23 Nov, time not stated)",
+        "note": "Rose with the broad tech rebound; I found no company-specific news or reported reason.",
+        "sources": [
+          {
+            "label": "finanzen.at: Montagshandel in Frankfurt, 23 Nov",
+            "url": "https://www.finanzen.at/nachrichten/aktien/montagshandel-in-frankfurt-lus-dax-schlussendlich-mit-kursplus-1036792723"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "change": "+1.6% to $492.50 (quote on 23 Nov)",
+        "note": "Gained with the US market; no company-specific news found.",
+        "sources": [
+          {
+            "label": "Motley Fool: Stock Market Today, 23 Nov",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-24",
+        "time": "10:00",
+        "event": "Germany: ifo business climate, November",
+        "why": "A closely watched survey of German company sentiment, after strong flash PMIs."
+      },
+      {
+        "date": "2026-11-24",
+        "time": "evening",
+        "event": "US Treasury auction of $70bn 5-year notes",
+        "why": "Demand at the auction influences US yields."
+      },
+      {
+        "date": "2026-11-25",
+        "time": "14:30",
+        "event": "US PCE inflation (October)",
+        "why": "The Fed's preferred inflation gauge, with a December rate decision priced in by markets."
+      },
+      {
+        "date": "2026-11-26",
+        "time": "",
+        "event": "US markets closed for Thanksgiving",
+        "why": "Thinner global trading; Friday is a shortened US session."
+      }
+    ],
+    "learn": {
+      "term": "VIX (volatility index)",
+      "explanation": "The VIX is an index that shows how much movement investors expect in the US S&P 500 over the next 30 days, derived from option prices. A higher number means more expected turbulence, which is why it is often called a fear gauge. On Monday it fell 25.83% to 26.62 as stocks rebounded. Long-term investors mostly use it to understand mood, not to time markets."
+    }
+  },
+  {
     "date": "2026-11-23",
     "headline": "DAX ends Friday 2.6% lower as US stocks tumble into correction territory; flash PMIs and BASF day today",
     "intro": "Global shares ended last week under heavy pressure: the DAX lost 2.6% on Friday, and US headlines describe a sharp sell-off led by chip stocks that pushed the S&P 500 into a correction. Several morning figures (Asia, futures, currencies, commodities, yields) could not be verified and are marked as not available.",
