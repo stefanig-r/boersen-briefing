@@ -1,6 +1,349 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-25",
+    "headline": "Chip selloff pulls Nasdaq down 1.5% and DAX 1.3% lower; Asian tech shares slide further as US inflation data and German GDP arrive today",
+    "intro": "The rebound from earlier in the week faded on Tuesday: chip shares sold off sharply, the Nasdaq fell and the DAX lost more than 1%, while the Dow still closed above 50,000. Overnight, Asian tech stocks fell again, so today's German GDP and US PCE inflation figures come at a nervous moment.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "25,017.81",
+        "change": "−1.26%",
+        "asOf": "Xetra close Tue 24 Nov (dts: about 25,018, −1.3%)",
+        "source": {
+          "label": "dts via ad-hoc-news: Dax fällt 1,3 Prozent und schließt bei 25.018 Punkten, 24 Nov",
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-faellt-1-3-prozent-und-schliesst-bei-25-018-punkten/70550505"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified close found",
+        "source": {
+          "label": "dts via ad-hoc-news: Dax fällt 1,3 Prozent und schließt bei 25.018 Punkten, 24 Nov",
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-faellt-1-3-prozent-und-schliesst-bei-25-018-punkten/70550505"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified Tuesday close found (Monday: 6,074.47)",
+        "source": {
+          "label": "dts via ad-hoc-news: Dax fällt 1,3 Prozent und schließt bei 25.018 Punkten, 24 Nov",
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-faellt-1-3-prozent-und-schliesst-bei-25-018-punkten/70550505"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,201.09",
+        "change": "−0.50%",
+        "asOf": "Close Tue 24 Nov (HNGN: 7,201.10)",
+        "source": {
+          "label": "CappNotes: Closing Look, Tuesday 24 Nov",
+          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "23,733.54",
+        "change": "−1.48%",
+        "asOf": "Close Tue 24 Nov",
+        "source": {
+          "label": "CappNotes: Closing Look, Tuesday 24 Nov",
+          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "50,018.70",
+        "change": "+0.85%",
+        "asOf": "Close Tue 24 Nov (HNGN: 50,019.77, +0.86%)",
+        "source": {
+          "label": "CappNotes: Closing Look, Tuesday 24 Nov",
+          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "not available",
+        "change": "about −3% intraday",
+        "asOf": "Early Asian trading Wed 25 Nov, per Kotak Neo (about 04:00 CET); no verified close yet and another source conflicted",
+        "source": {
+          "label": "Kotak Neo: Asian markets fall as Kospi drops 5.3% and Nikkei slides, 25 Nov",
+          "url": "https://www.kotakneo.com/news/global-markets/asian-markets-fall-as-kospi-drops-53-percent-and-nikkei-slides-amid-ai-selloff-and-us-tariff-fears/"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.0971",
+        "change": "not available",
+        "asOf": "Quote cited by dts on Tue 24 Nov evening (an earlier morning quote was 1.0910)",
+        "source": {
+          "label": "dts via ad-hoc-news: Dax fällt 1,3 Prozent und schließt bei 25.018 Punkten, 24 Nov",
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-faellt-1-3-prozent-und-schliesst-bei-25-018-punkten/70550505"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "3,555.00 USD",
+        "change": "−2.64%",
+        "asOf": "Settlement Tue 24 Nov per CappNotes (Motley Fool midday: 3,567.80, −2.29%)",
+        "source": {
+          "label": "CappNotes: Closing Look, Tuesday 24 Nov",
+          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "89.42 USD",
+        "change": "+0.1%",
+        "asOf": "About 17:00 CET Tue 24 Nov per dts; other sources give different settlement levels",
+        "source": {
+          "label": "dts via ad-hoc-news: Dax fällt 1,3 Prozent und schließt bei 25.018 Punkten, 24 Nov",
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-faellt-1-3-prozent-und-schliesst-bei-25-018-punkten/70550505"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "about 59,400–59,900 USD",
+        "change": "about −2% to −3%",
+        "asOf": "Tue 24 Nov; CappNotes and HNGN differ slightly",
+        "source": {
+          "label": "HNGN: Dow Tops 50,000 as Chip Stocks Slide After Nvidia Rally, 24 Nov",
+          "url": "https://www.hngn.com/articles/273950/20261124/dow-tops-50000-chip-stocks-slide-after-nvidia-rally.htm"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "Not verified for this edition",
+        "source": {
+          "label": "dts via ad-hoc-news: Dax fällt 1,3 Prozent und schließt bei 25.018 Punkten, 24 Nov",
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-faellt-1-3-prozent-und-schliesst-bei-25-018-punkten/70550505"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "4.90%",
+        "change": "about −0.01 pt",
+        "asOf": "Tue 24 Nov (Yahoo: 4.904%); another source cited 4.92%",
+        "source": {
+          "label": "Yahoo Finance: Stock market today, Tuesday 24 Nov",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "Chip shares slide again: Nvidia falls 5.9% after Monday's 31% jump",
+        "summary": "Nvidia closed Tuesday at $155.38, down 5.86%, giving back part of Monday's gain after its CEO was reinstated. Chip stocks fell broadly: the SOXX chip ETF lost about 8%, Micron about 11%, and Analog Devices about 17% after a muted outlook, according to CappNotes. Yahoo Finance lists renewed bets on a December rate hike and worries about the AI rally among the reasons given. The Nasdaq Composite fell 1.48% to 23,733.54 and the S&P 500 fell 0.50%, while the Dow rose 0.85% and closed above 50,000.",
+        "whyItMatters": "Chip companies carry a large weight in major indices, so sharp swings in a few names can move whole markets. The pattern of the past two days shows how sentiment around AI can flip quickly.",
+        "sources": [
+          {
+            "label": "CappNotes: Closing Look, Tuesday 24 Nov",
+            "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+          },
+          {
+            "label": "HNGN: Dow Tops 50,000 as Chip Stocks Slide After Nvidia Rally, 24 Nov",
+            "url": "https://www.hngn.com/articles/273950/20261124/dow-tops-50000-chip-stocks-slide-after-nvidia-rally.htm"
+          },
+          {
+            "label": "Yahoo Finance: Stock market today, Tuesday 24 Nov",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+          }
+        ]
+      },
+      {
+        "title": "Asian tech stocks slide further overnight on AI doubts and tariff worries",
+        "summary": "Kotak Neo reports that Korea's Kospi fell as much as 5.3% in early trade on Wednesday and the Nikkei about 3%, with chip names such as Samsung, SK Hynix and Tokyo Electron among the biggest decliners. Programme trading in Korea was briefly halted after Kospi futures dropped more than 5%. The report also cites worries that the US trade representative is preparing findings on excess capacity at 16 trading partners, which could lead to tariffs. These are early-session figures, not closes, and Hang Seng was reported about 1% higher.",
+        "whyItMatters": "Asian chipmakers and equipment makers are key links in the AI supply chain, so weakness there often spills into European chip stocks such as ASML at the open.",
+        "sources": [
+          {
+            "label": "Kotak Neo: Asian markets fall as Kospi drops 5.3% and Nikkei slides, 25 Nov",
+            "url": "https://www.kotakneo.com/news/global-markets/asian-markets-fall-as-kospi-drops-53-percent-and-nikkei-slides-amid-ai-selloff-and-us-tariff-fears/"
+          }
+        ]
+      },
+      {
+        "title": "DAX falls 1.26% to 25,017.81; chip-related stocks lead the losses",
+        "summary": "The DAX ended Tuesday at 25,017.81, according to goldesel.de, after Monday's rebound. dts named Deutsche Telekom, SAP and Fresenius Medical Care among the top movers and Hochtief, Siemens Energy and Infineon among the weakest; a CMC Markets analyst said the Nvidia effect had faded and inflation and rate worries persisted. Outside the DAX, Aixtron fell 16.3% and STMicro 10.2%, while ASML lost 5.6% in Amsterdam. The ifo business climate rose to 90.6 from a revised 90.1, a seventh monthly rise, roughly in line with expectations.",
+        "whyItMatters": "The ifo reading points to slowly improving sentiment among German companies, but on Tuesday the market was driven more by chip stocks and interest-rate expectations than by domestic data.",
+        "sources": [
+          {
+            "label": "dts via ad-hoc-news: Dax fällt 1,3 Prozent und schließt bei 25.018 Punkten, 24 Nov",
+            "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-faellt-1-3-prozent-und-schliesst-bei-25-018-punkten/70550505"
+          },
+          {
+            "label": "goldesel.de: Abendupdate 24.11., DAX schließt knapp über 25.000",
+            "url": "https://goldesel.de/artikel/abendupdate-24-11-dax-schliesst-knapp-ueber-25-000-ki-ausverkauf-drueckt-nasdaq-dow-im-plus"
+          }
+        ]
+      },
+      {
+        "title": "Sanofi agrees to buy Insmed for $41bn in cash",
+        "summary": "Sanofi is to acquire US biotech company Insmed for $175 per share in cash, a deal valued at about $41bn, according to CappNotes and HNGN. Insmed shares rose about 14% on Tuesday, and Sanofi shares gained about 9.8% in European trading according to goldesel.de. The health-care sector was the strongest in the S&P 500, up almost 3%.",
+        "whyItMatters": "Large takeovers show where big companies see growth, and the move in Sanofi's own shares shows that investors are judging the price paid as well as the strategy.",
+        "sources": [
+          {
+            "label": "CappNotes: Closing Look, Tuesday 24 Nov",
+            "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+          },
+          {
+            "label": "HNGN: Dow Tops 50,000 as Chip Stocks Slide After Nvidia Rally, 24 Nov",
+            "url": "https://www.hngn.com/articles/273950/20261124/dow-tops-50000-chip-stocks-slide-after-nvidia-rally.htm"
+          },
+          {
+            "label": "goldesel.de: Abendupdate 24.11., DAX schließt knapp über 25.000",
+            "url": "https://goldesel.de/artikel/abendupdate-24-11-dax-schliesst-knapp-ueber-25-000-ki-ausverkauf-drueckt-nasdaq-dow-im-plus"
+          }
+        ]
+      },
+      {
+        "title": "German GDP and US PCE inflation due today; markets price a December Fed hike",
+        "summary": "Germany's second estimate of third-quarter GDP is due at 08:00 CET; the Dow Jones forecast is +0.2% on the quarter. At 14:30 CET the US publishes October PCE inflation, with forecasts of +3.8% year on year for the headline figure and +3.2% for core, plus a second estimate of US Q3 GDP. According to Yahoo Finance, the CME FedWatch tool shows about a 95% probability of a quarter-point Fed rate hike in December. Gold fell 2.6% and the dollar index eased on Tuesday.",
+        "whyItMatters": "If inflation data come in above forecasts, expectations for further rate rises could grow, which has recently weighed on growth and technology shares. Thursday's US holiday also means thinner trading ahead.",
+        "sources": [
+          {
+            "label": "finanzen.net / dpa-AFX: Tagesvorschau, Termine am 25 November 2026",
+            "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-25-november-2026-16085130"
+          },
+          {
+            "label": "Yahoo Finance: Stock market today, Tuesday 24 Nov",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+          },
+          {
+            "label": "CappNotes: Closing Look, Tuesday 24 Nov",
+            "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−5.86% to $155.38 (close Tue 24 Nov)",
+        "note": "Gave back part of Monday's 31% gain as chip stocks sold off broadly; Yahoo Finance cited renewed rate-hike bets and AI-rally worries.",
+        "sources": [
+          {
+            "label": "Yahoo Finance: Stock market today, Tuesday 24 Nov",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+          },
+          {
+            "label": "CappNotes: Closing Look, Tuesday 24 Nov",
+            "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24"
+          }
+        ]
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "change": "−5.6% (Amsterdam, Tue 24 Nov)",
+        "note": "Fell with other European chip-related stocks; no company-specific news found.",
+        "sources": [
+          {
+            "label": "goldesel.de: Abendupdate 24.11., DAX schließt knapp über 25.000",
+            "url": "https://goldesel.de/artikel/abendupdate-24-11-dax-schliesst-knapp-ueber-25-000-ki-ausverkauf-drueckt-nasdaq-dow-im-plus"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "note": "Named by dts among the DAX's top performers on Tuesday, without a stated percentage or reason.",
+        "sources": [
+          {
+            "label": "dts via ad-hoc-news: Dax fällt 1,3 Prozent und schließt bei 25.018 Punkten, 24 Nov",
+            "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-faellt-1-3-prozent-und-schliesst-bei-25-018-punkten/70550505"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "No significant news"
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-25",
+        "time": "08:00",
+        "event": "Germany: Q3 GDP, second estimate",
+        "why": "Confirms or revises the first estimate of the German economy; forecast +0.2% on the quarter."
+      },
+      {
+        "date": "2026-11-25",
+        "time": "14:30",
+        "event": "US: PCE inflation (October), Q3 GDP second estimate, durable goods, jobless claims",
+        "why": "PCE is the Fed's preferred inflation gauge, and a December hike is priced in by markets."
+      },
+      {
+        "date": "2026-11-25",
+        "time": "20:00",
+        "event": "US: Fed Beige Book",
+        "why": "A summary of regional economic conditions that the Fed uses before its next meeting."
+      },
+      {
+        "date": "2026-11-25",
+        "time": "08:00",
+        "event": "easyJet annual results; Deere Q4 results (no time given)",
+        "why": "Company updates on travel demand and agricultural machinery."
+      },
+      {
+        "date": "2026-11-26",
+        "time": "",
+        "event": "US markets closed for Thanksgiving",
+        "why": "Thinner global trading; Rheinmetall also holds a Capital Markets Day on 26–27 November."
+      },
+      {
+        "date": "2026-11-27",
+        "time": "",
+        "event": "US shortened session; German unemployment; eurozone confidence surveys",
+        "why": "Early close in the US; European data give a read on the labour market and sentiment."
+      },
+      {
+        "date": "2026-11-30",
+        "time": "14:00",
+        "event": "Germany: flash inflation (November)",
+        "why": "Shows whether German price growth is cooling, relevant for ECB expectations."
+      },
+      {
+        "date": "2026-12-01",
+        "time": "",
+        "event": "Eurozone flash inflation; PMIs for Germany and the eurozone; US ISM manufacturing",
+        "why": "Key early indicators of inflation and business activity at the start of December."
+      },
+      {
+        "date": "2026-12-02",
+        "time": "22:00",
+        "event": "Salesforce Q3 results; Aurubis annual results",
+        "why": "Salesforce results are a gauge of enterprise software demand."
+      }
+    ],
+    "learn": {
+      "term": "PCE price index",
+      "explanation": "The PCE price index measures how much prices change for goods and services that US households buy, and it is the inflation gauge the US Federal Reserve prefers. It differs from the better-known consumer price index (CPI) in how it weights spending and what it includes. Today's October reading arrives while markets already expect a Fed rate hike in December, so a surprise in either direction could change those expectations. For investors, it is one of the clearest signals of how long interest rates may stay high."
+    }
+  },
+  {
     "date": "2026-11-24",
     "headline": "Wall Street surges as Jensen Huang returns to Nvidia; DAX gains 2.15% ahead of today's ifo survey",
     "intro": "Markets bounced hard on Monday: US stocks recovered a large part of last week's losses after Nvidia reinstated its CEO, and the DAX followed with a gain of about 2%. Investors now look to the German ifo survey and US inflation data on Wednesday, while several overnight Asian figures could not be verified.",
