@@ -1,6 +1,6 @@
 // Market Briefing – basics. The daily task only adds glossary terms.
 window.MARKET_BRIEFING_BASICS = {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "principles": [
     {"title": "Not investment advice", "text": "The briefing explains what happened and why it may matter. It never tells you what to buy or sell."},
     {"title": "Prices are not live", "text": "Every number has a timestamp and may be out of date. Always check the current price with your bank or broker before deciding anything."},
@@ -159,6 +159,8 @@ window.MARKET_BRIEFING_BASICS = {
     }
   },
   "glossary": [
+    {"term":"Credit rating","def":"An agency's opinion of how likely a company or government is to repay its debt, shown as letter grades such as AAA or AA. A \"CreditWatch\" label means a change in rating is possible.","added":"2026-11-26"},
+    {"term":"Capital Markets Day","def":"An event where a company presents its strategy and medium-term financial targets to investors and analysts.","added":"2026-11-26"},
     {"term":"PCE price index","def":"A US inflation measure that tracks price changes in what households spend money on. It is the gauge the Federal Reserve prefers for its inflation target.","added":"2026-11-25"},
     {"term":"Tariff","def":"A tax a government places on imported goods. Tariffs can make imports more expensive and are often a source of uncertainty for companies that trade internationally.","added":"2026-11-25"},
     {"term": "VIX", "def": "An index showing how much movement investors expect in the US S&P 500 over the next 30 days, derived from option prices. Higher readings mean more expected turbulence.", "added": "2026-11-24"},

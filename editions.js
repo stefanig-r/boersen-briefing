@@ -1,6 +1,395 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-26",
+    "headline": "DAX closes at its lowest level since July as AI selloff and new US tariff plans weigh; Asia rebounds and the DAX is indicated sharply higher today",
+    "intro": "Wednesday was another jumpy day: US stocks fell by as much as 3–4% at one point before recovering most of it, while the DAX closed 1.3% lower after a flight from AI-related shares. This morning Asian tech shares are rebounding and pre-market indications point to a friendlier DAX start, but US exchanges are closed for Thanksgiving, so trading may be thin.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "24,702.13",
+        "change": "−1.26%",
+        "asOf": "Xetra close Wed 25 Nov (dpa-AFX; a finanzen.net widget showed 24,733.22, −1.14%)",
+        "source": {
+          "label": "dpa-AFX via ariva.de: Aktien Frankfurt Schluss, 25 Nov",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-flucht-aus-ki-aktien-12220546"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "28,595.47",
+        "change": "−0.68%",
+        "asOf": "Close Wed 25 Nov",
+        "source": {
+          "label": "dpa-AFX via ariva.de: Aktien Frankfurt Schluss, 25 Nov",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-flucht-aus-ki-aktien-12220546"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "5,894.46",
+        "change": "−1.82%",
+        "asOf": "Close Wed 25 Nov",
+        "source": {
+          "label": "ad-hoc-news: Euro Stoxx 50 closes 1.82% lower at 5,894.46",
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-closes-1-82-prozent-lower-at-5-894-46-as-ai-fears-return/70555310"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,182.78",
+        "change": "−0.25%",
+        "asOf": "Close Wed 25 Nov (fell as much as 3.2% intraday)",
+        "source": {
+          "label": "CappNotes: Closing Look, Wednesday 25 Nov",
+          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "23,585.80",
+        "change": "−0.62%",
+        "asOf": "Close Wed 25 Nov (fell as much as 4.6% intraday)",
+        "source": {
+          "label": "CappNotes: Closing Look, Wednesday 25 Nov",
+          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "50,182.95",
+        "change": "+0.33%",
+        "asOf": "Close Wed 25 Nov",
+        "source": {
+          "label": "CappNotes: Closing Look, Wednesday 25 Nov",
+          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "57,768.92",
+        "change": "+1.3%",
+        "asOf": "Intraday Thu 26 Nov (AP, written about 06:20 CET); the day before it fell 2.8%",
+        "source": {
+          "label": "AP via WSOC: Asian shares rebound led by AI stocks, 26 Nov",
+          "url": "https://www.wsoctv.com/news/business/asian-shares-rebound/Y4HJNANVHA3M5CZWBGRJRUQHHA/"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.0961",
+        "change": "−0.1%",
+        "asOf": "Thu 26 Nov early (AP; from 1.0974)",
+        "source": {
+          "label": "AP via WSOC: Asian shares rebound led by AI stocks, 26 Nov",
+          "url": "https://www.wsoctv.com/news/business/asian-shares-rebound/Y4HJNANVHA3M5CZWBGRJRUQHHA/"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "about 3,535 USD",
+        "change": "−0.71%",
+        "asOf": "Settlement Wed 25 Nov per CappNotes; other sources give different levels (about 3,583 and 3,623), so treat as approximate",
+        "source": {
+          "label": "CappNotes: Closing Look, Wednesday 25 Nov",
+          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "94.61 USD",
+        "change": "+3.51%",
+        "asOf": "January futures, Wed 25 Nov per CappNotes; AP quoted 91.11 early Thursday, so contract and timing differ",
+        "source": {
+          "label": "CappNotes: Closing Look, Wednesday 25 Nov",
+          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "about 60,100 USD",
+        "change": "+0.6%",
+        "asOf": "Wed 25 Nov per CappNotes; Yahoo's ticker showed about 60,846, +3.0%",
+        "source": {
+          "label": "CappNotes: Closing Look, Wednesday 25 Nov",
+          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified level found for this edition",
+        "source": {
+          "label": "dpa-AFX via ariva.de: Aktien Frankfurt Schluss, 25 Nov",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-flucht-aus-ki-aktien-12220546"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "about 4.85%",
+        "change": "−6 bp",
+        "asOf": "Close Wed 25 Nov (CappNotes); AP: about 4.86% early Thursday",
+        "source": {
+          "label": "CappNotes: Closing Look, Wednesday 25 Nov",
+          "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "DAX ends at its lowest close since July as investors flee AI-related shares",
+        "summary": "The DAX fell 1.26% to 24,702.13 points on Wednesday, according to dpa-AFX, its lowest close since July, and is now only about 1% up for the year. Infineon dropped 6.5% after a 9.5% fall on Tuesday, and Siemens Energy lost 4.6%, while carmakers Volkswagen and BMW rose after their sector had hit a multi-year low. The Euro Stoxx 50 fell 1.8% and the MDAX 0.7%. Strategists cited by dpa-AFX pointed to nervousness about AI valuations and shrinking market liquidity; these are interpretations, not certainties.",
+        "whyItMatters": "Europe's chip and power-equipment names have become closely tied to the AI theme, so a sentiment shift in US tech can quickly hit the DAX. Daily swings of this size are uncomfortable but not unusual in a stretched phase.",
+        "sources": [
+          {
+            "label": "dpa-AFX via ariva.de: Aktien Frankfurt Schluss, 25 Nov",
+            "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-flucht-aus-ki-aktien-12220546"
+          },
+          {
+            "label": "finanzen.net: DAX beendet den Mittwochshandel mit Verlusten",
+            "url": "https://finanzen.net/nachricht/aktien/handel-in-frankfurt-dax-beendet-den-mittwochshandel-mit-verlusten-16086865"
+          },
+          {
+            "label": "ad-hoc-news: Euro Stoxx 50 closes 1.82% lower at 5,894.46",
+            "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-closes-1-82-prozent-lower-at-5-894-46-as-ai-fears-return/70555310"
+          }
+        ]
+      },
+      {
+        "title": "Wall Street whipsaws: Nasdaq dropped 4.6% at one point, then closes down only 0.6%",
+        "summary": "US stocks recovered most of a sharp intraday slide before the Thanksgiving break. The Dow closed 0.33% higher at 50,182.95, the S&P 500 fell 0.25% to 7,182.78 and the Nasdaq Composite 0.62% to 23,585.80, after falling as much as 3.2% and 4.6% respectively. The VIX volatility index rose about 7% to 28.29. Reasons cited include an AI-profitability scare, hotter inflation data and proposed new tariffs. HP rose 11.5% on results and a dividend increase, while Ambarella fell about 20% on a weak outlook.",
+        "whyItMatters": "A rebound from large intraday losses shows that buyers stepped in, but it also shows how fragile sentiment is. A VIX near 28 signals that options markets expect continued big moves.",
+        "sources": [
+          {
+            "label": "CappNotes: Closing Look, Wednesday 25 Nov",
+            "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+          },
+          {
+            "label": "TradingKey: Market recap, 25 Nov",
+            "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262322956-market-recap-sp-nasdaq-nvidia-pce-gold-breaks-3500-tradingkey"
+          },
+          {
+            "label": "Yahoo Finance: Stock market today, Wednesday 25 Nov",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+          }
+        ]
+      },
+      {
+        "title": "Nvidia falls another 3.9% as S&P Global puts its credit rating on negative watch",
+        "summary": "Nvidia closed at $149.30 on Wednesday, down 3.9% and about 27% lower in November according to CNBC as cited by CappNotes. S&P Global Ratings placed the company's AA rating on CreditWatch Negative, citing board independence, management and governance arrangements and reliance on CEO Jensen Huang, and said it expects to finish its review in roughly 90 days. This follows Monday's rally on Huang's reinstatement, which has faded. Yahoo Finance also lists AI-profitability worries and rate-hike expectations among the reasons for the weak tech tape.",
+        "whyItMatters": "Nvidia is among the largest companies in major indices, so its share price and the confidence in its governance affect index funds too. A watch status is a warning, not a downgrade.",
+        "sources": [
+          {
+            "label": "TradingKey: Market recap, 25 Nov",
+            "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262322956-market-recap-sp-nasdaq-nvidia-pce-gold-breaks-3500-tradingkey"
+          },
+          {
+            "label": "CappNotes: Closing Look, Wednesday 25 Nov",
+            "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+          },
+          {
+            "label": "Yahoo Finance: Stock market today, Wednesday 25 Nov",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+          }
+        ]
+      },
+      {
+        "title": "US inflation stays high, Fed hike in December is priced in almost fully",
+        "summary": "October PCE inflation, the Fed's preferred gauge, came in at 3.8% year on year, in line with forecasts, while core PCE was 3.3% against 3.2% expected, according to CappNotes. CME's FedWatch tool showed about 98% odds of a 25 basis-point hike on 9 December. Q3 US GDP was revised up to 4.3% annualised from 3.4%. Separately, the US trade representative proposed Section 301 tariffs on 14 trading partners, with up to 15% for EU goods and 20% for China, earliest from January; these are proposals.",
+        "whyItMatters": "Persistent inflation plus new tariffs keep interest rates high, which pressures valuations of growth shares and keeps bond yields elevated. Tariffs on EU goods could weigh on German exporters.",
+        "sources": [
+          {
+            "label": "CappNotes: Closing Look, Wednesday 25 Nov",
+            "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+          },
+          {
+            "label": "Yahoo Finance: Stock market today, Wednesday 25 Nov",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+          },
+          {
+            "label": "Der Aktionär: DAX-Prognose, 26 Nov",
+            "url": "https://www.deraktionaer.de/artikel/indizes/dax-prognose-hoeher-kein-us-handel-rheinmetall-bayer-infineon-siemens-energy-nvidia-im-fokus-20452534.html"
+          }
+        ]
+      },
+      {
+        "title": "Germany's Q3 growth revised down to 0.1%",
+        "summary": "Destatis lowered its estimate of German GDP growth for the third quarter to 0.1% on the quarter from 0.2% in the first release, because exports and retail turnover in September were weaker than first assumed. Machinery and equipment investment fell 3.5% and exports fell 1.0%, while government spending rose 0.3%. Year on year, GDP was up 1.2% (1.1% calendar adjusted). The euro area grew 0.4% in the quarter for comparison.",
+        "whyItMatters": "The German economy is expanding only slowly, which supports the argument for fiscal stimulus but also leaves companies exposed to trade frictions such as new tariffs.",
+        "sources": [
+          {
+            "label": "Destatis press release No. 409, 25 Nov 2026",
+            "url": "https://www.destatis.de/EN/Press/2026/11/PE26_409_811.html"
+          }
+        ]
+      },
+      {
+        "title": "Rheinmetall Capital Markets Day starts today, as shares are down about 56% this year",
+        "summary": "Rheinmetall holds capital markets days on 26 and 27 November, per dpa-AFX calendars. Its shares were around €745 on Wednesday, according to finanznachrichten.de, after hitting about €692 on Friday, the lowest since February 2025, and are down about 56% in 2026. An EU special summit on the long-term budget and Ukraine funding also begins in Brussels today. Barclays cut its price target ahead of the event, according to a headline on finanznachrichten.de; details were not retrievable.",
+        "whyItMatters": "Companies use such events to outline medium-term targets. Defence stocks react to both company guidance and European budget decisions, so today and tomorrow may bring larger moves in the sector.",
+        "sources": [
+          {
+            "label": "finanznachrichten.de: Rheinmetall-Aktie −56%: Bringt der Kapitalmarkttag die Wende?",
+            "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70215900-rheinmetall-aktie-56-bringt-der-kapitalmarkttag-die-wende-486.htm"
+          },
+          {
+            "label": "dpa-AFX Tagesvorschau, 26 Nov",
+            "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-26-november-2026-16086829"
+          },
+          {
+            "label": "Der Aktionär: DAX-Prognose, 26 Nov",
+            "url": "https://www.deraktionaer.de/artikel/indizes/dax-prognose-hoeher-kein-us-handel-rheinmetall-bayer-infineon-siemens-energy-nvidia-im-fokus-20452534.html"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−3.9% to $149.30 (US close Wed 25 Nov)",
+        "note": "S&P Global put its AA credit rating on CreditWatch Negative over governance concerns, and the stock extended its November slide.",
+        "sources": [
+          {
+            "label": "TradingKey: Market recap, 25 Nov",
+            "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262322956-market-recap-sp-nasdaq-nvidia-pce-gold-breaks-3500-tradingkey"
+          },
+          {
+            "label": "CappNotes: Closing Look, Wednesday 25 Nov",
+            "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+          }
+        ]
+      },
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "change": "+0.5% to €190.96 (intraday Wed 25 Nov, 16:28 CET)",
+        "note": "No company-specific catalyst on Wednesday. Boerse-social cites Manager Magazin reporting that some Joule products are delayed to Q1 2027, and that Chief Customer Officer Thomas Saueressig is leaving to become CEO of IONOS.",
+        "sources": [
+          {
+            "label": "boerse-social.com: Gesprächsstoff im DAX, 25 Nov",
+            "url": "https://boerse-social.com/2026/11/25/wie_infineon_siemens_energy_hochtief_deutsche_telekom_beiersdorf_und_sap_fur_gesprachsstoff_im_dax_sorgten"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "change": "−3.59% to €245.50 (Xetra close Wed 25 Nov, per finanzen.net)",
+        "note": "Fell with other industrial and AI-linked names; no company-specific news found. A works council assembly is scheduled today.",
+        "sources": [
+          {
+            "label": "finanzen.net: DAX beendet den Mittwochshandel mit Verlusten",
+            "url": "https://finanzen.net/nachricht/aktien/handel-in-frankfurt-dax-beendet-den-mittwochshandel-mit-verlusten-16086865"
+          },
+          {
+            "label": "dpa-AFX Tagesvorschau, 26 Nov",
+            "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-26-november-2026-16086829"
+          }
+        ]
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "change": "−2.96% (intraday widget, Wed 25 Nov)",
+        "note": "Weak with the chip sector; no company-specific news found.",
+        "sources": [
+          {
+            "label": "Der Aktionär: DAX-Prognose, 26 Nov",
+            "url": "https://www.deraktionaer.de/artikel/indizes/dax-prognose-hoeher-kein-us-handel-rheinmetall-bayer-infineon-siemens-energy-nvidia-im-fokus-20452534.html"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "change": "−1.38% (widget on Der Aktionär; time not stated)",
+        "note": "No company-specific news found. Its annual shareholder meeting is on 8 December.",
+        "sources": [
+          {
+            "label": "Der Aktionär: DAX-Prognose, 26 Nov",
+            "url": "https://www.deraktionaer.de/artikel/indizes/dax-prognose-hoeher-kein-us-handel-rheinmetall-bayer-infineon-siemens-energy-nvidia-im-fokus-20452534.html"
+          },
+          {
+            "label": "dpa-AFX Wochenvorschau bis 9 Dec",
+            "url": "https://www.finanzen.at/nachrichten/aktien/wochenvorschau-termine-bis-9-dezember-2026-1036801702"
+          }
+        ]
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-26",
+        "time": "13:30",
+        "event": "ECB: account of the 28–29 October monetary policy meeting",
+        "why": "Shows how policymakers discussed rates and inflation."
+      },
+      {
+        "date": "2026-11-26",
+        "time": "",
+        "event": "Rheinmetall Capital Markets Day (26–27 Nov); EU special summit in Brussels (26–27 Nov); US markets closed for Thanksgiving",
+        "why": "Defence-sector news flow; thinner global trading without the US."
+      },
+      {
+        "date": "2026-11-27",
+        "time": "09:55",
+        "event": "Germany: unemployment figures for November",
+        "why": "A read on the labour market after the weak Q3 GDP revision."
+      },
+      {
+        "date": "2026-11-27",
+        "time": "11:00",
+        "event": "Eurozone: business and consumer confidence (November)",
+        "why": "Shows how firms and households see the economy; US stocks close early (13:00 ET)."
+      },
+      {
+        "date": "2026-11-30",
+        "time": "14:00",
+        "event": "Germany: flash inflation (November); MTU Aero Engines Capital Markets Day (10:30)",
+        "why": "Key input for ECB expectations."
+      },
+      {
+        "date": "2026-12-01",
+        "time": "11:00",
+        "event": "Eurozone flash inflation (November); PMIs; US ISM manufacturing (16:00)",
+        "why": "Early indicators of prices and business activity."
+      },
+      {
+        "date": "2026-12-02",
+        "time": "22:00",
+        "event": "Salesforce Q3 results (after US close); Aurubis and Inditex results in the morning",
+        "why": "Salesforce gives a read on enterprise software demand."
+      },
+      {
+        "date": "2026-12-03",
+        "time": "22:05",
+        "event": "Deutsche Börse DAX index review; US ISM services (16:00)",
+        "why": "Index changes can move individual stocks."
+      },
+      {
+        "date": "2026-12-04",
+        "time": "14:30",
+        "event": "US jobs report (November)",
+        "why": "Labour data feed directly into the Fed's 9 December decision, where a hike is priced in."
+      }
+    ],
+    "learn": {
+      "term": "Credit rating and CreditWatch",
+      "explanation": "A credit rating is an agency's opinion of how likely a borrower is to repay its debts; AA is a high grade. When an agency puts a rating on CreditWatch Negative, it signals that a downgrade is possible within a set review period, often around 90 days. Yesterday S&P Global did this for Nvidia, citing governance concerns rather than weak finances. A lower rating can make borrowing more expensive, but it does not by itself say anything about whether a share price will rise or fall."
+    }
+  },
+  {
     "date": "2026-11-25",
     "headline": "Chip selloff pulls Nasdaq down 1.5% and DAX 1.3% lower; Asian tech shares slide further as US inflation data and German GDP arrive today",
     "intro": "The rebound from earlier in the week faded on Tuesday: chip shares sold off sharply, the Nasdaq fell and the DAX lost more than 1%, while the Dow still closed above 50,000. Overnight, Asian tech stocks fell again, so today's German GDP and US PCE inflation figures come at a nervous moment.",
