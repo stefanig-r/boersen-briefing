@@ -2,6 +2,130 @@
 window.MARKET_BRIEFING_RECAPS = [
   {
     "type": "week",
+    "id": "2026-W48",
+    "label": "Week 48 · 23–27 November 2026",
+    "headline": "A violent rebound, then a pause: stocks recover last week's losses, but AI jitters, hot inflation and a near-certain Fed hike keep nerves high",
+    "summary": "After a heavy sell-off the week before (S&P 500 −8.61% in the week to 20 November, per 24/7 Wall St.), US stocks jumped on Monday and were still about 4% above the previous Friday through Wednesday. The DAX gained 1.66% to Thursday despite touching its lowest close since July on Wednesday. Figures run to Thursday (Europe) or Wednesday (US, closed Thursday); Friday's close is not included.",
+    "performance": [
+      {
+        "name": "DAX (Fri 20 Nov to Thu 26 Nov)",
+        "weekChange": "+1.66%"
+      },
+      {
+        "name": "S&P 500 (Fri 20 Nov to Wed 25 Nov)",
+        "weekChange": "+3.94%"
+      },
+      {
+        "name": "Nasdaq Composite (Fri 20 Nov to Wed 25 Nov)",
+        "weekChange": "+4.28%"
+      },
+      {
+        "name": "Dow Jones (Fri 20 Nov to Wed 25 Nov)",
+        "weekChange": "+4.23%"
+      },
+      {
+        "name": "Nikkei 225 (week to Fri 27 Nov, early trade, Reuters)",
+        "weekChange": "+2.7%"
+      }
+    ],
+    "top": [
+      {
+        "title": "Monday's rebound and Nvidia's CEO reversal",
+        "text": "The S&P 500 rose 4.73% and the Nasdaq 6.51% on Monday 23 November. TheStreet reports that Nvidia's board reinstated Jensen Huang as CEO, the shares rose about 31% to $165.05, and several brokers raised ratings.",
+        "sources": [
+          {
+            "label": "24/7 Wall St.: Best Thanksgiving week since 2008 (26 Nov)",
+            "url": "https://247wallst.com/investing/2026/11/26/the-stock-market-is-still-on-track-for-its-best-thanksgiving-week-since-2008/"
+          },
+          {
+            "label": "TheStreet: Nvidia's $270 Wall Street upgrade (25 Nov)",
+            "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch"
+          }
+        ]
+      },
+      {
+        "title": "AI shares swing again",
+        "text": "The Nasdaq fell as much as 4.6% on Wednesday before closing down only 0.62%, and the VIX touched 35 intraday before closing at 28.29, according to QUE.com. Nvidia fell 3.9% to $149.30 after S&P Global put its credit rating on CreditWatch negative.",
+        "sources": [
+          {
+            "label": "QUE.com: Markets rest on Thanksgiving (26 Nov)",
+            "url": "https://que.com/markets-rest-on-thanksgiving-after-a-3-6-trillion-scare-golds-historic-reversal-and-the-december-calendar-that-decides-everything/"
+          },
+          {
+            "label": "AP via BNN Bloomberg: World shares push higher, 26 Nov",
+            "url": "https://www.bnnbloomberg.ca/markets/2026/11/26/world-shares-push-higher-while-markets-in-us-will-be-closed-for-thanksgiving/"
+          }
+        ]
+      },
+      {
+        "title": "Inflation and Fed hike pricing",
+        "text": "US core PCE inflation for October came in at 3.3% year on year, above the 3.2% expected. Futures price about a 98% chance of a quarter-point Fed hike on 9 December.",
+        "sources": [
+          {
+            "label": "QUE.com: Markets rest on Thanksgiving (26 Nov)",
+            "url": "https://que.com/markets-rest-on-thanksgiving-after-a-3-6-trillion-scare-golds-historic-reversal-and-the-december-calendar-that-decides-everything/"
+          },
+          {
+            "label": "Reuters via MarketScreener: Shares find footing after bruising month",
+            "url": "https://www.marketscreener.com/news/shares-find-footing-after-bruising-month-dollar-set-for-third-monthly-gain-ce7851d9db88f02c"
+          }
+        ]
+      },
+      {
+        "title": "DAX rebounds 2.08% on Thursday",
+        "text": "The DAX closed at 25,215.52 after Wednesday's lowest close since July. Deutsche Bank's Christian Nolting set an end-2027 target of 28,800 points.",
+        "sources": [
+          {
+            "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss, 26 Nov",
+            "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-frankfurt-schluss-erholung-deutsche-bank-2027-rekord-moeglich-16088965"
+          },
+          {
+            "label": "dpa-AFX via finanzen.net: Dax erholt – Zeit zum Durchatmen dank Thanksgiving",
+            "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schluss-dax-erholt-zeit-zum-durchatmen-dank-thanksgiving-16088942"
+          }
+        ]
+      },
+      {
+        "title": "SAP and Rheinmetall in focus",
+        "text": "Bloomberg reported SAP is weighing about 10,000 job cuts, which SAP did not confirm. Rheinmetall, down roughly half this year, presents new 2030 targets on Friday after four straight daily gains.",
+        "sources": [
+          {
+            "label": "dpa-AFX via ariva.de: SAP erwägt Abbau von rund 10 Prozent aller Stellen",
+            "url": "https://www.ariva.de/news/kreise-sap-erwaegt-abbau-von-rund-10-prozent-aller-stellen-12221877"
+          },
+          {
+            "label": "Reuters via MarketScreener: SAP erwägt wegen KI Abbau von 10.000 Stellen",
+            "url": "https://de.marketscreener.com/boerse-nachrichten/sap-erwaegt-wegen-ki-abbau-von-10-000-stellen-ce7851d9d981ff27"
+          },
+          {
+            "label": "Investing.com DE: Rheinmetall-Aktie – Kapitalmarkttag heute",
+            "url": "https://de.investing.com/news/stock-market-news/rheinmetallaktie-kapitalmarkttag-heute--35-statt-50-mrd-euro-erwartet-3787500"
+          }
+        ]
+      },
+      {
+        "title": "New US tariff proposal with a January hearing",
+        "text": "The US proposed Section 301 duties on 14 trading partners, with caps of 15% for the EU, Japan, South Korea, Taiwan and Switzerland. A public hearing is set for 25 January.",
+        "sources": [
+          {
+            "label": "QUE.com: Markets rest on Thanksgiving (26 Nov)",
+            "url": "https://que.com/markets-rest-on-thanksgiving-after-a-3-6-trillion-scare-golds-historic-reversal-and-the-december-calendar-that-decides-everything/"
+          },
+          {
+            "label": "Eurasia Business News: Stock markets today, 26 Nov 2026",
+            "url": "https://eurasiabusinessnews.com/2026/11/27/stock-markets-today-november-26-2026-european-and-asian-stocks-rally-as-tariff-fears-ease/"
+          }
+        ]
+      }
+    ],
+    "outlook": [
+      "Rheinmetall's new targets (Friday), German flash inflation (30 November) and eurozone inflation (1 December) will shape ECB expectations ahead of its 17 December meeting.",
+      "The US jobs report on 4 December comes five days before the Fed decision on 9 December, where a quarter-point hike is priced in at about 98%.",
+      "Salesforce reports on 2 December and the DAX index review follows on 3 December; the tariff hearing on 25 January and the China truce expiry on 10 January are further out."
+    ]
+  },
+  {
+    "type": "week",
     "id": "2026-W46",
     "label": "Week 46 · 9–13 November 2026",
     "headline": "Stocks rebound from the AI sell-off and the DAX reaches 27,000, but yields near 5% and Nvidia's CEO exit keep nerves high",

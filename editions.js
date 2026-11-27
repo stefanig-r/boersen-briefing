@@ -1,6 +1,369 @@
 // Market Briefing – daily editions. Newest edition first.
 window.MARKET_BRIEFING_EDITIONS = [
   {
+    "date": "2026-11-27",
+    "headline": "DAX rebounds 2.1% to 25,216 as the tech selloff pauses over the US holiday; SAP is reported to weigh 10,000 job cuts and Rheinmetall sets new targets today",
+    "intro": "German stocks recovered strongly on Thursday while Wall Street was closed for Thanksgiving, and Asian shares edged higher on Friday after a rough month. Today brings Rheinmetall's new 2030 targets, German jobs data and a shortened US session that ends at 13:00 New York time, so trading may stay thin.",
+    "markets": [
+      {
+        "name": "DAX",
+        "value": "25,215.52",
+        "change": "+2.08%",
+        "asOf": "Xetra close Thu 26 Nov (dpa-AFX)",
+        "source": {
+          "label": "dpa-AFX via finanzen.net: Dax erholt – Zeit zum Durchatmen dank Thanksgiving",
+          "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schluss-dax-erholt-zeit-zum-durchatmen-dank-thanksgiving-16088942"
+        }
+      },
+      {
+        "name": "MDAX",
+        "value": "29,263.97",
+        "change": "+2.34%",
+        "asOf": "Close Thu 26 Nov (dpa-AFX)",
+        "source": {
+          "label": "dpa-AFX via finanzen.net: Dax erholt – Zeit zum Durchatmen dank Thanksgiving",
+          "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schluss-dax-erholt-zeit-zum-durchatmen-dank-thanksgiving-16088942"
+        }
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "value": "not available",
+        "change": "just over +2%",
+        "asOf": "Close Thu 26 Nov per dpa-AFX, which gave no index level",
+        "source": {
+          "label": "dpa-AFX via finanzen.net: Dax erholt – Zeit zum Durchatmen dank Thanksgiving",
+          "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schluss-dax-erholt-zeit-zum-durchatmen-dank-thanksgiving-16088942"
+        }
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,182.78",
+        "change": "−0.25%",
+        "asOf": "Close Wed 25 Nov (US closed Thu 26 Nov for Thanksgiving; futures were about +0.5% early Thursday per AP)",
+        "source": {
+          "label": "QUE.com: Markets rest on Thanksgiving (26 Nov)",
+          "url": "https://que.com/markets-rest-on-thanksgiving-after-a-3-6-trillion-scare-golds-historic-reversal-and-the-december-calendar-that-decides-everything/"
+        }
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "23,585.80",
+        "change": "−0.62%",
+        "asOf": "Close Wed 25 Nov (US closed Thu 26 Nov)",
+        "source": {
+          "label": "QUE.com: Markets rest on Thanksgiving (26 Nov)",
+          "url": "https://que.com/markets-rest-on-thanksgiving-after-a-3-6-trillion-scare-golds-historic-reversal-and-the-december-calendar-that-decides-everything/"
+        }
+      },
+      {
+        "name": "Dow Jones",
+        "value": "50,182.95",
+        "change": "+0.33%",
+        "asOf": "Close Wed 25 Nov (US closed Thu 26 Nov)",
+        "source": {
+          "label": "QUE.com: Markets rest on Thanksgiving (26 Nov)",
+          "url": "https://que.com/markets-rest-on-thanksgiving-after-a-3-6-trillion-scare-golds-historic-reversal-and-the-december-calendar-that-decides-everything/"
+        }
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "57,499.16",
+        "change": "+0.9%",
+        "asOf": "Close Thu 26 Nov (AP); Reuters reported a further +0.7% on Fri 27 Nov in early trade, and −8.4% for the month",
+        "source": {
+          "label": "AP via WSLS: Asian shares rebound led by AI stocks, 26 Nov",
+          "url": "https://www.wsls.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/"
+        }
+      },
+      {
+        "name": "EUR/USD",
+        "value": "1.0964",
+        "change": "flat",
+        "asOf": "Fri 27 Nov, Asian session (Reuters)",
+        "source": {
+          "label": "Reuters via MarketScreener: Shares find footing after bruising month",
+          "url": "https://www.marketscreener.com/news/shares-find-footing-after-bruising-month-dollar-set-for-third-monthly-gain-ce7851d9db88f02c"
+        }
+      },
+      {
+        "name": "Gold",
+        "value": "about 3,571 USD",
+        "change": "not available",
+        "asOf": "Kitco bid, Thu 26 Nov, time not stated; other quotes differ (about 3,582)",
+        "source": {
+          "label": "Eurasia Business News: Stock markets today, 26 Nov 2026",
+          "url": "https://eurasiabusinessnews.com/2026/11/27/stock-markets-today-november-26-2026-european-and-asian-stocks-rally-as-tariff-fears-ease/"
+        }
+      },
+      {
+        "name": "Brent crude",
+        "value": "96.14 USD",
+        "change": "−0.4%",
+        "asOf": "Fri 27 Nov, Asian session (Reuters); +3.9% on the week, about −18% on the month",
+        "source": {
+          "label": "Reuters via MarketScreener: Shares find footing after bruising month",
+          "url": "https://www.marketscreener.com/news/shares-find-footing-after-bruising-month-dollar-set-for-third-monthly-gain-ce7851d9db88f02c"
+        }
+      },
+      {
+        "name": "Bitcoin",
+        "value": "about 60,500 USD",
+        "change": "about +4% (24h)",
+        "asOf": "Thu 26 Nov; reports gave 60,450–61,000, so approximate",
+        "source": {
+          "label": "Eurasia Business News: Stock markets today, 26 Nov 2026",
+          "url": "https://eurasiabusinessnews.com/2026/11/27/stock-markets-today-november-26-2026-european-and-asian-stocks-rally-as-tariff-fears-ease/"
+        }
+      },
+      {
+        "name": "10-year Bund yield",
+        "value": "not available",
+        "change": "not available",
+        "asOf": "No verified level found for this edition",
+        "source": {
+          "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss, 26 Nov",
+          "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-frankfurt-schluss-erholung-deutsche-bank-2027-rekord-moeglich-16088965"
+        }
+      },
+      {
+        "name": "10-year US Treasury yield",
+        "value": "4.89%",
+        "change": "+4 bp",
+        "asOf": "Thu 26 Nov (Reuters; US bond market closed for the holiday, so treat as indicative)",
+        "source": {
+          "label": "Reuters via MarketScreener: Shares find footing after bruising month",
+          "url": "https://www.marketscreener.com/news/shares-find-footing-after-bruising-month-dollar-set-for-third-monthly-gain-ce7851d9db88f02c"
+        }
+      }
+    ],
+    "news": [
+      {
+        "title": "DAX jumps 2.1% as tech shares recover, but it is still below last week's levels",
+        "summary": "The DAX closed at 25,215.52 on Thursday, up 2.08%, and the MDAX gained 2.34%, according to dpa-AFX. The Euro Stoxx 50 rose just over 2%. Rheinmetall, Infineon and Siemens Energy were among the leaders, and raw-material and car shares also recovered. Dealers linked the rebound to Wednesday's reversal in US tech shares and to a quieter day without Wall Street. Separately, Deutsche Bank's private-bank strategist Christian Nolting set an end-2027 DAX target of 28,800 points, which dpa-AFX put at more than 14% above the current level.",
+        "whyItMatters": "One strong day after a slide to the lowest close since July does not settle the direction; the AI-linked part of the market is still swinging sharply. Strategists' year-end targets are opinions and often change.",
+        "sources": [
+          {
+            "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss, 26 Nov",
+            "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-frankfurt-schluss-erholung-deutsche-bank-2027-rekord-moeglich-16088965"
+          },
+          {
+            "label": "dpa-AFX via finanzen.net: Dax erholt – Zeit zum Durchatmen dank Thanksgiving",
+            "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-schluss-dax-erholt-zeit-zum-durchatmen-dank-thanksgiving-16088942"
+          }
+        ]
+      },
+      {
+        "title": "SAP reportedly weighs about 10,000 job cuts; the company also confirms suspicious IT activity",
+        "summary": "Bloomberg, citing people familiar with the matter, reported on Thursday that SAP is considering cutting about 10,000 jobs as part of an AI-driven restructuring; dpa-AFX says \"at least 10,000\", Reuters says \"up to 10,000\". SAP declined to confirm cuts and said it keeps its organisation under constant review. The shares closed 2.28% higher at €194.14 on Xetra. Later, aktiencheck, citing Der Spiegel, reported that SAP confirmed suspicious activity on its systems and took protective measures, with no sign so far of access to customer business data; details come from a single secondary source.",
+        "whyItMatters": "Investors often read cost cuts as a margin boost, but large restructurings carry execution risk. The IT incident is unresolved and could still be revised as more facts emerge.",
+        "sources": [
+          {
+            "label": "dpa-AFX via ariva.de: SAP erwägt Abbau von rund 10 Prozent aller Stellen",
+            "url": "https://www.ariva.de/news/kreise-sap-erwaegt-abbau-von-rund-10-prozent-aller-stellen-12221877"
+          },
+          {
+            "label": "Reuters via MarketScreener: SAP erwägt wegen KI Abbau von 10.000 Stellen",
+            "url": "https://de.marketscreener.com/boerse-nachrichten/sap-erwaegt-wegen-ki-abbau-von-10-000-stellen-ce7851d9d981ff27"
+          },
+          {
+            "label": "aktiencheck: SAP Aktie – Cyberangriff, 10.000 Stellen",
+            "url": "https://aktiencheck.de/artikel/sap-aktie-cyberangriff-10000-stellen-auf-der-kippe-vorstand-kauft-zu-was-die"
+          }
+        ]
+      },
+      {
+        "title": "Rheinmetall presents new 2030 targets this morning after a four-day rebound",
+        "summary": "At its Capital Markets Day in Hamburg, Rheinmetall is due to present updated mid-term targets at 10:00 today. The current goal is about €50bn revenue and an operating margin above 20% by 2030. Barclays expects new targets of €35–40bn revenue at a margin of about 19% and cut its price target from €2,000 to €1,340 (Overweight kept); RBC cut from €1,600 to €1,300 (Outperform kept), saying lowered targets are already largely priced in. The shares rose roughly 4–5% on Thursday, a fourth straight gain, to around €766–769, though sources quote slightly different levels.",
+        "whyItMatters": "The shares have roughly halved this year after two guidance cuts, so today's targets will show how far expectations have been reset. The reaction can swing the whole defence sector.",
+        "sources": [
+          {
+            "label": "Investing.com DE: Rheinmetall-Aktie – Kapitalmarkttag heute",
+            "url": "https://de.investing.com/news/stock-market-news/rheinmetallaktie-kapitalmarkttag-heute--35-statt-50-mrd-euro-erwartet-3787500"
+          },
+          {
+            "label": "dpa-AFX via MarketScreener: Rheinmetall weiter erholt",
+            "url": "https://de.marketscreener.com/boerse-nachrichten/rheinmetall-weiter-erholt-warten-auf-gekappte-mittelfristziele-ce7851d8de8df424"
+          },
+          {
+            "label": "aktiencheck: Rheinmetall Aktie – DAX Gewinner am Abend",
+            "url": "https://aktiencheck.de/artikel/rheinmetall-aktie-dax-gewinner-am-abend-vierter-gewinntag-zum-kapitalmarkttag"
+          }
+        ]
+      },
+      {
+        "title": "US inflation, a priced-in Fed hike and a new tariff proposal shape the backdrop",
+        "summary": "According to QUE.com, October US core PCE inflation rose 3.3% from a year earlier (3.2% expected), and futures put the chance of a quarter-point Fed hike on 9 December at about 98%. The US trade representative also proposed new Section 301 duties on 14 trading partners, with the EU, Japan, South Korea, Taiwan and Switzerland capped at 15% including existing duties and China at 20% on top; a public hearing is set for 25 January, so nothing takes effect before then. The euro-zone inflation rate was 4.0% in October and the ECB meets on 17 December, where a hike is seen as very likely by aktiencheck.",
+        "whyItMatters": "Higher-for-longer rates weigh on stocks valued on far-off profits, such as tech. The tariff timetable gives companies and governments time to negotiate, which is why markets reacted calmly.",
+        "sources": [
+          {
+            "label": "QUE.com: Markets rest on Thanksgiving (26 Nov)",
+            "url": "https://que.com/markets-rest-on-thanksgiving-after-a-3-6-trillion-scare-golds-historic-reversal-and-the-december-calendar-that-decides-everything/"
+          },
+          {
+            "label": "Eurasia Business News: Stock markets today, 26 Nov 2026",
+            "url": "https://eurasiabusinessnews.com/2026/11/27/stock-markets-today-november-26-2026-european-and-asian-stocks-rally-as-tariff-fears-ease/"
+          },
+          {
+            "label": "aktiencheck: Börsentermine heute – Wall Street geschlossen, EZB-Protokoll",
+            "url": "https://aktiencheck.de/artikel/boersentermine-heute-wall-street-geschlossen-ezb-protokoll-gfk-konsumklima"
+          },
+          {
+            "label": "aktiencheck: Börsentermine morgen – Black Friday, Rheinmetall-Showdown",
+            "url": "https://aktiencheck.de/artikel/boersentermine-morgen-black-friday-rheinmetall-showdown-inflation-aus-frankreich"
+          }
+        ]
+      },
+      {
+        "title": "A bruising November for Asia: Nikkei down 8.4% for the month, with Friday slightly higher",
+        "summary": "Reuters reported Asian shares edging up on Friday, with Japan's Nikkei up 0.7% (+2.7% for the week but −8.4% for the month) and the MSCI Asia-Pacific index excluding Japan down 8.2% for the month. Chinese blue chips hit their lowest level since June 2025 on Thursday before slipping 0.2%. Brent was at about $96, up 3.9% on the week but about 18% lower on the month. AP linked Thursday's Asian rebound to AI shares and noted continued worries about tariffs and Middle East supply risks.",
+        "whyItMatters": "Month-end moves of this size show how much the AI-led sell-off has hit global equities. Oil, still heavily influenced by the Middle East conflict, feeds directly into inflation expectations.",
+        "sources": [
+          {
+            "label": "Reuters via MarketScreener: Shares find footing after bruising month",
+            "url": "https://www.marketscreener.com/news/shares-find-footing-after-bruising-month-dollar-set-for-third-monthly-gain-ce7851d9db88f02c"
+          },
+          {
+            "label": "AP via WSLS: Asian shares rebound led by AI stocks, 26 Nov",
+            "url": "https://www.wsls.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/"
+          },
+          {
+            "label": "Eurasia Business News: Stock markets today, 26 Nov 2026",
+            "url": "https://eurasiabusinessnews.com/2026/11/27/stock-markets-today-november-26-2026-european-and-asian-stocks-rally-as-tariff-fears-ease/"
+          }
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "name": "SAP",
+        "ticker": "SAP",
+        "change": "+2.28% to €194.14 (Xetra close Thu 26 Nov)",
+        "note": "Bloomberg reported SAP weighs about 10,000 job cuts; SAP declined to confirm. Aktiencheck, citing Spiegel, reports a confirmed security incident. Board member Gina Vargiu-Breuer bought shares worth about €229,000 on 20 November, per a mandatory filing reported by boersennews.",
+        "sources": [
+          {
+            "label": "dpa-AFX via ariva.de: SAP erwägt Abbau von rund 10 Prozent aller Stellen",
+            "url": "https://www.ariva.de/news/kreise-sap-erwaegt-abbau-von-rund-10-prozent-aller-stellen-12221877"
+          },
+          {
+            "label": "Reuters via MarketScreener: SAP erwägt wegen KI Abbau von 10.000 Stellen",
+            "url": "https://de.marketscreener.com/boerse-nachrichten/sap-erwaegt-wegen-ki-abbau-von-10-000-stellen-ce7851d9d981ff27"
+          },
+          {
+            "label": "aktiencheck: SAP Aktie – Cyberangriff, 10.000 Stellen",
+            "url": "https://aktiencheck.de/artikel/sap-aktie-cyberangriff-10000-stellen-auf-der-kippe-vorstand-kauft-zu-was-die"
+          }
+        ]
+      },
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "change": "−3.9% to $149.30 (US close Wed 25 Nov)",
+        "note": "Shares fell again on Wednesday, while several brokers had raised ratings on Monday after Jensen Huang was reinstated as CEO (for example StoneX, Hold to Buy, target $270). US markets were closed on Thursday.",
+        "sources": [
+          {
+            "label": "TheStreet: Nvidia's $270 Wall Street upgrade (25 Nov)",
+            "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch"
+          },
+          {
+            "label": "AP via BNN Bloomberg: World shares push higher, 26 Nov",
+            "url": "https://www.bnnbloomberg.ca/markets/2026/11/26/world-shares-push-higher-while-markets-in-us-will-be-closed-for-thanksgiving/"
+          }
+        ]
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE",
+        "note": "No significant news"
+      },
+      {
+        "name": "Allianz",
+        "ticker": "ALV",
+        "note": "No significant news"
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "note": "No significant news"
+      },
+      {
+        "name": "ASML",
+        "ticker": "ASML",
+        "note": "No significant news"
+      },
+      {
+        "name": "iShares Core MSCI World ETF",
+        "ticker": "EUNL",
+        "note": "No significant news"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-27",
+        "time": "08:45",
+        "event": "France and Spain: November consumer prices",
+        "why": "First large euro-area inflation readings for November; France is expected to ease."
+      },
+      {
+        "date": "2026-11-27",
+        "time": "09:55",
+        "event": "Germany: unemployment figures for November",
+        "why": "A read on the labour market after the weak Q3 GDP revision."
+      },
+      {
+        "date": "2026-11-27",
+        "time": "10:00",
+        "event": "Rheinmetall: new 2030 targets at Capital Markets Day (webcast)",
+        "why": "Shows how far the defence group resets its growth goals."
+      },
+      {
+        "date": "2026-11-27",
+        "time": "11:00",
+        "event": "Eurozone: economic sentiment (European Commission)",
+        "why": "A broad gauge of business and consumer mood."
+      },
+      {
+        "date": "2026-11-27",
+        "time": "19:00",
+        "event": "Wall Street half-day session (closes 13:00 New York time)",
+        "why": "Thin volumes after Thanksgiving can exaggerate moves."
+      },
+      {
+        "date": "2026-11-30",
+        "time": "14:00",
+        "event": "Germany: flash inflation (November); MTU Aero Engines Capital Markets Day (10:30)",
+        "why": "Key input for ECB expectations."
+      },
+      {
+        "date": "2026-12-01",
+        "time": "11:00",
+        "event": "Eurozone flash inflation (November); PMIs; US ISM manufacturing (16:00)",
+        "why": "Early indicators of prices and business activity."
+      },
+      {
+        "date": "2026-12-02",
+        "time": "22:00",
+        "event": "Salesforce Q3 results (after US close)",
+        "why": "Gives a read on enterprise software demand, relevant for SAP."
+      },
+      {
+        "date": "2026-12-03",
+        "time": "22:05",
+        "event": "Deutsche Börse DAX index review; US ISM services (16:00)",
+        "why": "Index changes can move individual stocks."
+      },
+      {
+        "date": "2026-12-04",
+        "time": "14:30",
+        "event": "US jobs report (November)",
+        "why": "Feeds directly into the Fed decision on 9 December, where a hike is priced in."
+      }
+    ],
+    "learn": {
+      "term": "Share buyback",
+      "explanation": "In a share buyback, a company uses its own cash to purchase its shares on the stock market, which reduces the number of shares outstanding. SAP, for example, runs a programme of up to €10bn over 2026–2027 according to boersennews, and about €5.3bn was still unused. Fewer shares can lift earnings per share even if total profit stays flat. A buyback is not a guarantee that the share price will rise, and the cash could alternatively be used for investments, debt reduction or dividends."
+    }
+  },
+  {
     "date": "2026-11-26",
     "headline": "DAX closes at its lowest level since July as AI selloff and new US tariff plans weigh; Asia rebounds and the DAX is indicated sharply higher today",
     "intro": "Wednesday was another jumpy day: US stocks fell by as much as 3–4% at one point before recovering most of it, while the DAX closed 1.3% lower after a flight from AI-related shares. This morning Asian tech shares are rebounding and pre-market indications point to a friendlier DAX start, but US exchanges are closed for Thanksgiving, so trading may be thin.",

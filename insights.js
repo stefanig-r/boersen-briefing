@@ -3,8 +3,44 @@
 // themes: what is moving markets, with how to get exposure in general terms and the risks.
 // analysts: notable rating/target changes from named institutions, clearly attributed.
 window.MARKET_BRIEFING_INSIGHTS = {
-  "updated": "2026-11-13",
+  "updated": "2026-11-27",
   "smallcaps": [
+    {
+      "week": "2026-W48",
+      "name": "Energiekontor AG",
+      "ticker": "EKT",
+      "exchange": "Frankfurt / Xetra (regulated market)",
+      "country": "Germany",
+      "sector": "Renewable energy (wind and solar project developer and operator)",
+      "business": "Energiekontor develops, builds and operates wind and solar parks and sells projects to third parties, mainly in Germany and the UK. Its own portfolio was 461 MW across 41 parks at 30 September 2026, according to goldesel.de.",
+      "whyInNews": "On 26 November, dpa-AFX reported that BaFin is reviewing two of the company's annual reports, and the shares fell more than 7% to their lowest level since 2020.",
+      "facts": [
+        "H1 2026 revenue of €99.9m (+31.4%), but earnings before tax of −€4.7m versus +€28.3m a year earlier (Quartr summary, 24 Nov).",
+        "FY2026 EBT guidance of €5–10m confirmed on 12 November; it had been cut in August from €40–60m, with UK project sales delayed by grid connection dates.",
+        "Own parks produced about 480 GWh in the first nine months versus about 413 GWh a year earlier.",
+        "Share price was €22.70 on 12 November, about 36.5% lower year to date (goldesel.de); a market capitalisation figure was not verified."
+      ],
+      "risks": [
+        "Regulatory uncertainty: the BaFin review could lead to restated figures or further share price pressure; its scope and outcome are unknown.",
+        "Earnings are volatile and currently weak, with guidance cut sharply this year.",
+        "Project sales timing, especially in the UK, can shift results between periods; concentration in two markets.",
+        "Smaller-company liquidity: the share can move sharply on news."
+      ],
+      "sources": [
+        {
+          "label": "dpa-AFX via finanzen.net: Aktien Frankfurt Schluss (26 Nov)",
+          "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-frankfurt-schluss-erholung-deutsche-bank-2027-rekord-moeglich-16088965"
+        },
+        {
+          "label": "goldesel.de: Energiekontor Prognose bleibt bei 5 bis 10 Mio. Euro EBT",
+          "url": "https://goldesel.de/aktien/news/energiekontor-aktie-prognose-bleibt-bei-5-bis-10-millionen-euro-ebt"
+        },
+        {
+          "label": "Quartr: Energiekontor Q3 2026",
+          "url": "https://quartr.com/events/energiekontor-ag-ekt-q3-2026_oCW4ZEqh"
+        }
+      ]
+    },
     {
       "week": "2026-W46",
       "name": "Patrizia SE",
@@ -135,6 +171,123 @@ window.MARKET_BRIEFING_INSIGHTS = {
     }
   ],
   "themes": [
+    {
+      "week": "2026-W48",
+      "title": "AI shares: sharp swings and a CEO reversal",
+      "status": "In focus",
+      "summary": "Nvidia's board reinstated Jensen Huang as CEO, lifting the shares about 31% on Monday to $165.05, but the stock fell 3.9% to $149.30 by Wednesday. The Nasdaq dropped as much as 4.6% on Wednesday before closing down 0.62%.",
+      "drivers": [
+        "Leadership reversal at Nvidia and broker upgrades afterwards",
+        "S&P Global placing Nvidia's credit rating on CreditWatch negative",
+        "Valuation worries and thin holiday liquidity amplifying moves"
+      ],
+      "exposure": "Broad world ETFs hold large US tech and chip names, so they are affected indirectly. Semiconductor or AI-themed ETFs concentrate on the theme. Check the index, the number of holdings, the fee (TER) and how much a few large names dominate.",
+      "risks": [
+        "Concentrated themes can fall or rebound far faster than the broad market",
+        "Governance and credit-rating questions remain open"
+      ],
+      "sources": [
+        {
+          "label": "TheStreet: Nvidia's $270 Wall Street upgrade (25 Nov)",
+          "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch"
+        },
+        {
+          "label": "QUE.com: Markets rest on Thanksgiving (26 Nov)",
+          "url": "https://que.com/markets-rest-on-thanksgiving-after-a-3-6-trillion-scare-golds-historic-reversal-and-the-december-calendar-that-decides-everything/"
+        }
+      ]
+    },
+    {
+      "week": "2026-W48",
+      "title": "Inflation, rates and the Fed",
+      "status": "Decision on 9 Dec",
+      "summary": "US core PCE inflation for October was 3.3%, and futures price about a 98% chance of a quarter-point Fed hike on 9 December, per QUE.com. Euro-area inflation was 4.0% in October and a hike at the ECB meeting on 17 December is seen as very likely by aktiencheck.",
+      "drivers": [
+        "Inflation above forecasts",
+        "US 10-year yield near 4.9% (Reuters, 26 Nov)",
+        "Jobs data on 4 December and flash inflation next week"
+      ],
+      "exposure": "Higher rates tend to weigh on long-duration growth stocks and bond prices, while banks and short-term cash instruments can benefit. Broad ETFs spread this across sectors; bond ETFs carry interest-rate risk. Check duration, index and TER.",
+      "risks": [
+        "Rate paths can shift quickly after data surprises",
+        "Markets have already priced in a hike, so a surprise either way matters"
+      ],
+      "sources": [
+        {
+          "label": "QUE.com: Markets rest on Thanksgiving (26 Nov)",
+          "url": "https://que.com/markets-rest-on-thanksgiving-after-a-3-6-trillion-scare-golds-historic-reversal-and-the-december-calendar-that-decides-everything/"
+        },
+        {
+          "label": "Reuters via MarketScreener: Shares find footing after bruising month",
+          "url": "https://www.marketscreener.com/news/shares-find-footing-after-bruising-month-dollar-set-for-third-monthly-gain-ce7851d9db88f02c"
+        },
+        {
+          "label": "aktiencheck: Börsentermine heute – Wall Street geschlossen, EZB-Protokoll",
+          "url": "https://aktiencheck.de/artikel/boersentermine-heute-wall-street-geschlossen-ezb-protokoll-gfk-konsumklima"
+        },
+        {
+          "label": "aktiencheck: Börsentermine morgen – Black Friday, Rheinmetall-Showdown",
+          "url": "https://aktiencheck.de/artikel/boersentermine-morgen-black-friday-rheinmetall-showdown-inflation-aus-frankreich"
+        }
+      ]
+    },
+    {
+      "week": "2026-W48",
+      "title": "US tariff proposal",
+      "status": "Hearing in January",
+      "summary": "The US trade representative proposed Section 301 duties on 14 partners, with caps of 15% for the EU, Japan, South Korea, Taiwan and Switzerland including existing duties, and 20% on top for China. A public hearing is set for 25 January, so the duties would not apply before then.",
+      "drivers": [
+        "Uncertainty for exporters in Europe and Asia",
+        "Ongoing negotiations and caps from completed deals",
+        "China trade truce expiring 10 January"
+      ],
+      "exposure": "Export-heavy sectors such as autos, machinery and chips are most sensitive; domestic-focused sectors less so. Broad ETFs diversify across both. Check country and sector weights.",
+      "risks": [
+        "Proposals can change before the hearing",
+        "Retaliation risk"
+      ],
+      "sources": [
+        {
+          "label": "QUE.com: Markets rest on Thanksgiving (26 Nov)",
+          "url": "https://que.com/markets-rest-on-thanksgiving-after-a-3-6-trillion-scare-golds-historic-reversal-and-the-december-calendar-that-decides-everything/"
+        },
+        {
+          "label": "Eurasia Business News: Stock markets today, 26 Nov 2026",
+          "url": "https://eurasiabusinessnews.com/2026/11/27/stock-markets-today-november-26-2026-european-and-asian-stocks-rally-as-tariff-fears-ease/"
+        }
+      ]
+    },
+    {
+      "week": "2026-W48",
+      "title": "Defence after Rheinmetall's reset",
+      "status": "Decision this week",
+      "summary": "Rheinmetall presents new 2030 targets on 27 November; the current goal is about €50bn revenue, while Barclays expects €35–40bn. The shares have roughly halved this year after two guidance cuts but rose four days in a row to Thursday.",
+      "drivers": [
+        "Delayed vehicle orders and ammunition acceptance",
+        "Order backlog of about €78bn at end-Q3",
+        "Analyst target cuts (RBC to €1,300, Barclays to €1,340)"
+      ],
+      "exposure": "Investors get exposure through single stocks or defence-themed ETFs, which are concentrated in a few names and depend on government budgets. Check the index, holdings, TER and concentration.",
+      "risks": [
+        "Execution and order-timing risk",
+        "Dependence on government budgets",
+        "High volatility around the targets"
+      ],
+      "sources": [
+        {
+          "label": "Investing.com DE: Rheinmetall-Aktie – Kapitalmarkttag heute",
+          "url": "https://de.investing.com/news/stock-market-news/rheinmetallaktie-kapitalmarkttag-heute--35-statt-50-mrd-euro-erwartet-3787500"
+        },
+        {
+          "label": "dpa-AFX via MarketScreener: Rheinmetall weiter erholt",
+          "url": "https://de.marketscreener.com/boerse-nachrichten/rheinmetall-weiter-erholt-warten-auf-gekappte-mittelfristziele-ce7851d8de8df424"
+        },
+        {
+          "label": "aktiencheck: Rheinmetall Aktie – DAX Gewinner am Abend",
+          "url": "https://aktiencheck.de/artikel/rheinmetall-aktie-dax-gewinner-am-abend-vierter-gewinntag-zum-kapitalmarkttag"
+        }
+      ]
+    },
     {
       "week": "2026-W46",
       "title": "AI chips and Nvidia's leadership change",
@@ -476,6 +629,150 @@ window.MARKET_BRIEFING_INSIGHTS = {
     }
   ],
   "analysts": [
+    {
+      "week": "2026-W48",
+      "date": "23 Nov",
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "firm": "StoneX",
+      "action": "Upgrade",
+      "rating": "Hold → Buy",
+      "target": "$270 (previous target of $335 had been suspended)",
+      "note": "StoneX's Cody Acree upgraded after Nvidia's board reinstated Jensen Huang as CEO, per TheStreet.",
+      "sources": [
+        {
+          "label": "TheStreet: Nvidia's $270 Wall Street upgrade (25 Nov)",
+          "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch"
+        }
+      ]
+    },
+    {
+      "week": "2026-W48",
+      "date": "23 Nov",
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "firm": "Melius Research",
+      "action": "Upgrade",
+      "rating": "Hold → Buy",
+      "target": "$185 → $220",
+      "note": "Reported in a CNBC roundup of 23 November, as cited by TheStreet; the exact note date is not stated.",
+      "sources": [
+        {
+          "label": "TheStreet: Nvidia's $270 Wall Street upgrade (25 Nov)",
+          "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch"
+        }
+      ]
+    },
+    {
+      "week": "2026-W48",
+      "date": "23 Nov",
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "firm": "Citi",
+      "action": "Target raised",
+      "rating": "Buy (unchanged)",
+      "target": "$225 → $240",
+      "note": "Cited by TheStreet from a CNBC roundup of 23 November, in the context of the CEO reinstatement.",
+      "sources": [
+        {
+          "label": "TheStreet: Nvidia's $270 Wall Street upgrade (25 Nov)",
+          "url": "https://www.thestreet.com/investing/nvidias-270-wall-street-upgrade-has-a-surprising-catch"
+        }
+      ]
+    },
+    {
+      "week": "2026-W48",
+      "date": "26 Nov",
+      "company": "Rheinmetall",
+      "ticker": "RHM",
+      "firm": "RBC Capital Markets",
+      "action": "Target cut",
+      "rating": "Outperform (unchanged)",
+      "target": "€1,600 → €1,300",
+      "note": "Analyst Colin Moody said the cut to medium-term targets is already more than priced in.",
+      "sources": [
+        {
+          "label": "dpa-AFX via MarketScreener: Rheinmetall weiter erholt",
+          "url": "https://de.marketscreener.com/boerse-nachrichten/rheinmetall-weiter-erholt-warten-auf-gekappte-mittelfristziele-ce7851d8de8df424"
+        },
+        {
+          "label": "Investing.com DE: Rheinmetall-Aktie – Kapitalmarkttag heute",
+          "url": "https://de.investing.com/news/stock-market-news/rheinmetallaktie-kapitalmarkttag-heute--35-statt-50-mrd-euro-erwartet-3787500"
+        }
+      ]
+    },
+    {
+      "week": "2026-W48",
+      "date": "24 Nov",
+      "company": "Rheinmetall",
+      "ticker": "RHM",
+      "firm": "Barclays",
+      "action": "Target cut",
+      "rating": "Overweight (unchanged)",
+      "target": "€2,000 → €1,340",
+      "note": "Barclays expects new 2030 targets of €35–40bn revenue at about a 19% margin and sees the share price implying less.",
+      "sources": [
+        {
+          "label": "Investing.com DE: Rheinmetall-Aktie – Kapitalmarkttag heute",
+          "url": "https://de.investing.com/news/stock-market-news/rheinmetallaktie-kapitalmarkttag-heute--35-statt-50-mrd-euro-erwartet-3787500"
+        },
+        {
+          "label": "broker-test.de: Börsen-Radar Deutschland (26 Nov)",
+          "url": "https://broker-test.de/trading-news/boersen-radar-deutschland-infineon-zieht-an-rheinmetall-vor-neuen-zielen-kion-abgestuft/"
+        }
+      ]
+    },
+    {
+      "week": "2026-W48",
+      "date": "23 Nov",
+      "company": "Infineon",
+      "ticker": "IFX",
+      "firm": "Redburn",
+      "action": "Buy",
+      "rating": "Buy (prior rating not stated)",
+      "target": "€65 (prior not stated)",
+      "note": "wallstreet-online linked the call to the share recovery after the previous Friday's slump; no analyst rationale was given.",
+      "sources": [
+        {
+          "label": "wallstreet-online: Infineon – Analyst schaltet auf Buy (23 Nov)",
+          "url": "https://www.wallstreet-online.de/nachricht/21735091-analyst-schaltet-buy-plus-6-prozent-infineon-traumstart-woche"
+        }
+      ]
+    },
+    {
+      "week": "2026-W48",
+      "date": "26 Nov",
+      "company": "Kion",
+      "ticker": "KGX",
+      "firm": "Barclays",
+      "action": "Downgrade",
+      "rating": "Overweight → Equal Weight",
+      "target": "€46 → €32",
+      "note": "Analyst Timothy Lee expects a hard 2027 for warehouse logistics, citing stronger Chinese competition and margin pressure.",
+      "sources": [
+        {
+          "label": "broker-test.de: Börsen-Radar Deutschland (26 Nov)",
+          "url": "https://broker-test.de/trading-news/boersen-radar-deutschland-infineon-zieht-an-rheinmetall-vor-neuen-zielen-kion-abgestuft/"
+        }
+      ]
+    },
+    {
+      "week": "2026-W48",
+      "date": "26 Nov",
+      "company": "Bayer",
+      "ticker": "BAYN",
+      "firm": "Berenberg",
+      "action": "Upgrade",
+      "rating": "Hold → Buy",
+      "target": "€62 (unchanged)",
+      "note": "Analyst Sebastian Bray expects money rotating from AI themes into healthcare; the note date is given only as around 26 November.",
+      "sources": [
+        {
+          "label": "broker-test.de: Börsen-Radar Deutschland (26 Nov)",
+          "url": "https://broker-test.de/trading-news/boersen-radar-deutschland-infineon-zieht-an-rheinmetall-vor-neuen-zielen-kion-abgestuft/"
+        }
+      ]
+    },
     {
       "week": "2026-W46",
       "date": "9 Nov",
